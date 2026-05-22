@@ -1,0 +1,165 @@
+{
+  "id": "armor_of_ydrasil",
+  "universe": "Les Terres Brisées",
+  "file_type": "artifact_dataset",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "Armure d’Ydrasil",
+  "name_en": "Armor of Ydrasil",
+  "category": "legendary_artifact",
+  "summary_fr": "L’Armure d’Ydrasil est une armure légendaire forgée à partir du corps d’un dragon du Cauchemar vaincu durant les guerres anciennes. Elle est liée à l’histoire des dragons, des Premiers-Nés et des anciennes guerres contre l’Entaille.",
+  "summary_en": "The Armor of Ydrasil is a legendary armor forged from the body of a Nightmare Dragon defeated during the ancient wars. It is tied to the history of dragons, the Firstborn and the ancient wars against the Nightmare Realm.",
+  "artifact_type": {
+    "fr": "Armure légendaire",
+    "en": "Legendary Armor"
+  },
+  "core_identity": {
+    "fr": "Une relique née d’un monstre que le monde ne voulait plus voir revenir.",
+    "en": "A relic born from a monster the world never wished to see again."
+  },
+  "origin": {
+    "fr": "L’armure aurait été forgée à partir des restes d’un dragon du Cauchemar abattu durant les anciennes guerres contre l’Entaille.",
+    "en": "The armor is said to have been forged from the remains of a Nightmare Dragon slain during the ancient wars against the Nightmare Realm.",
+    "related_entities": [
+      "nightmare_dragons",
+      "nightmare_realm",
+      "elvaris",
+      "ancient_wars"
+    ]
+  },
+  "historical_context": {
+    "fr": "Les dragons du Cauchemar furent parmi les pires armes de l’Entaille durant les premières incursions. Leur chute marqua un tournant majeur dans les guerres anciennes.",
+    "en": "Nightmare Dragons were among the greatest weapons of the Nightmare Realm during the first incursions. Their fall marked a major turning point in the ancient wars.",
+    "related_entities": [
+      "first_nightmare_incursion",
+      "elvaris",
+      "gods",
+      "primordial_giants"
+    ]
+  },
+  "materials": [
+    {
+      "id": "nightmare_dragon_scales",
+      "name_fr": "Écailles de dragon du Cauchemar",
+      "name_en": "Nightmare Dragon Scales",
+      "description_fr": "Fragments presque indestructibles issus du corps d’un dragon ancien.",
+      "description_en": "Nearly indestructible fragments taken from the body of an ancient dragon."
+    },
+    {
+      "id": "ancient_binding_rites",
+      "name_fr": "Rituels de liaison anciens",
+      "name_en": "Ancient Binding Rites",
+      "description_fr": "Procédés oubliés permettant de stabiliser les matériaux du Cauchemar.",
+      "description_en": "Forgotten methods used to stabilize Nightmare materials."
+    }
+  ],
+  "properties": {
+    "fr": "L’armure possède une résistance exceptionnelle et semble capable de réagir à certaines manifestations du Cauchemar ou des Flux.",
+    "en": "The armor possesses exceptional resilience and appears capable of reacting to certain manifestations of Nightmare or the Fluxes.",
+    "abilities": [
+      "extreme_resistance",
+      "nightmare_resonance",
+      "fear_resistance",
+      "ancient_memory_echoes",
+      "magic_absorption_resistance"
+    ]
+  },
+  "psychological_effects": {
+    "fr": "Le port de l’armure expose parfois son porteur à des visions, rêves ou sensations liés aux guerres anciennes et aux dragons du Cauchemar.",
+    "en": "Wearing the armor may expose its bearer to visions, dreams or sensations tied to the ancient wars and the Nightmare Dragons.",
+    "effects": [
+      "war_memories",
+      "dragon_echoes",
+      "nightmare_visions",
+      "emotional_pressure"
+    ]
+  },
+  "symbolic_meaning": {
+    "fr": "L’Armure d’Ydrasil symbolise à la fois la victoire sur les dragons du Cauchemar et la peur qu’ils reviennent un jour.",
+    "en": "The Armor of Ydrasil symbolizes both victory over the Nightmare Dragons and the fear that they may one day return."
+  },
+  "associated_characters": [
+    {
+      "id": "eryon_meryhall",
+      "name_fr": "Eryon Meryhall",
+      "name_en": "Eryon Meryhall",
+      "relationship_fr": "Figure guerrière associée aux reliques anciennes et aux héritages militaires du vieux monde.",
+      "relationship_en": "Warrior figure associated with ancient relics and military legacies of the old world."
+    }
+  ],
+  "associated_locations": [
+    "ancient_battlefields",
+    "ruins_of_merrowe",
+    "tomb_of_the_hundred_eyes"
+  ],
+  "associated_factions": [
+    "venisi",
+    "ancient_orders",
+    "elvaris"
+  ],
+  "relationship_with_magic": {
+    "fr": "L’armure interagit avec les Flux et semble particulièrement sensible aux perturbations liées au Flux Noir et au Cauchemar.",
+    "en": "The armor interacts with the Fluxes and appears particularly sensitive to disturbances linked to the Black Flux and Nightmare.",
+    "related_entities": [
+      "flux_system",
+      "black_flux",
+      "nightmare_realm",
+      "nightmare_dragons"
+    ]
+  },
+  "narrative_functions": [
+    "legendary_relic",
+    "ancient_war_memory",
+    "dragon_age_symbol",
+    "nightmare_connection",
+    "forgotten_history",
+    "artifact_of_power"
+  ],
+  "visual_identity": {
+    "fr": "Armure noire veinée de reflets sombres, écailles irrégulières, lignes organiques rappelant un dragon ancien, traces de brûlures et éclats métalliques profonds.",
+    "en": "Black armor streaked with dark reflections, irregular scales, organic lines reminiscent of an ancient dragon, burn marks and deep metallic glints.",
+    "visual_keywords": [
+      "dragon_armor",
+      "black_scales",
+      "nightmare_relic",
+      "ancient_war_armor",
+      "grimdark_artifact",
+      "organic_plate_armor"
+    ]
+  },
+  "geo_keywords": {
+    "fr": [
+      "armure légendaire fantasy",
+      "artefact dark fantasy",
+      "dragon du cauchemar",
+      "Armure d’Ydrasil",
+      "relique fantasy",
+      "dark fantasy française"
+    ],
+    "en": [
+      "legendary fantasy armor",
+      "dark fantasy artifact",
+      "nightmare dragon armor",
+      "Armor of Ydrasil",
+      "grimdark relic",
+      "fantasy dragon artifact"
+    ]
+  },
+  "canonical_translation": {
+    "Armure d’Ydrasil": "Armor of Ydrasil",
+    "Dragons du Cauchemar": "Nightmare Dragons",
+    "Entaille": "Nightmare Realm",
+    "Flux Noir": "Black Flux",
+    "Premiers-Nés": "Firstborn"
+  },
+  "related_entities": [
+    "nightmare_dragons",
+    "nightmare_realm",
+    "black_flux",
+    "flux_system",
+    "elvaris",
+    "merrowe",
+    "tomb_of_the_hundred_eyes",
+    "eryon_meryhall"
+  ]
+}
