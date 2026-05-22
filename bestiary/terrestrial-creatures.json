@@ -1,0 +1,138 @@
+{
+  "id": "terrestrial_creatures",
+  "universe": "Les Terres Brisées",
+  "file_type": "bestiary_dataset",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "Créatures terrestres",
+  "name_en": "Terrestrial Creatures",
+  "category": "bestiary",
+  "summary_fr": "Créatures naturelles, magiques ou semi-magiques vivant sur Merrowë, sans être directement issues du Cauchemar.",
+  "summary_en": "Natural, magical or semi-magical creatures living on Merrowë without being directly born from Nightmare.",
+  "creatures": [
+    {
+      "id": "aigles_de_cendre",
+      "name_fr": "Aigles de Cendre",
+      "name_en": "Ash Eagles",
+      "type": "giant_raptor",
+      "summary_fr": "Rapaces gigantesques vivant dans les falaises d’Ashandara. Certains sont dressés pour la surveillance et la reconnaissance.",
+      "summary_en": "Giant raptors living in Ashandara’s cliffs. Some are trained for surveillance and reconnaissance.",
+      "habitat": ["ashandara", "cliffs", "mountains"],
+      "threat_profile": ["aerial_predator", "military_reconnaissance", "mountain_hunter"]
+    },
+    {
+      "id": "gorgelyns",
+      "name_fr": "Gorgelyns",
+      "name_en": "Gorgelyns",
+      "type": "massive_reptile",
+      "summary_fr": "Reptiles massifs aux écailles noires vivant dans les sables chauds d’Ashandara, capables de tendre des embuscades souterraines.",
+      "summary_en": "Massive black-scaled reptiles living in Ashandara’s hot sands, capable of subterranean ambushes.",
+      "habitat": ["ashandara", "desert", "rocky_sands"],
+      "threat_profile": ["ambush_predator", "crushing_bite", "sand_camouflage"]
+    },
+    {
+      "id": "krythors",
+      "name_fr": "Krythors",
+      "name_en": "Krythors",
+      "type": "stone_giant",
+      "summary_fr": "Géants de pierre vivant dans les montagnes du Peuple du Dragon. Lents, massifs et capables de provoquer des secousses sismiques.",
+      "summary_en": "Stone giants living in the mountains of the Dragon Peoples. Slow, massive and capable of causing seismic tremors.",
+      "habitat": ["dragon_peoples_mountains", "high_mountains", "stone_regions"],
+      "threat_profile": ["brute_force", "seismic_attack", "extreme_resilience"]
+    },
+    {
+      "id": "dracalyths",
+      "name_fr": "Dracalyths",
+      "name_en": "Dracalyths",
+      "type": "armored_reptile",
+      "summary_fr": "Reptiles cuirassés à la carapace noire comme l’obsidienne, capables d’absorber la chaleur et de projeter un souffle de cendres brûlantes.",
+      "summary_en": "Armored reptiles with obsidian-black carapaces, capable of absorbing heat and projecting burning ash breath.",
+      "habitat": ["volcanic_mountains", "dragon_peoples_mountains"],
+      "threat_profile": ["heat_absorption", "ash_breath", "armored_body"]
+    },
+    {
+      "id": "sylphrocs",
+      "name_fr": "Sylphrocs",
+      "name_en": "Sylphrocs",
+      "type": "crystalline_flying_serpent",
+      "summary_fr": "Serpents cristallins capables de voler et de produire des sons hypnotiques pour désorienter leurs proies.",
+      "summary_en": "Crystalline flying serpents able to produce hypnotic sounds to disorient prey.",
+      "habitat": ["dragon_peoples_mountains", "high_air_currents"],
+      "threat_profile": ["flight", "hypnotic_song", "silent_approach"]
+    },
+    {
+      "id": "karrakjins",
+      "name_fr": "Karrak’jins",
+      "name_en": "Karrak'jins",
+      "type": "war_beast",
+      "summary_fr": "Créatures puissantes liées à la culture militaire kherâne, utilisées comme montures ou bêtes de guerre après un apprivoisement exigeant.",
+      "summary_en": "Powerful creatures tied to Kherân military culture, used as mounts or war beasts after demanding taming.",
+      "habitat": ["kheran_territories"],
+      "threat_profile": ["war_mount", "bonded_beast", "military_creature"]
+    },
+    {
+      "id": "vers_de_cavernes",
+      "name_fr": "Vers de cavernes",
+      "name_en": "Cave Worms",
+      "type": "giant_tunneling_creature",
+      "summary_fr": "Vers géants domestiqués par les Caladrims pour creuser, entretenir les galeries, transporter et parfois combattre.",
+      "summary_en": "Giant worms domesticated by the Caladrims to dig, maintain tunnels, transport goods and sometimes fight.",
+      "habitat": ["caladrim_tunnels", "dorvanna", "deep_galleries"],
+      "threat_profile": ["tunneling", "engineering_creature", "siege_support"]
+    }
+  ],
+  "civilizational_impact": {
+    "fr": "Ces créatures influencent les armées, les routes, les économies locales, les cultures régionales et les mythes de Merrowë.",
+    "en": "These creatures influence armies, roads, local economies, regional cultures and the myths of Merrowë.",
+    "impacts": [
+      "military_use",
+      "regional_identity",
+      "dangerous_travel",
+      "trade_routes",
+      "mythic_symbolism"
+    ]
+  },
+  "narrative_functions": [
+    "regional_identity",
+    "travel_danger",
+    "military_assets",
+    "mythic_creatures",
+    "worldbuilding_depth",
+    "environmental_pressure"
+  ],
+  "geo_keywords": {
+    "fr": [
+      "bestiaire fantasy",
+      "créatures dark fantasy",
+      "montures fantasy",
+      "bêtes de guerre fantasy",
+      "créatures de Merrowë",
+      "dark fantasy française"
+    ],
+    "en": [
+      "fantasy bestiary",
+      "dark fantasy creatures",
+      "fantasy war beasts",
+      "giant fantasy creatures",
+      "regional fantasy fauna",
+      "grimdark bestiary"
+    ]
+  },
+  "canonical_translation": {
+    "Aigles de Cendre": "Ash Eagles",
+    "Gorgelyns": "Gorgelyns",
+    "Krythors": "Krythors",
+    "Dracalyths": "Dracalyths",
+    "Sylphrocs": "Sylphrocs",
+    "Karrak’jins": "Karrak'jins",
+    "Vers de cavernes": "Cave Worms"
+  },
+  "related_entities": [
+    "ashandara",
+    "caladrims",
+    "kherans",
+    "dorvanna",
+    "dragon_peoples",
+    "merrowe"
+  ]
+}
