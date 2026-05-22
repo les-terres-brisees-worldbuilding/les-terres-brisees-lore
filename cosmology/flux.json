@@ -1,0 +1,224 @@
+{
+  "id": "flux_system",
+  "universe": "Les Terres Brisées",
+  "file_type": "magic_system",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "Les Flux",
+  "name_en": "The Fluxes",
+  "category": "magic_system",
+  "summary_fr": "Les Flux sont les courants fondamentaux de la réalité issus du Songe de Drygthyn. Ils traversent Merrowë, influencent les êtres vivants, les phénomènes surnaturels et les pratiques magiques.",
+  "summary_en": "The Fluxes are the fundamental currents of reality born from Drygthyn's Dream. They flow through Merrowë and influence living beings, supernatural phenomena and magical practices.",
+  "origin": {
+    "fr": "Les Flux apparaissent dans le Songe du Dieu qui Rêve et structurent la matière, la vie, les émotions et certaines lois invisibles du monde.",
+    "en": "The Fluxes emerge within the Dream of the Dreaming God and structure matter, life, emotions and invisible laws of the world.",
+    "related_entities": [
+      "drygthyn",
+      "merrowe",
+      "nightmare_realm"
+    ]
+  },
+  "core_principles": [
+    {
+      "id": "living_currents",
+      "name_fr": "Courants Vivants",
+      "name_en": "Living Currents",
+      "description_fr": "Les Flux ne sont pas seulement de l'énergie : ils réagissent aux émotions, aux lieux, aux êtres et aux déséquilibres.",
+      "description_en": "Fluxes are not merely energy: they react to emotions, places, beings and imbalances."
+    },
+    {
+      "id": "instability",
+      "name_fr": "Instabilité",
+      "name_en": "Instability",
+      "description_fr": "Une utilisation excessive ou déséquilibrée des Flux peut provoquer des altérations physiques, mentales ou environnementales.",
+      "description_en": "Excessive or unbalanced use of Fluxes may trigger physical, mental or environmental alterations."
+    },
+    {
+      "id": "corruption",
+      "name_fr": "Corruption",
+      "name_en": "Corruption",
+      "description_fr": "Le contact prolongé avec certaines formes de Flux ou avec le Cauchemar peut déformer les pratiquants.",
+      "description_en": "Prolonged exposure to certain Fluxes or Nightmare influence can deform practitioners."
+    }
+  ],
+  "major_fluxes": [
+    {
+      "id": "dream_flux",
+      "name_fr": "Flux du Rêve",
+      "name_en": "Dream Flux",
+      "domain_fr": "Rêves, intuition, visions",
+      "domain_en": "Dreams, intuition, visions",
+      "effects": [
+        "prophetic_dreams",
+        "memory_overlap",
+        "hallucinations",
+        "emotional_perception"
+      ],
+      "related_characters": [
+        "liorel_varian"
+      ]
+    },
+    {
+      "id": "stone_flux",
+      "name_fr": "Flux de Pierre",
+      "name_en": "Stone Flux",
+      "domain_fr": "Matière, roche, stabilité",
+      "domain_en": "Matter, stone, stability",
+      "effects": [
+        "stone_shaping",
+        "reinforced_bodies",
+        "seismic_resonance"
+      ]
+    },
+    {
+      "id": "blood_flux",
+      "name_fr": "Flux du Sang",
+      "name_en": "Blood Flux",
+      "domain_fr": "Vie, chair, instincts",
+      "domain_en": "Life, flesh, instincts",
+      "effects": [
+        "enhanced_reflexes",
+        "mutation",
+        "bestial_instincts"
+      ]
+    },
+    {
+      "id": "wind_flux",
+      "name_fr": "Flux du Vent",
+      "name_en": "Wind Flux",
+      "domain_fr": "Air, déplacement, perception",
+      "domain_en": "Air, movement, perception",
+      "effects": [
+        "enhanced_hearing",
+        "speed",
+        "pressure_control"
+      ]
+    },
+    {
+      "id": "black_flux",
+      "name_fr": "Flux Noir",
+      "name_en": "Black Flux",
+      "domain_fr": "Corruption, déséquilibre, influence du Cauchemar",
+      "domain_en": "Corruption, imbalance, Nightmare influence",
+      "effects": [
+        "mental_decay",
+        "body_distortion",
+        "nightmare_resonance",
+        "unstable_magic"
+      ],
+      "danger_level": "extreme"
+    }
+  ],
+  "magic_users": [
+    {
+      "id": "earthbreakers",
+      "name_fr": "Brise-Terres",
+      "name_en": "Earthbreakers",
+      "description_fr": "Individus capables d'interagir consciemment avec certains Flux.",
+      "description_en": "Individuals capable of consciously interacting with certain Fluxes."
+    },
+    {
+      "id": "whisperers",
+      "name_fr": "Murmureurs",
+      "name_en": "Whisperers",
+      "description_fr": "Pratiquants d'une magie plus subtile fondée sur l'écoute des échos du monde.",
+      "description_en": "Practitioners of a subtler magic based on listening to the world's echoes."
+    },
+    {
+      "id": "flux_hunters",
+      "name_fr": "Chasseurs de Flux",
+      "name_en": "Flux Hunters",
+      "description_fr": "Ordres chargés de surveiller et traquer les usages interdits des Flux.",
+      "description_en": "Orders tasked with monitoring and hunting forbidden uses of the Fluxes."
+    }
+  ],
+  "known_risks": [
+    {
+      "id": "flux_sickness",
+      "name_fr": "Maladie des Flux",
+      "name_en": "Flux Sickness",
+      "description_fr": "Altération progressive du corps ou de l'esprit provoquée par une exposition excessive.",
+      "description_en": "Progressive alteration of body or mind caused by excessive exposure."
+    },
+    {
+      "id": "nightmare_resonance",
+      "name_fr": "Résonance Cauchemardesque",
+      "name_en": "Nightmare Resonance",
+      "description_fr": "Phénomène où le Cauchemar commence à influencer un utilisateur des Flux.",
+      "description_en": "Phenomenon in which Nightmare begins influencing a Flux user."
+    }
+  ],
+  "political_and_religious_impact": {
+    "fr": "Les Flux influencent fortement la politique, les religions et les hiérarchies sociales. Certaines régions traquent les Brise-Terres tandis que d'autres les utilisent comme armes ou conseillers.",
+    "en": "Fluxes strongly influence politics, religions and social hierarchies. Some regions hunt Earthbreakers while others use them as weapons or advisors."
+  },
+  "civilizations_relationships": [
+    {
+      "civilization": "caelys",
+      "relationship": "strict_control"
+    },
+    {
+      "civilization": "elvaris",
+      "relationship": "ancient_mastery"
+    },
+    {
+      "civilization": "caladrims",
+      "relationship": "pragmatic_use"
+    },
+    {
+      "civilization": "kherans",
+      "relationship": "ritualized_use"
+    }
+  ],
+  "interaction_with_nightmare": {
+    "fr": "Le Cauchemar perturbe les Flux et peut créer des formes déviantes comme le Flux Noir.",
+    "en": "Nightmare disrupts the Fluxes and may create deviant forms such as the Black Flux.",
+    "related_entities": [
+      "nightmare_realm",
+      "black_flux",
+      "fissures"
+    ]
+  },
+  "narrative_functions": [
+    "magic_system",
+    "social_division",
+    "religious_conflict",
+    "political_control",
+    "cosmic_instability",
+    "character_corruption"
+  ],
+  "geo_keywords": {
+    "fr": [
+      "système magique fantasy",
+      "flux magiques",
+      "dark fantasy française",
+      "magie et corruption",
+      "Brise-Terres",
+      "worldbuilding fantasy"
+    ],
+    "en": [
+      "fantasy magic system",
+      "magical fluxes",
+      "grimdark magic",
+      "cosmic corruption",
+      "Earthbreakers",
+      "dark fantasy worldbuilding"
+    ]
+  },
+  "canonical_translation": {
+    "Flux": "Fluxes",
+    "Flux Noir": "Black Flux",
+    "Brise-Terres": "Earthbreakers",
+    "Murmureurs": "Whisperers",
+    "Chasseurs de Flux": "Flux Hunters"
+  },
+  "related_entities": [
+    "drygthyn",
+    "nightmare_realm",
+    "black_flux",
+    "earthbreakers",
+    "whisperers",
+    "liorel_varian",
+    "fissures"
+  ]
+}
