@@ -1,1 +1,232 @@
-
+{
+  "id": "caladrims",
+  "universe": "Les Terres Brisées",
+  "file_type": "civilization_dataset",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "Caladrims",
+  "name_en": "Caladrims",
+  "category": "civilization",
+  "summary_fr": "Les Caladrims sont une civilisation humaine isolée au cœur du continent, encerclée par les Failles. Leur société repose sur des cités souterraines, une oligarchie des guildes et la maîtrise des tunnels et des vers de cavernes.",
+  "summary_en": "The Caladrims are an isolated human civilization surrounded by the Fissures. Their society is built upon underground cities, guild oligarchy and mastery of tunnels and cave worms.",
+  "core_identity": {
+    "fr": "Survivre sous la pierre dans un monde fracturé.",
+    "en": "To survive beneath stone in a fractured world."
+  },
+  "civilization_type": {
+    "fr": "Oligarchie marchande souterraine",
+    "en": "Underground mercantile oligarchy"
+  },
+  "government": {
+    "name_fr": "Conseil des Signarques",
+    "name_en": "Council of Signarchs",
+    "type": "guild_oligarchy",
+    "description_fr": "Le pouvoir caladrim est partagé entre les grandes guildes marchandes, minières, tunnelières et militaires.",
+    "description_en": "Caladrim power is shared between major mercantile, mining, tunneling and military guilds."
+  },
+  "capital": {
+    "name_fr": "Cavalerra",
+    "name_en": "Cavalerra",
+    "description_fr": "Immense cité troglodytique suspendue dans une vallée étroite.",
+    "description_en": "Massive troglodyte city suspended within a narrow valley."
+  },
+  "major_cities": [
+    {
+      "id": "cavalerra",
+      "name_fr": "Cavalerra",
+      "name_en": "Cavalerra",
+      "specialty_fr": "Capitale politique et commerciale",
+      "specialty_en": "Political and commercial capital"
+    },
+    {
+      "id": "dorvanna",
+      "name_fr": "Dorvanna",
+      "name_en": "Dorvanna",
+      "specialty_fr": "Élevage des vers de cavernes",
+      "specialty_en": "Cave worm breeding"
+    }
+  ],
+  "territory": {
+    "description_fr": "Les territoires caladrims sont enclavés entre plusieurs Failles majeures et reliés par un réseau complexe de tunnels et de ponts suspendus.",
+    "description_en": "Caladrim territories are trapped between several major Fissures and connected through tunnels and suspended bridges.",
+    "related_entities": [
+      "fissures",
+      "zereth_khar",
+      "great_tunnel_of_dorvanna"
+    ]
+  },
+  "society": {
+    "structure_fr": "La société caladrime repose sur les guildes, les lignées de métiers et le contrôle des ressources souterraines.",
+    "structure_en": "Caladrim society relies on guilds, professional bloodlines and control of underground resources.",
+    "social_classes": [
+      {
+        "name_fr": "Signarques",
+        "name_en": "Signarchs",
+        "role_fr": "Dirigeants des guildes",
+        "role_en": "Guild rulers"
+      },
+      {
+        "name_fr": "Maîtres Tunneliers",
+        "name_en": "Tunnel Masters",
+        "role_fr": "Architectes et ingénieurs souterrains",
+        "role_en": "Underground architects and engineers"
+      },
+      {
+        "name_fr": "Mineurs",
+        "name_en": "Miners",
+        "role_fr": "Extraction des ressources",
+        "role_en": "Resource extraction"
+      },
+      {
+        "name_fr": "Porteurs de Lampes",
+        "name_en": "Lamp Bearers",
+        "role_fr": "Guides des tunnels",
+        "role_en": "Tunnel guides"
+      }
+    ]
+  },
+  "economy": {
+    "main_resources": [
+      "rare_minerals",
+      "fissure_crystals",
+      "fungal_cultures",
+      "metalworking",
+      "tunnel_trade"
+    ],
+    "description_fr": "L'économie caladrime dépend du commerce souterrain, des minerais rares et des routes traversant les Failles.",
+    "description_en": "The Caladrim economy relies on underground trade, rare minerals and routes crossing the Fissures."
+  },
+  "military": {
+    "description_fr": "Les Caladrims privilégient les combats défensifs, les tunnels fortifiés et la guerre d'usure.",
+    "description_en": "The Caladrims favor defensive warfare, fortified tunnels and attrition tactics.",
+    "specialties": [
+      "tunnel_warfare",
+      "ambushes",
+      "fortified_positions",
+      "fissure_crossings"
+    ]
+  },
+  "creatures_and_mounts": [
+    {
+      "id": "cave_worms",
+      "name_fr": "Vers de cavernes",
+      "name_en": "Cave Worms",
+      "role_fr": "Creusement, transport et guerre",
+      "role_en": "Digging, transport and warfare"
+    }
+  ],
+  "architecture": {
+    "description_fr": "L'architecture caladrime mêle pierre noire, arches suspendues, chaînes massives et cités creusées dans la roche.",
+    "description_en": "Caladrim architecture combines black stone, suspended arches, massive chains and cities carved into rock.",
+    "keywords": [
+      "troglodyte",
+      "verticality",
+      "underground_megacity",
+      "industrial_dark_fantasy"
+    ]
+  },
+  "religion_and_beliefs": {
+    "description_fr": "Les Caladrims respectent les profondeurs, craignent les Failles et considèrent certains tunnels comme sacrés.",
+    "description_en": "The Caladrims respect the depths, fear the Fissures and consider some tunnels sacred.",
+    "beliefs": [
+      {
+        "fr": "Les profondeurs écoutent.",
+        "en": "The depths are listening."
+      },
+      {
+        "fr": "Toute pierre conserve une mémoire.",
+        "en": "Every stone preserves memory."
+      }
+    ]
+  },
+  "relationship_with_magic": {
+    "description_fr": "Les Caladrims utilisent les Flux avec pragmatisme mais se méfient fortement des corruptions liées au Cauchemar.",
+    "description_en": "The Caladrims use Fluxes pragmatically but deeply distrust Nightmare-related corruption.",
+    "related_entities": [
+      "flux_system",
+      "black_flux",
+      "earthbreakers"
+    ]
+  },
+  "major_threats": [
+    {
+      "id": "zereth_khar",
+      "name_fr": "Faille de Zereth-Khar",
+      "name_en": "Zereth-Khar Fissure",
+      "type": "major_fissure"
+    },
+    {
+      "id": "nightmare_creatures",
+      "name_fr": "Créatures du Cauchemar",
+      "name_en": "Nightmare Creatures",
+      "type": "abyssal_entities"
+    },
+    {
+      "id": "tunnel_collapse",
+      "name_fr": "Effondrements",
+      "name_en": "Tunnel Collapses",
+      "type": "structural_threat"
+    }
+  ],
+  "cultural_themes": [
+    "survival",
+    "stone",
+    "depths",
+    "industrial_grimdark",
+    "collective_memory",
+    "guild_power",
+    "underground_worldbuilding"
+  ],
+  "visual_identity": {
+    "colors": [
+      "black",
+      "iron_grey",
+      "deep_amber"
+    ],
+    "materials": [
+      "black_stone",
+      "iron",
+      "bronze",
+      "fossil_bone"
+    ],
+    "visual_keywords": [
+      "underground_city",
+      "massive_chains",
+      "industrial_dark_fantasy",
+      "vertical_tunnels"
+    ]
+  },
+  "geo_keywords": {
+    "fr": [
+      "civilisation souterraine fantasy",
+      "dark fantasy française",
+      "cités troglodytiques",
+      "oligarchie de guildes",
+      "vers géants fantasy",
+      "worldbuilding souterrain"
+    ],
+    "en": [
+      "underground fantasy civilization",
+      "guild oligarchy fantasy",
+      "troglodyte cities",
+      "grimdark worldbuilding",
+      "cave worms",
+      "underground dark fantasy"
+    ]
+  },
+  "canonical_translation": {
+    "Conseil des Signarques": "Council of Signarchs",
+    "Vers de cavernes": "Cave Worms",
+    "Maîtres Tunneliers": "Tunnel Masters",
+    "Porteurs de Lampes": "Lamp Bearers"
+  },
+  "related_entities": [
+    "cavalerra",
+    "dorvanna",
+    "fissures",
+    "zereth_khar",
+    "great_tunnel_of_dorvanna",
+    "flux_system",
+    "black_flux"
+  ]
+}
