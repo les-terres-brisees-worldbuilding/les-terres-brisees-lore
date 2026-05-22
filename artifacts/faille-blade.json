@@ -1,0 +1,160 @@
+{
+  "id": "faille_blade",
+  "universe": "Les Terres Brisées",
+  "file_type": "artifact_dataset",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "Lame de Faille",
+  "name_en": "Fissure Blade",
+  "category": "corrupted_artifact",
+  "summary_fr": "Les Lames de Faille sont des armes rares forgées à partir de matériaux exposés aux Failles. Elles possèdent des propriétés anormales liées au Cauchemar, aux Flux et à la corruption.",
+  "summary_en": "Fissure Blades are rare weapons forged from materials exposed to the Fissures. They possess abnormal properties tied to Nightmare, the Fluxes and corruption.",
+  "artifact_type": {
+    "fr": "Arme corrompue",
+    "en": "Corrupted Weapon"
+  },
+  "core_identity": {
+    "fr": "Une arme qui coupe autant la matière que les frontières invisibles du monde.",
+    "en": "A weapon that cuts both matter and the invisible boundaries of the world."
+  },
+  "origin": {
+    "fr": "Les Lames de Faille sont forgées à partir de minerais ou fragments exposés aux Failles et aux résidus du Cauchemar.",
+    "en": "Fissure Blades are forged from ore or fragments exposed to the Fissures and Nightmare residue.",
+    "related_entities": [
+      "fissures",
+      "nightmare_realm",
+      "black_flux",
+      "ancient_forges"
+    ]
+  },
+  "materials": [
+    {
+      "id": "fissure_metal",
+      "name_fr": "Métal de Faille",
+      "name_en": "Fissure Metal",
+      "description_fr": "Métal instable ayant absorbé des propriétés issues des Failles.",
+      "description_en": "Unstable metal that absorbed properties from the Fissures."
+    },
+    {
+      "id": "nightmare_residue",
+      "name_fr": "Résidu du Cauchemar",
+      "name_en": "Nightmare Residue",
+      "description_fr": "Traces invisibles laissées par l’Entaille et utilisées lors de certaines forges interdites.",
+      "description_en": "Invisible traces left by Nightmare and used in certain forbidden forges."
+    }
+  ],
+  "properties": {
+    "fr": "Les Lames de Faille peuvent traverser certaines protections magiques, altérer les Flux ou provoquer des blessures difficiles à refermer.",
+    "en": "Fissure Blades may pierce certain magical protections, alter Fluxes or inflict wounds difficult to heal.",
+    "abilities": [
+      "flux_disruption",
+      "corruption_wounds",
+      "magic_piercing",
+      "nightmare_resonance",
+      "fear_induction"
+    ]
+  },
+  "corruption_effects": {
+    "fr": "L’exposition prolongée à une Lame de Faille peut altérer l’esprit du porteur : rêves anormaux, irritabilité, paranoïa ou attirance pour les Failles.",
+    "en": "Prolonged exposure to a Fissure Blade may alter the wielder’s mind: abnormal dreams, irritability, paranoia or attraction toward the Fissures.",
+    "effects": [
+      "nightmares",
+      "mental_corruption",
+      "obsession",
+      "fissure_attraction",
+      "emotional_instability"
+    ]
+  },
+  "relationship_with_black_flux": {
+    "fr": "Certaines Lames de Faille réagissent fortement au Flux Noir ou à ses utilisateurs.",
+    "en": "Certain Fissure Blades react strongly to the Black Flux or its users.",
+    "related_entities": [
+      "black_flux",
+      "earthbreakers",
+      "nightmare_realm"
+    ]
+  },
+  "known_users": [
+    {
+      "id": "unknown_corrupted_warriors",
+      "name_fr": "Guerriers corrompus",
+      "name_en": "Corrupted Warriors",
+      "description_fr": "Certaines factions ou survivants des Failles utilisent ces armes malgré leurs dangers.",
+      "description_en": "Certain factions or Fissure survivors use these weapons despite their dangers."
+    }
+  ],
+  "civilizational_perception": {
+    "fr": "La plupart des royaumes et ordres religieux considèrent les Lames de Faille comme des armes interdites ou maudites.",
+    "en": "Most kingdoms and religious orders consider Fissure Blades forbidden or cursed weapons.",
+    "perceptions": [
+      "forbidden_weapon",
+      "heretical_artifact",
+      "nightmare_relic",
+      "dangerous_power"
+    ]
+  },
+  "associated_locations": [
+    "fissures",
+    "tomb_of_the_hundred_eyes",
+    "ancient_ruins",
+    "deep_galleries"
+  ],
+  "associated_factions": [
+    "caelys",
+    "earthbreakers",
+    "corrupted_cults"
+  ],
+  "narrative_functions": [
+    "forbidden_weapon",
+    "corruption_symbol",
+    "nightmare_artifact",
+    "temptation_object",
+    "dangerous_power",
+    "dark_fantasy_relic"
+  ],
+  "visual_identity": {
+    "fr": "Lame sombre parcourue de fissures lumineuses, métal noir bleuté, reflets anormaux et sensation de froid oppressant.",
+    "en": "Dark blade crossed by luminous cracks, blue-black metal, abnormal reflections and an oppressive cold sensation.",
+    "visual_keywords": [
+      "corrupted_blade",
+      "dark_sword",
+      "fissure_weapon",
+      "nightmare_artifact",
+      "glowing_cracks",
+      "grimdark_weapon"
+    ]
+  },
+  "geo_keywords": {
+    "fr": [
+      "épée maudite fantasy",
+      "arme corrompue dark fantasy",
+      "Lame de Faille",
+      "artefact des failles",
+      "arme magique interdite",
+      "dark fantasy française"
+    ],
+    "en": [
+      "cursed fantasy sword",
+      "corrupted dark fantasy weapon",
+      "Fissure Blade",
+      "nightmare weapon",
+      "forbidden magical weapon",
+      "grimdark artifact"
+    ]
+  },
+  "canonical_translation": {
+    "Lame de Faille": "Fissure Blade",
+    "Failles": "Fissures",
+    "Entaille": "Nightmare Realm",
+    "Flux Noir": "Black Flux",
+    "Brise-Terres": "Earthbreakers"
+  },
+  "related_entities": [
+    "fissures",
+    "nightmare_realm",
+    "black_flux",
+    "earthbreakers",
+    "tomb_of_the_hundred_eyes",
+    "caelys"
+  ]
+}
