@@ -1,0 +1,234 @@
+{
+  "id": "nightmare_creatures",
+  "universe": "Les Terres Brisées",
+  "file_type": "bestiary_dataset",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "Créatures du Cauchemar",
+  "name_en": "Nightmare Creatures",
+  "category": "bestiary",
+  "summary_fr": "Les Créatures du Cauchemar sont des êtres issus de l’Entaille, des Failles ou de la corruption cauchemardesque. Elles altèrent les écosystèmes, menacent les routes et incarnent la pression cosmique exercée sur Merrowë.",
+  "summary_en": "Nightmare Creatures are beings born from the Nightmare Realm, the Fissures or nightmare corruption. They alter ecosystems, threaten roads and embody the cosmic pressure exerted upon Merrowë.",
+  "origin": {
+    "fr": "Ces créatures apparaissent près des Failles, dans les zones corrompues ou lors des incursions du Cauchemar.",
+    "en": "These creatures appear near Fissures, in corrupted zones or during Nightmare incursions.",
+    "related_entities": [
+      "nightmare_realm",
+      "fissures",
+      "black_flux"
+    ]
+  },
+  "creatures": [
+    {
+      "id": "ombreliathes",
+      "name_fr": "Ombreliathes",
+      "name_en": "Ombreliathes",
+      "type": "shadow_aberration",
+      "summary_fr": "Créatures nocturnes à l’apparence spectrale, composées d’ombres mouvantes, rôdant près des failles corrompues.",
+      "summary_en": "Nocturnal spectral creatures made of shifting shadows, prowling near corrupted fissures.",
+      "habitat": [
+        "ashandara",
+        "corrupted_fissures",
+        "ruins"
+      ],
+      "threat_profile": [
+        "stealth",
+        "life_drain",
+        "darkness_camouflage"
+      ]
+    },
+    {
+      "id": "echos_hurlants",
+      "name_fr": "Échos-Hurlants",
+      "name_en": "Howling Echoes",
+      "type": "psychic_echo",
+      "summary_fr": "Résidus d’âmes ou de souvenirs aspirés par les Failles, capables de provoquer panique, visions et effondrement psychologique.",
+      "summary_en": "Residues of souls or memories swallowed by the Fissures, capable of causing panic, visions and psychological collapse.",
+      "habitat": [
+        "tunnels",
+        "fissure_zones",
+        "ancient_battlefields"
+      ],
+      "threat_profile": [
+        "psychological_attack",
+        "fear",
+        "memory_distortion"
+      ]
+    },
+    {
+      "id": "crocs_de_faille",
+      "name_fr": "Crocs-de-Faille",
+      "name_en": "Fissure-Fangs",
+      "type": "insectoid_parasite",
+      "summary_fr": "Créatures insectoïdes issues de petites failles, capables d’attaquer en essaim et de fragiliser les parois rocheuses.",
+      "summary_en": "Insectoid creatures born from small fissures, capable of swarming and weakening rock walls.",
+      "habitat": [
+        "minor_fissures",
+        "underground_tunnels",
+        "caladrim_territories"
+      ],
+      "threat_profile": [
+        "swarm_attack",
+        "structural_damage",
+        "explosive_carapace"
+      ]
+    },
+    {
+      "id": "ecorche_brume",
+      "name_fr": "Écorche-Brume",
+      "name_en": "Mist-Flayers",
+      "type": "corrupted_pack_beast",
+      "summary_fr": "Bêtes aveugles ou déformées par les brumes des Failles, chassant en meute et désorientant leurs proies.",
+      "summary_en": "Blind or distorted beasts corrupted by fissure mists, hunting in packs and disorienting prey.",
+      "habitat": [
+        "mist_fissures",
+        "tunnels",
+        "borderlands"
+      ],
+      "threat_profile": [
+        "pack_hunting",
+        "disorientation",
+        "pain_resistance"
+      ]
+    },
+    {
+      "id": "devoreur_des_galeries",
+      "name_fr": "Dévoreur des galeries",
+      "name_en": "Gallery Devourer",
+      "type": "nightmare_aberration",
+      "summary_fr": "Aberration serpentine capable de surgir des parois et de dévorer la pierre, menaçant les tunnels et les vers de cavernes.",
+      "summary_en": "Serpentine aberration capable of emerging from walls and eating stone, threatening tunnels and cave worms.",
+      "habitat": [
+        "caladrim_tunnels",
+        "fissure_rock",
+        "deep_galleries"
+      ],
+      "threat_profile": [
+        "stone_consumption",
+        "ambush",
+        "tunnel_collapse"
+      ]
+    },
+    {
+      "id": "entonnoir",
+      "name_fr": "L’Entonnoir",
+      "name_en": "The Funnel",
+      "type": "living_fissure",
+      "summary_fr": "Manifestation quasi organique d’une faille instable, aspirant pierres, bêtes et hommes dans ses profondeurs.",
+      "summary_en": "Quasi-organic manifestation of an unstable fissure, swallowing stones, beasts and people into its depths.",
+      "habitat": [
+        "unstable_fissures",
+        "deep_void_zones"
+      ],
+      "threat_profile": [
+        "spatial_absorption",
+        "void_pull",
+        "inescapable_trap"
+      ]
+    },
+    {
+      "id": "varkens",
+      "name_fr": "Varkens",
+      "name_en": "Varkens",
+      "type": "spectral_hound",
+      "summary_fr": "Chacals spectraux capables de se fondre dans l’ombre et de chasser en meute.",
+      "summary_en": "Spectral jackals capable of blending into shadows and hunting in packs.",
+      "habitat": [
+        "shadowed_wastelands",
+        "fissure_edges",
+        "ruins"
+      ],
+      "threat_profile": [
+        "pack_attack",
+        "shadow_stealth",
+        "energy_drain"
+      ]
+    },
+    {
+      "id": "nes_des_abimes",
+      "name_fr": "Nés-des-Abîmes",
+      "name_en": "Abyss-Born",
+      "type": "nightmare_spawn",
+      "summary_fr": "Nom générique donné à certaines créatures issues directement des profondeurs des Failles ou des incursions du Cauchemar.",
+      "summary_en": "Generic name given to certain creatures born directly from the depths of the Fissures or Nightmare incursions.",
+      "habitat": [
+        "major_fissures",
+        "nightmare_realm",
+        "corrupted_ruins"
+      ],
+      "threat_profile": [
+        "unknown",
+        "corruption",
+        "abyssal_origin"
+      ]
+    }
+  ],
+  "ecological_effects": {
+    "fr": "La présence de créatures du Cauchemar signale souvent une altération profonde d’un lieu : brume, lueur verte, déformation de la faune locale, cauchemars collectifs ou instabilité magique.",
+    "en": "The presence of Nightmare Creatures often indicates deep alteration of a place: mist, green glow, distortion of local wildlife, collective nightmares or magical instability.",
+    "effects": [
+      "corrupted_ecosystems",
+      "fear_spread",
+      "flora_mutation",
+      "wildlife_displacement",
+      "fissure_expansion_sign"
+    ]
+  },
+  "civilizational_impact": {
+    "fr": "Ces créatures forcent les peuples à militariser les routes, abandonner certains villages, construire des franchissements protégés et développer des ordres spécialisés.",
+    "en": "These creatures force civilizations to militarize roads, abandon certain villages, build protected crossings and develop specialized orders.",
+    "impacts": [
+      "fortified_routes",
+      "military_patrols",
+      "religious_fear",
+      "trade_disruption",
+      "borderland_abandonment"
+    ]
+  },
+  "narrative_functions": [
+    "monster_threat",
+    "cosmic_horror_manifestation",
+    "fissure_warning",
+    "environmental_corruption",
+    "travel_danger",
+    "dungeon_encounter",
+    "psychological_horror"
+  ],
+  "geo_keywords": {
+    "fr": [
+      "bestiaire dark fantasy",
+      "créatures du cauchemar",
+      "monstres des failles",
+      "dark fantasy française",
+      "aberrations fantasy",
+      "horreur cosmique fantasy"
+    ],
+    "en": [
+      "dark fantasy bestiary",
+      "nightmare creatures",
+      "fissure monsters",
+      "grimdark monsters",
+      "cosmic horror creatures",
+      "fantasy aberrations"
+    ]
+  },
+  "canonical_translation": {
+    "Créatures du Cauchemar": "Nightmare Creatures",
+    "Ombreliathes": "Ombreliathes",
+    "Échos-Hurlants": "Howling Echoes",
+    "Crocs-de-Faille": "Fissure-Fangs",
+    "Écorche-Brume": "Mist-Flayers",
+    "Dévoreur des galeries": "Gallery Devourer",
+    "L’Entonnoir": "The Funnel",
+    "Nés-des-Abîmes": "Abyss-Born"
+  },
+  "related_entities": [
+    "nightmare_realm",
+    "fissures",
+    "black_flux",
+    "caladrims",
+    "ashandara",
+    "zereth_khar",
+    "great_tunnel_of_dorvanna"
+  ]
+}
