@@ -1,0 +1,172 @@
+{
+  "id": "asairs",
+  "universe": "Les Terres Brisées",
+  "file_type": "civilization_dataset",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "Asaïrs",
+  "name_en": "Asaïrs",
+  "category": "mountain_people",
+  "summary_fr": "Les Asaïrs sont un peuple humain montagnard, robuste et clanique, façonné par les hauteurs glacées, l'honneur, la résistance et la parole donnée.",
+  "summary_en": "The Asaïrs are a robust mountain people shaped by frozen heights, honor, endurance and sworn words.",
+  "core_identity": {
+    "fr": "La Parole Lie.",
+    "en": "The Word Binds."
+  },
+  "civilization_type": {
+    "fr": "Peuple montagnard clanique",
+    "en": "Clan-based mountain people"
+  },
+  "major_values": [
+    "honor",
+    "endurance",
+    "clan_loyalty",
+    "oath",
+    "martial_strength",
+    "mountain_survival"
+  ],
+  "society": {
+    "fr": "La société asaïre repose sur les clans, les chefs de clan, les liens de sang, les serments et la réputation guerrière.",
+    "en": "Asaïr society is built upon clans, clan chiefs, blood ties, oaths and warrior reputation."
+  },
+  "territory": {
+    "fr": "Les Asaïrs vivent dans les hautes montagnes et les régions froides, où ils bâtissent des forteresses difficiles d'accès.",
+    "en": "The Asaïrs live in high mountains and cold regions, where they build hard-to-reach fortresses.",
+    "visual_keywords": [
+      "snowy mountains",
+      "stone fortresses",
+      "clan halls",
+      "cold wilderness"
+    ]
+  },
+  "known_locations": [
+    {
+      "id": "varkh_draal",
+      "name_fr": "Varkh’Draal",
+      "name_en": "Varkh'Draal",
+      "role_fr": "Forteresse liée au clan Krovik.",
+      "role_en": "Fortress tied to Clan Krovik."
+    }
+  ],
+  "clans": [
+    {
+      "id": "krovik",
+      "name_fr": "Clan Krovik",
+      "name_en": "Clan Krovik",
+      "description_fr": "Clan asaïr auquel appartient la lignée paternelle d'Eryon.",
+      "description_en": "Asaïr clan to which Eryon's paternal line belongs."
+    }
+  ],
+  "relationship_with_venisi": {
+    "fr": "Les Asaïrs ont été liés à la Vénisi par des alliances, des unions politiques et des engagements militaires.",
+    "en": "The Asaïrs have been tied to Vénisi through alliances, political unions and military commitments.",
+    "related_entities": [
+      "venisi",
+      "eryon_meryhall",
+      "house_meryhall"
+    ]
+  },
+  "relationship_with_magic": {
+    "fr": "Les Asaïrs conservent des traditions chamaniques, des signes et des pratiques liées aux présages, sans être pour autant une société fondée sur la magie des Flux.",
+    "en": "The Asaïrs preserve shamanic traditions, signs and omen practices, without being a society primarily built around Flux magic.",
+    "related_entities": [
+      "whisper_magic",
+      "shamans",
+      "omens"
+    ]
+  },
+  "notable_figures": [
+    {
+      "id": "kaelen",
+      "name_fr": "Kaelen",
+      "name_en": "Kaelen",
+      "role_fr": "Jeune Asaïr lié à l'arc d'Eryon.",
+      "role_en": "Young Asaïr tied to Eryon's arc."
+    },
+    {
+      "id": "eryon_meryhall",
+      "name_fr": "Eryon Meryhall",
+      "name_en": "Eryon Meryhall",
+      "role_fr": "Guerrier vénisien d'ascendance asaïre par son père.",
+      "role_en": "Vénisian warrior of Asaïr descent through his father."
+    }
+  ],
+  "cultural_principles": [
+    {
+      "id": "la_parole_lie",
+      "name_fr": "La Parole Lie",
+      "name_en": "The Word Binds",
+      "description_fr": "Formule de serment asaïre exprimant la force sacrée de la parole donnée.",
+      "description_en": "Asaïr oath formula expressing the sacred force of a given word."
+    }
+  ],
+  "military_profile": {
+    "fr": "Les Asaïrs sont des combattants endurants, adaptés aux montagnes, aux embuscades, aux sièges difficiles et aux conditions extrêmes.",
+    "en": "The Asaïrs are enduring fighters adapted to mountains, ambushes, hard sieges and extreme conditions.",
+    "specialties": [
+      "mountain_warfare",
+      "clan_warriors",
+      "cold_survival",
+      "fortress_defense"
+    ]
+  },
+  "aesthetic_identity": {
+    "fr": "Fourrures, pierre froide, acier brut, longues routes de neige, forteresses de montagne, torches dans la brume et chants de clan.",
+    "en": "Furs, cold stone, raw steel, long snow roads, mountain fortresses, torches in mist and clan songs.",
+    "visual_keywords": [
+      "mountain clans",
+      "snow warriors",
+      "stone citadel",
+      "fur cloaks",
+      "grim northern fantasy"
+    ]
+  },
+  "cultural_themes": [
+    "honor",
+    "oaths",
+    "clan_identity",
+    "mountain_survival",
+    "mentor_apprentice",
+    "warrior_ethic"
+  ],
+  "narrative_functions": [
+    "mountain_culture",
+    "eryon_backstory",
+    "kaelen_origin",
+    "oath_culture",
+    "northern_fantasy_identity"
+  ],
+  "geo_keywords": {
+    "fr": [
+      "peuple montagnard fantasy",
+      "clans fantasy",
+      "guerriers du nord",
+      "dark fantasy française",
+      "serments fantasy",
+      "forteresse de montagne fantasy"
+    ],
+    "en": [
+      "mountain fantasy people",
+      "fantasy clans",
+      "northern warriors",
+      "oathbound mountain clans",
+      "grimdark mountain culture",
+      "dark fantasy worldbuilding"
+    ]
+  },
+  "canonical_translation": {
+    "Asaïrs": "Asaïrs",
+    "La Parole Lie": "The Word Binds",
+    "Clan Krovik": "Clan Krovik",
+    "Varkh’Draal": "Varkh'Draal"
+  },
+  "related_entities": [
+    "kaelen",
+    "eryon_meryhall",
+    "venisi",
+    "house_meryhall",
+    "clan_krovik",
+    "varkh_draal",
+    "whisper_magic"
+  ]
+}
