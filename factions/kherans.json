@@ -1,0 +1,221 @@
+{
+  "id": "kherans",
+  "universe": "Les Terres Brisées",
+  "file_type": "civilization_dataset",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "Kherâns",
+  "name_en": "Kherâns",
+  "category": "civilization",
+  "summary_fr": "Les Kherâns sont un peuple de serments, de silence, de discipline militaire et de spiritualité rigoureuse. Leur société repose sur l'obéissance aux lois sacrées, les ordalies, les castes militaires et une relation profonde aux Veilleurs.",
+  "summary_en": "The Kherâns are a people of oaths, silence, military discipline and rigorous spirituality. Their society is built upon sacred laws, ordeals, military castes and a deep relationship with the Watchers.",
+  "core_identity": {
+    "fr": "Tenir le serment, même lorsque le monde se brise.",
+    "en": "To hold the oath, even when the world breaks."
+  },
+  "civilization_type": {
+    "fr": "Civilisation théocratique et militaire fondée sur les serments",
+    "en": "Theocratic and military civilization built upon oaths"
+  },
+  "major_values": [
+    "oath",
+    "silence",
+    "discipline",
+    "sacrifice",
+    "hierarchy",
+    "spiritual_endurance"
+  ],
+  "political_structure": {
+    "fr": "La société kherâne repose sur des fonctions religieuses et militaires fortement imbriquées. Les commandants ne sont pas seulement des officiers : ils portent une responsabilité sacrée.",
+    "en": "Kherân society is built upon deeply intertwined religious and military functions. Commanders are not merely officers: they bear sacred responsibility."
+  },
+  "religion": {
+    "name_fr": "Culte du Non-Regard",
+    "name_en": "Cult of the Unseeing",
+    "description_fr": "Religion austère et disciplinée structurée autour du silence, des Veilleurs, du renoncement et des lois sacrées.",
+    "description_en": "Austere and disciplined religion structured around silence, the Watchers, renunciation and sacred laws."
+  },
+  "spiritual_entities": [
+    {
+      "id": "veilleurs",
+      "name_fr": "Les Veilleurs",
+      "name_en": "The Watchers",
+      "role_fr": "Présences spirituelles ou divines auxquelles les Kherâns adressent prières et serments.",
+      "role_en": "Spiritual or divine presences to whom the Kherâns address prayers and oaths."
+    }
+  ],
+  "military_orders": [
+    {
+      "id": "voiles_interieurs",
+      "name_fr": "Voilés Intérieurs",
+      "name_en": "Inner Veiled",
+      "description_fr": "Formation religieuse et militaire dont Veyla est issue.",
+      "description_en": "Religious and military formation from which Veyla originates."
+    },
+    {
+      "id": "voiles_de_sang",
+      "name_fr": "Voilés de Sang",
+      "name_en": "Blood Veiled",
+      "description_fr": "Statut noble ou militaire supérieur lié aux responsabilités de commandement.",
+      "description_en": "Higher noble or military status tied to command responsibilities."
+    }
+  ],
+  "ordeals": [
+    {
+      "id": "ordalie_de_la_pierre_vive",
+      "name_fr": "Ordalie de la Pierre Vive",
+      "name_en": "Ordeal of the Living Stone",
+      "description_fr": "Épreuve sacrée permettant de désigner ou légitimer certains chefs militaires. Son extinction lors de l'épreuve de Veyla bouleverse l'ordre établi.",
+      "description_en": "Sacred trial used to designate or legitimize certain military leaders. Its extinction during Veyla's ordeal disrupts the established order.",
+      "narrative_function": "legitimacy_crisis"
+    }
+  ],
+  "command_structure": {
+    "fr": "Les Kherâns disposent d'une hiérarchie militaire stricte. Certains hauts commandants deviennent des Maillons primordiaux, porteurs d'une fonction essentielle pour le peuple.",
+    "en": "The Kherâns possess a strict military hierarchy. Some high commanders become Primordial Links, bearers of essential functions for the people.",
+    "known_titles": [
+      {
+        "id": "main_nouee",
+        "name_fr": "Main Nouée",
+        "name_en": "Bound Hand",
+        "role_fr": "Commandante des forces terrestres kherânes.",
+        "role_en": "Commander of Kherân ground forces."
+      },
+      {
+        "id": "maillons_primordiaux",
+        "name_fr": "Maillons primordiaux",
+        "name_en": "Primordial Links",
+        "role_fr": "Hauts responsables sacrés ou militaires du peuple kherân.",
+        "role_en": "High sacred or military authorities of the Kherân people."
+      },
+      {
+        "id": "porte_voix",
+        "name_fr": "Porte-Voix",
+        "name_en": "Voice-Bearer",
+        "role_fr": "Intermédiaire chargé de porter ou répéter la parole d'un dignitaire.",
+        "role_en": "Intermediary tasked with carrying or repeating a dignitary's words."
+      }
+    ]
+  },
+  "war_beasts": [
+    {
+      "id": "karrakjins",
+      "name_fr": "Karrak’jins",
+      "name_en": "Karrak'jins",
+      "description_fr": "Créatures puissantes liées à la culture militaire kherâne. Leur apprivoisement requiert un lien rare et une autorité intérieure exceptionnelle.",
+      "description_en": "Powerful creatures tied to Kherân military culture. Their taming requires a rare bond and exceptional inner authority."
+    }
+  ],
+  "relationship_with_magic": {
+    "description_fr": "La culture kherâne encadre fortement les phénomènes surnaturels. Les visions, voix intérieures et manifestations liées aux Flux sont perçues à travers le filtre du serment, du tabou et de la légitimité sacrée.",
+    "description_en": "Kherân culture strictly frames supernatural phenomena. Visions, inner voices and Flux-related manifestations are interpreted through oath, taboo and sacred legitimacy.",
+    "related_entities": [
+      "flux_system",
+      "ordalie_de_la_pierre_vive",
+      "veilleurs"
+    ]
+  },
+  "relationship_with_silence": {
+    "fr": "Le silence est une valeur structurante chez les Kherâns. Parler trop fort, rompre les serments ou donner voix au désordre intérieur peut être perçu comme une rupture morale et spirituelle.",
+    "en": "Silence is a structuring value among the Kherâns. Speaking too loudly, breaking oaths or giving voice to inner disorder may be seen as a moral and spiritual rupture."
+  },
+  "major_character": {
+    "id": "veyla_an_duross",
+    "name_fr": "Veyla An’Duross",
+    "name_en": "Veyla An'Duross",
+    "role_fr": "Prêtresse, militaire et future figure de rupture spirituelle chez les Kherâns.",
+    "role_en": "Priestess, military leader and future figure of spiritual disruption among the Kherâns."
+  },
+  "current_tensions": [
+    {
+      "id": "living_stone_extinction",
+      "name_fr": "Extinction de la Pierre Vive",
+      "name_en": "Extinction of the Living Stone",
+      "description_fr": "L'Ordalie réussie par Veyla provoque l'extinction de la Pierre Vive, créant une crise d'interprétation religieuse.",
+      "description_en": "Veyla's ordeal causes the Living Stone to go out, creating a religious crisis of interpretation."
+    },
+    {
+      "id": "prophetic_ambiguity",
+      "name_fr": "Ambiguïté prophétique",
+      "name_en": "Prophetic Ambiguity",
+      "description_fr": "Les signes associés à Veyla peuvent être lus comme une bénédiction, une rupture ou une menace.",
+      "description_en": "The signs associated with Veyla may be read as a blessing, a rupture or a threat."
+    },
+    {
+      "id": "war_against_caelys",
+      "name_fr": "Conflit avec Caelys",
+      "name_en": "Conflict with Caelys",
+      "description_fr": "Les Kherâns sortent d'un conflit militaire avec Caelys, ce qui accentue les tensions politiques et religieuses.",
+      "description_en": "The Kherâns emerge from military conflict with Caelys, intensifying political and religious tensions."
+    }
+  ],
+  "aesthetic_identity": {
+    "fr": "Austérité, voiles, pierre, silence, gestes codifiés, verticalité sacrée et discipline militaire.",
+    "en": "Austerity, veils, stone, silence, codified gestures, sacred verticality and military discipline.",
+    "visual_keywords": [
+      "veils",
+      "stone",
+      "oathbound warriors",
+      "austere priesthood",
+      "military theocracy",
+      "sacred silence"
+    ]
+  },
+  "cultural_themes": [
+    "oaths",
+    "silence",
+    "faith",
+    "military_discipline",
+    "ritual_legitimacy",
+    "prophetic_crisis",
+    "sacrifice",
+    "identity_under_law"
+  ],
+  "narrative_functions": [
+    "theocratic_civilization",
+    "military_pressure",
+    "faith_crisis",
+    "prophetic_ambiguity",
+    "character_transformation",
+    "cultural_contrast"
+  ],
+  "geo_keywords": {
+    "fr": [
+      "peuple guerrier fantasy",
+      "civilisation théocratique fantasy",
+      "serments sacrés",
+      "dark fantasy française",
+      "ordalie fantasy",
+      "prêtresse guerrière",
+      "worldbuilding religieux"
+    ],
+    "en": [
+      "oathbound fantasy civilization",
+      "theocratic warrior culture",
+      "grimdark priestess",
+      "fantasy ordeal",
+      "sacred military order",
+      "religious worldbuilding",
+      "dark fantasy civilization"
+    ]
+  },
+  "canonical_translation": {
+    "Kherâns": "Kherâns",
+    "Voilés Intérieurs": "Inner Veiled",
+    "Voilés de Sang": "Blood Veiled",
+    "Ordalie de la Pierre Vive": "Ordeal of the Living Stone",
+    "Main Nouée": "Bound Hand",
+    "Porte-Voix": "Voice-Bearer",
+    "Veilleurs": "Watchers",
+    "Karrak’jins": "Karrak'jins"
+  },
+  "related_entities": [
+    "veyla_an_duross",
+    "ordalie_de_la_pierre_vive",
+    "karrakjins",
+    "veilleurs",
+    "caelys",
+    "flux_system",
+    "war_against_caelys"
+  ]
+}
