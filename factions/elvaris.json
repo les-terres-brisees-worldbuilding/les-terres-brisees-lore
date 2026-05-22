@@ -1,0 +1,194 @@
+{
+  "id": "elvaris",
+  "universe": "Les Terres Brisées",
+  "file_type": "civilization_dataset",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "Elvaris",
+  "name_en": "Elvaris",
+  "category": "ancient_civilization",
+  "summary_fr": "Les Elvaris sont les Premiers-Nés de Merrowë, première race humanoïde créée par Drygthyn. Ils furent autrefois maîtres des Flux, détenteurs d'un savoir ancien et témoins des premières grandes catastrophes du monde.",
+  "summary_en": "The Elvaris are the Firstborn of Merrowë, the first humanoid race created by Drygthyn. They were once masters of the Fluxes, bearers of ancient knowledge and witnesses to the world's first great catastrophes.",
+  "core_identity": {
+    "fr": "Les derniers témoins d'un monde qui s'est effondré.",
+    "en": "The last witnesses of a world that collapsed."
+  },
+  "civilization_type": {
+    "fr": "Civilisation ancienne, magique et déclinante",
+    "en": "Ancient, magical and declining civilization"
+  },
+  "origin": {
+    "fr": "Les Elvaris sont créés par Drygthyn pour peupler Merrowë après le façonnement du monde par les Géants Primordiaux.",
+    "en": "The Elvaris are created by Drygthyn to populate Merrowë after the shaping of the world by the Primordial Giants.",
+    "related_entities": [
+      "drygthyn",
+      "merrowe",
+      "primordial_giants",
+      "flux_system"
+    ]
+  },
+  "historical_periods": [
+    {
+      "id": "age_of_the_firstborn",
+      "name_fr": "Âge des Premiers-Nés",
+      "name_en": "Age of the Firstborn",
+      "description_fr": "Période durant laquelle les Elvaris dominent Merrowë par leur savoir, leur longévité et leur maîtrise des Flux.",
+      "description_en": "Period during which the Elvaris dominate Merrowë through knowledge, longevity and mastery of the Fluxes."
+    },
+    {
+      "id": "first_nightmare_incursion",
+      "name_fr": "Première Incursion du Cauchemar",
+      "name_en": "First Nightmare Incursion",
+      "description_fr": "L'ouverture d'une brèche dans la réalité permet aux créatures du Cauchemar, dont les dragons du Cauchemar, de ravager Merrowë.",
+      "description_en": "A breach in reality allows Nightmare creatures, including Nightmare Dragons, to ravage Merrowë."
+    },
+    {
+      "id": "decline_of_the_elvaris",
+      "name_fr": "Déclin des Elvaris",
+      "name_en": "Decline of the Elvaris",
+      "description_fr": "Après les guerres contre le Cauchemar et l'apparition des hommes, les Elvaris perdent progressivement leur influence et se retirent du monde.",
+      "description_en": "After the wars against Nightmare and the emergence of humans, the Elvaris gradually lose influence and withdraw from the world."
+    }
+  ],
+  "relationship_with_magic": {
+    "fr": "Les Elvaris furent les premiers grands interprètes et maîtres des Flux. Leur rapport à la magie est plus ancien, plus subtil et plus dangereux que celui des peuples humains.",
+    "en": "The Elvaris were the first great interpreters and masters of the Fluxes. Their relationship to magic is older, subtler and more dangerous than that of human peoples.",
+    "related_entities": [
+      "flux_system",
+      "whisper_magic",
+      "earthbreakers"
+    ]
+  },
+  "relationship_with_whisper_magic": {
+    "fr": "Les Elvaris auraient compris comment capter les échos des Géants Primordiaux et transmettre aux hommes les premières méthodes permettant d'entendre les Murmures.",
+    "en": "The Elvaris are believed to have learned how to capture the echoes of the Primordial Giants and transmit to humans the first methods for hearing the Whispers.",
+    "related_entities": [
+      "whisper_magic",
+      "primordial_giants",
+      "whisperers"
+    ]
+  },
+  "relationship_with_humans": {
+    "fr": "Les Elvaris ont longtemps considéré les humains avec méfiance. Certains ont transmis du savoir, d'autres se sont isolés pour préserver les anciens sanctuaires.",
+    "en": "The Elvaris long regarded humans with distrust. Some transmitted knowledge, while others withdrew to preserve ancient sanctuaries."
+  },
+  "culture": {
+    "fr": "La culture elvare est marquée par la mémoire, la magie, les sanctuaires anciens, la distance envers les peuples jeunes et le poids des guerres oubliées.",
+    "en": "Elvar culture is marked by memory, magic, ancient sanctuaries, distance toward younger peoples and the burden of forgotten wars.",
+    "themes": [
+      "ancient_memory",
+      "lost_knowledge",
+      "magical_mastery",
+      "decline",
+      "isolation",
+      "witnesses_of_catastrophe"
+    ]
+  },
+  "known_groups": [
+    {
+      "id": "refuge_des_murmures",
+      "name_fr": "Refuge des Murmures",
+      "name_en": "Refuge of Whispers",
+      "description_fr": "Communauté elvare liée aux Murmures, à la mémoire ancienne et aux signes annonçant le retour des périls.",
+      "description_en": "Elvar community tied to the Whispers, ancient memory and signs announcing the return of dangers."
+    }
+  ],
+  "notable_figures": [
+    {
+      "id": "tharilhen",
+      "name_fr": "Tharilhen",
+      "name_en": "Tharilhen",
+      "role_fr": "Chef d'une délégation elvare venue auprès des humains.",
+      "role_en": "Leader of an Elvar delegation sent to the humans."
+    },
+    {
+      "id": "faeril_brise_memoire",
+      "name_fr": "Faeril Brise-Mémoire",
+      "name_en": "Faeril Memory-Breaker",
+      "role_fr": "Gardien du Vent doté d'une perception exceptionnelle.",
+      "role_en": "Wind Guardian gifted with exceptional perception."
+    }
+  ],
+  "major_threats": [
+    {
+      "id": "nightmare_realm",
+      "name_fr": "Monde du Cauchemar",
+      "name_en": "Nightmare Realm",
+      "description_fr": "Ancien ennemi des Elvaris depuis les premières incursions.",
+      "description_en": "Ancient enemy of the Elvaris since the first incursions."
+    },
+    {
+      "id": "human_expansion",
+      "name_fr": "Expansion humaine",
+      "name_en": "Human Expansion",
+      "description_fr": "La montée des royaumes humains a marginalisé les Elvaris et menacé leurs sanctuaires.",
+      "description_en": "The rise of human kingdoms marginalized the Elvaris and threatened their sanctuaries."
+    },
+    {
+      "id": "loss_of_memory",
+      "name_fr": "Perte de mémoire",
+      "name_en": "Loss of Memory",
+      "description_fr": "Le savoir elvar se fragmente à mesure que les survivants disparaissent ou s'isolent.",
+      "description_en": "Elvar knowledge fragments as survivors disappear or isolate themselves."
+    }
+  ],
+  "aesthetic_identity": {
+    "fr": "Beauté ancienne, mélancolie, lumière froide, ruines élégantes, glyphes oubliés, vents silencieux et présence presque spectrale.",
+    "en": "Ancient beauty, melancholy, cold light, elegant ruins, forgotten glyphs, silent winds and an almost spectral presence.",
+    "visual_keywords": [
+      "ancient ruins",
+      "silver light",
+      "lost civilization",
+      "ethereal presence",
+      "forgotten glyphs",
+      "melancholic fantasy"
+    ]
+  },
+  "narrative_functions": [
+    "ancient_witnesses",
+    "lost_knowledge_source",
+    "magical_legacy",
+    "warning_voice",
+    "bridge_to_cosmology",
+    "declining_elder_race"
+  ],
+  "geo_keywords": {
+    "fr": [
+      "anciens peuples fantasy",
+      "Premiers-Nés fantasy",
+      "civilisation elfique sombre",
+      "dark fantasy française",
+      "magie ancienne",
+      "peuple immortel déclinant",
+      "worldbuilding fantasy"
+    ],
+    "en": [
+      "ancient fantasy civilization",
+      "Firstborn fantasy race",
+      "declining elder race",
+      "grimdark elves",
+      "ancient magic civilization",
+      "dark fantasy worldbuilding"
+    ]
+  },
+  "canonical_translation": {
+    "Elvaris": "Elvaris",
+    "Elvar": "Elvar",
+    "Premiers-Nés": "Firstborn",
+    "Refuge des Murmures": "Refuge of Whispers",
+    "Gardien du Vent": "Wind Guardian",
+    "Géants Primordiaux": "Primordial Giants",
+    "Magie des Murmures": "Whisper Magic"
+  },
+  "related_entities": [
+    "drygthyn",
+    "merrowe",
+    "flux_system",
+    "whisper_magic",
+    "primordial_giants",
+    "nightmare_realm",
+    "first_nightmare_incursion",
+    "tharilhen",
+    "faeril_brise_memoire"
+  ]
+}
