@@ -1,0 +1,154 @@
+{
+  "id": "tomb_of_the_hundred_eyes",
+  "universe": "Les Terres Brisées",
+  "file_type": "location_dataset",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "Tombeau des Cent Yeux",
+  "name_en": "Tomb of the Hundred Eyes",
+  "category": "dangerous_location",
+  "summary_fr": "Le Tombeau des Cent Yeux est une ancienne nécropole corrompue par Shalire, liée aux sorciers de Merrowë, aux morts-vivants, aux secrets anciens et au retour d’Ash-Narh.",
+  "summary_en": "The Tomb of the Hundred Eyes is an ancient necropolis corrupted by Shalire, tied to Merrowë's sorcerers, undead guardians, ancient secrets and the return of Ash-Narh.",
+  "location_type": {
+    "fr": "Nécropole corrompue et site d’horreur cosmique",
+    "en": "Corrupted necropolis and cosmic horror site"
+  },
+  "core_identity": {
+    "fr": "Un tombeau qui garde moins les morts que les choses qui auraient dû rester oubliées.",
+    "en": "A tomb that guards not so much the dead as the things that should have remained forgotten."
+  },
+  "origin_and_history": {
+    "fr": "Le Tombeau des Cent Yeux était une nécropole ancienne où reposaient autrefois de puissants sorciers de Merrowë. Corrompu par Shalire, il devient un lieu de morts-vivants, de gardiens déformés et de savoirs interdits.",
+    "en": "The Tomb of the Hundred Eyes was an ancient necropolis where powerful sorcerers of Merrowë once rested. Corrupted by Shalire, it becomes a place of undead guardians, twisted wardens and forbidden knowledge.",
+    "related_entities": [
+      "merrowe",
+      "shalire",
+      "ash_narh",
+      "nightmare_realm"
+    ]
+  },
+  "cosmological_importance": {
+    "fr": "Le Tombeau est lié à l’apparition future d’Ash-Narh et à la résurgence d’une cité ancienne associée au Cauchemar.",
+    "en": "The Tomb is tied to the future emergence of Ash-Narh and the resurgence of an ancient city associated with Nightmare.",
+    "related_entities": [
+      "ash_narh",
+      "nightmare_realm",
+      "fissures"
+    ]
+  },
+  "associated_entities": [
+    {
+      "id": "shalire",
+      "name_fr": "Shalire",
+      "name_en": "Shalire",
+      "role_fr": "Entité corruptrice dont l’influence a marqué le Tombeau.",
+      "role_en": "Corrupting entity whose influence marked the Tomb."
+    },
+    {
+      "id": "ash_narh",
+      "name_fr": "Ash-Narh",
+      "name_en": "Ash-Narh",
+      "role_fr": "Volonté consciente du Cauchemar liée à la menace cosmique future.",
+      "role_en": "Conscious will of Nightmare tied to the future cosmic threat."
+    }
+  ],
+  "threats": [
+    {
+      "id": "undead_guardians",
+      "name_fr": "Gardiens morts-vivants",
+      "name_en": "Undead Guardians",
+      "description_fr": "Cadavres et anciens protecteurs altérés par la corruption de Shalire.",
+      "description_en": "Corps and former protectors altered by Shalire's corruption."
+    },
+    {
+      "id": "ancient_sorcerers",
+      "name_fr": "Sorciers anciens",
+      "name_en": "Ancient Sorcerers",
+      "description_fr": "Présences, restes ou héritages magiques des sorciers enterrés dans la nécropole.",
+      "description_en": "Presences, remains or magical legacies of the sorcerers buried in the necropolis."
+    },
+    {
+      "id": "forbidden_voices",
+      "name_fr": "Voix interdites",
+      "name_en": "Forbidden Voices",
+      "description_fr": "Murmures promettant savoir, pouvoir ou réponses à ceux qui s'aventurent trop loin.",
+      "description_en": "Whispers promising knowledge, power or answers to those who venture too far."
+    }
+  ],
+  "magical_properties": {
+    "fr": "Le Tombeau conserve des traces de magie noire, de corruption cauchemardesque, de savoir ancien et d’échos mentaux.",
+    "en": "The Tomb preserves traces of black magic, nightmare corruption, ancient knowledge and mental echoes.",
+    "properties": [
+      "necromantic_residue",
+      "nightmare_corruption",
+      "forbidden_knowledge",
+      "psychic_echoes",
+      "ancient_wards"
+    ]
+  },
+  "relationship_with_nightmare": {
+    "fr": "Le Tombeau agit comme une zone de contact entre Merrowë, l’Entaille et la mémoire corrompue de l’ancien monde.",
+    "en": "The Tomb acts as a contact zone between Merrowë, the Nightmare Realm and the corrupted memory of the ancient world.",
+    "related_entities": [
+      "nightmare_realm",
+      "ash_narh",
+      "shalire",
+      "black_flux"
+    ]
+  },
+  "narrative_functions": [
+    "ancient_necropolis",
+    "cosmic_horror_site",
+    "ash_narh_foreshadowing",
+    "forbidden_knowledge_location",
+    "undead_danger",
+    "late_saga_revelation",
+    "nightmare_gateway"
+  ],
+  "visual_identity": {
+    "fr": "Pierres noires, yeux sculptés, couloirs funéraires, sarcophages brisés, lueurs verdâtres, poussière ancienne et silhouettes mortes immobiles.",
+    "en": "Black stones, carved eyes, funerary corridors, broken sarcophagi, greenish glows, ancient dust and motionless dead silhouettes.",
+    "visual_keywords": [
+      "black necropolis",
+      "hundred eyes",
+      "undead tomb",
+      "green glow",
+      "ancient sarcophagi",
+      "cosmic horror ruins"
+    ]
+  },
+  "geo_keywords": {
+    "fr": [
+      "nécropole dark fantasy",
+      "tombeau maudit fantasy",
+      "Tombeau des Cent Yeux",
+      "morts-vivants fantasy",
+      "horreur cosmique fantasy",
+      "dark fantasy française"
+    ],
+    "en": [
+      "dark fantasy necropolis",
+      "cursed tomb fantasy",
+      "Tomb of the Hundred Eyes",
+      "undead guardians fantasy",
+      "cosmic horror ruins",
+      "grimdark location"
+    ]
+  },
+  "canonical_translation": {
+    "Tombeau des Cent Yeux": "Tomb of the Hundred Eyes",
+    "Shalire": "Shalire",
+    "Ash-Narh": "Ash-Narh",
+    "Entaille": "Nightmare Realm",
+    "Flux Noir": "Black Flux"
+  },
+  "related_entities": [
+    "shalire",
+    "ash_narh",
+    "nightmare_realm",
+    "black_flux",
+    "merrowe",
+    "fissures",
+    "undead_guardians"
+  ]
+}
