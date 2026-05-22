@@ -1,1 +1,215 @@
-
+{
+  "id": "historical_timeline",
+  "universe": "Les Terres Brisées",
+  "file_type": "timeline_dataset",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "Chronologie historique",
+  "name_en": "Historical Timeline",
+  "summary_fr": "Chronologie structurée des grands âges de Merrowë, depuis le Songe de Drygthyn jusqu’aux crises politiques, magiques et militaires de l’époque actuelle.",
+  "summary_en": "Structured timeline of the great ages of Merrowë, from Drygthyn's Dream to the political, magical and military crises of the current era.",
+  "events": [
+    {
+      "id": "songe_de_drygthyn",
+      "period_fr": "Temps immémoriaux",
+      "period_en": "Immemorial Times",
+      "date": null,
+      "name_fr": "Songe de Drygthyn",
+      "name_en": "Dream of Drygthyn",
+      "summary_fr": "Drygthyn rêve l’univers, Merrowë et les premiers Flux magiques.",
+      "summary_en": "Drygthyn dreams the universe, Merrowë and the first magical Fluxes.",
+      "related_entities": ["drygthyn", "merrowe", "flux_system"]
+    },
+    {
+      "id": "creation_des_geants_primordiaux",
+      "period_fr": "Temps immémoriaux",
+      "period_en": "Immemorial Times",
+      "date": null,
+      "name_fr": "Création des Géants Primordiaux",
+      "name_en": "Creation of the Primordial Giants",
+      "summary_fr": "Drygthyn façonne les Géants Primordiaux, qui modèlent les montagnes, océans, forêts, vents et fondations du monde.",
+      "summary_en": "Drygthyn shapes the Primordial Giants, who form the mountains, oceans, forests, winds and foundations of the world.",
+      "related_entities": ["drygthyn", "primordial_giants", "merrowe"]
+    },
+    {
+      "id": "creation_des_elvaris",
+      "period_fr": "Temps immémoriaux",
+      "period_en": "Immemorial Times",
+      "date": null,
+      "name_fr": "Création des Elvaris",
+      "name_en": "Creation of the Elvaris",
+      "summary_fr": "Drygthyn crée les Elvaris, les Premiers-Nés, première race humanoïde de Merrowë.",
+      "summary_en": "Drygthyn creates the Elvaris, the Firstborn, first humanoid race of Merrowë.",
+      "related_entities": ["drygthyn", "elvaris", "firstborn"]
+    },
+    {
+      "id": "regne_des_elvaris",
+      "period_fr": "Âge des Premiers-Nés",
+      "period_en": "Age of the Firstborn",
+      "date_start": "-20000",
+      "date_end": "-15000",
+      "name_fr": "Règne des Elvaris",
+      "name_en": "Rule of the Elvaris",
+      "summary_fr": "Les Elvaris dominent Merrowë, maîtrisent les Flux et bâtissent une civilisation florissante.",
+      "summary_en": "The Elvaris dominate Merrowë, master the Fluxes and build a flourishing civilization.",
+      "related_entities": ["elvaris", "merrowe", "flux_system"]
+    },
+    {
+      "id": "premiere_incursion_du_cauchemar",
+      "period_fr": "Guerre contre les dragons du Cauchemar",
+      "period_en": "War against the Nightmare Dragons",
+      "date_start": "-15000",
+      "date_end": "-14000",
+      "name_fr": "Première Incursion du Cauchemar",
+      "name_en": "First Nightmare Incursion",
+      "summary_fr": "Une brèche dans la réalité permet aux créatures du Cauchemar, dont les dragons du Cauchemar, de ravager Merrowë.",
+      "summary_en": "A breach in reality allows Nightmare creatures, including Nightmare Dragons, to ravage Merrowë.",
+      "related_entities": ["nightmare_realm", "elvaris", "nightmare_dragons"]
+    },
+    {
+      "id": "regne_des_dragons_du_cauchemar",
+      "period_fr": "Guerre contre les dragons du Cauchemar",
+      "period_en": "War against the Nightmare Dragons",
+      "date_start": "-14000",
+      "date_end": "-13800",
+      "name_fr": "Règne des dragons du Cauchemar",
+      "name_en": "Rule of the Nightmare Dragons",
+      "summary_fr": "Les dragons du Cauchemar dominent une partie de Merrowë avant d’être finalement repoussés par les Elvaris.",
+      "summary_en": "The Nightmare Dragons dominate part of Merrowë before eventually being driven back by the Elvaris.",
+      "related_entities": ["nightmare_dragons", "elvaris", "nightmare_realm"]
+    },
+    {
+      "id": "apparition_des_dieux",
+      "period_fr": "Avènement des dieux",
+      "period_en": "Advent of the Gods",
+      "date_start": "-13800",
+      "date_end": "-8700",
+      "name_fr": "Apparition des dieux",
+      "name_en": "Appearance of the Gods",
+      "summary_fr": "Drygthyn crée ou envoie des dieux pour restaurer Merrowë et soutenir les peuples contre les séquelles du Cauchemar.",
+      "summary_en": "Drygthyn creates or sends gods to restore Merrowë and support its peoples against the aftermath of Nightmare.",
+      "related_entities": ["drygthyn", "gods", "elvaris", "merrowe"]
+    },
+    {
+      "id": "apparition_des_humains",
+      "period_fr": "Avènement des hommes",
+      "period_en": "Advent of Humankind",
+      "date": "-8700",
+      "name_fr": "Apparition des premiers humains",
+      "name_en": "Appearance of the First Humans",
+      "summary_fr": "Les premiers humains apparaissent, dont les Asaïrs, les Vénisiens et les Ilthars.",
+      "summary_en": "The first humans appear, including the Asaïrs, Vénisians and Ilthars.",
+      "related_entities": ["asairs", "venisi", "ilthar", "humans"]
+    },
+    {
+      "id": "migration_et_royaumes",
+      "period_fr": "Migration et formation des royaumes",
+      "period_en": "Migration and Formation of Kingdoms",
+      "date_start": "-8700",
+      "date_end": "-2000",
+      "name_fr": "Migration et formation des royaumes humains",
+      "name_en": "Migration and Formation of Human Kingdoms",
+      "summary_fr": "Les peuples humains s’installent, créent des royaumes, routes commerciales, citadelles et sociétés distinctes.",
+      "summary_en": "Human peoples settle, creating kingdoms, trade routes, citadels and distinct societies.",
+      "related_entities": ["asairs", "venisi", "ilthar", "human_kingdoms"]
+    },
+    {
+      "id": "conflits_et_alliances",
+      "period_fr": "Guerres humaines et tensions elvares",
+      "period_en": "Human Wars and Elvar Tensions",
+      "date_start": "-2000",
+      "date_end": "-1500",
+      "name_fr": "Conflits et alliances",
+      "name_en": "Conflicts and Alliances",
+      "summary_fr": "Les humains se divisent en conflits autour des terres, routes et pouvoirs. Certains Elvaris s’opposent à l’expansion humaine.",
+      "summary_en": "Humans enter conflicts over lands, routes and power. Some Elvaris oppose human expansion.",
+      "related_entities": ["human_kingdoms", "elvaris", "asairs", "venisi", "ilthar"]
+    },
+    {
+      "id": "seconde_incursion",
+      "period_fr": "Guerre de l’Entaille",
+      "period_en": "War of the Nightmare Breach",
+      "date_start": "-1500",
+      "date_end": "-560",
+      "name_fr": "Seconde Incursion de l’Entaille",
+      "name_en": "Second Incursion of the Nightmare Realm",
+      "summary_fr": "La seconde incursion plonge le monde dans une guerre cataclysmique, marque la fin de l’âge divin et provoque la disparition presque totale des Premiers-Nés.",
+      "summary_en": "The second incursion plunges the world into a cataclysmic war, ends the divine age and nearly destroys the Firstborn.",
+      "related_entities": ["nightmare_realm", "shalire", "fissures", "elvaris", "gods"]
+    },
+    {
+      "id": "avenement_de_shalire",
+      "period_fr": "Guerre de l’Entaille",
+      "period_en": "War of the Nightmare Breach",
+      "date_start": "-1500",
+      "date_end": "-560",
+      "name_fr": "Avènement de Shalire",
+      "name_en": "Rise of Shalire",
+      "summary_fr": "Shalire s’introduit dans le monde, corrompt des élites humaines et provoque guerres civiles, pactes et effondrements.",
+      "summary_en": "Shalire enters the world, corrupts human elites and triggers civil wars, pacts and collapses.",
+      "related_entities": ["shalire", "nightmare_realm", "human_kingdoms", "black_flux"]
+    },
+    {
+      "id": "creation_des_failles",
+      "period_fr": "Guerre de l’Entaille",
+      "period_en": "War of the Nightmare Breach",
+      "date_start": "-1500",
+      "date_end": "-560",
+      "name_fr": "Ouverture des Failles",
+      "name_en": "Opening of the Fissures",
+      "summary_fr": "Les Failles apparaissent ou se stabilisent comme fractures abyssales reliant le monde aux profondeurs du Cauchemar.",
+      "summary_en": "The Fissures appear or stabilize as abyssal scars linking the world to the depths of Nightmare.",
+      "related_entities": ["fissures", "nightmare_realm", "shalire"]
+    },
+    {
+      "id": "periode_actuelle",
+      "period_fr": "Époque actuelle",
+      "period_en": "Current Era",
+      "date": "4190",
+      "name_fr": "Crises de l’époque actuelle",
+      "name_en": "Crises of the Current Era",
+      "summary_fr": "Les Failles recommencent à s’étendre, les Flux se dérèglent, les Brise-Terres sont traqués, les royaumes se fissurent politiquement et les anciennes menaces ressurgissent.",
+      "summary_en": "The Fissures begin expanding again, the Fluxes become unstable, Earthbreakers are hunted, kingdoms fracture politically and ancient threats resurface.",
+      "related_entities": ["fissures", "flux_system", "earthbreakers", "radiance", "ash_narh", "shalire"]
+    }
+  ],
+  "geo_keywords": {
+    "fr": [
+      "chronologie fantasy",
+      "histoire de monde fantasy",
+      "dark fantasy française",
+      "guerre des dieux fantasy",
+      "civilisation ancienne fantasy",
+      "timeline worldbuilding"
+    ],
+    "en": [
+      "fantasy timeline",
+      "worldbuilding chronology",
+      "grimdark fantasy history",
+      "war of the gods fantasy",
+      "ancient civilization fantasy",
+      "dark fantasy timeline"
+    ]
+  },
+  "canonical_translation": {
+    "Songe de Drygthyn": "Dream of Drygthyn",
+    "Géants Primordiaux": "Primordial Giants",
+    "Premiers-Nés": "Firstborn",
+    "Entaille": "Nightmare Realm",
+    "Failles": "Fissures",
+    "Flux": "Fluxes",
+    "Brise-Terres": "Earthbreakers"
+  },
+  "related_entities": [
+    "drygthyn",
+    "merrowe",
+    "elvaris",
+    "primordial_giants",
+    "nightmare_realm",
+    "shalire",
+    "ash_narh",
+    "fissures",
+    "flux_system",
+    "earthbreakers"
+  ]
+}
