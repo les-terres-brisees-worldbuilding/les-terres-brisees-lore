@@ -1,0 +1,170 @@
+{
+  "id": "darian_morven",
+  "universe": "Les Terres Brisées",
+  "file_type": "character_dataset",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "Darian Morven",
+  "name_en": "Darian Morven",
+  "category": "supporting_character",
+  "summary_fr": "Darian Morven est un ancien compagnon de la Garde Adhémar, lié à Eryon et Thalos. Plus ironique, léger et fuyant que ses frères d’armes, il transmet le poids du passé par l’humour et la lucidité.",
+  "summary_en": "Darian Morven is a former companion of the Adhémar Guard, tied to Eryon and Thalos. More ironic, light and evasive than his brothers-in-arms, he transmits the weight of the past through humor and lucidity.",
+  "core_identity": {
+    "fr": "Celui qui rit pour ne pas regarder trop longtemps dans le sac.",
+    "en": "The one who laughs so he does not look too long into the bag."
+  },
+  "roles": [
+    {
+      "id": "former_adhémar_guard",
+      "name_fr": "Ancien de la Garde Adhémar",
+      "name_en": "Former Adhémar Guard"
+    },
+    {
+      "id": "ironic_witness",
+      "name_fr": "Témoin ironique",
+      "name_en": "Ironic Witness"
+    },
+    {
+      "id": "survivor",
+      "name_fr": "Survivant",
+      "name_en": "Survivor"
+    }
+  ],
+  "affiliations": [
+    "garde_adhemar",
+    "venisi",
+    "eryon_meryhall",
+    "thalos_grimheart"
+  ],
+  "personality": {
+    "fr": "Ironique, mobile, insolent, lucide, fuyant face à la douleur et capable de dire une vérité grave sous forme de plaisanterie.",
+    "en": "Ironic, mobile, insolent, lucid, evasive in the face of pain and capable of speaking grave truth through jokes.",
+    "traits": [
+      "ironic",
+      "insolent",
+      "lucid",
+      "evasive",
+      "loyal",
+      "witty",
+      "survivor",
+      "emotionally_deflective"
+    ]
+  },
+  "relationship_with_eryon": {
+    "fr": "Darian connaît les blessures d’Eryon, mais les aborde avec plus de distance, d’humour et de provocation que Thalos.",
+    "en": "Darian knows Eryon's wounds, but approaches them with more distance, humor and provocation than Thalos.",
+    "relationship_type": [
+      "former_brother_in_arms",
+      "comic_counterpoint",
+      "truth_through_humor"
+    ]
+  },
+  "relationship_with_kaelen": {
+    "fr": "Darian aide Kaelen à comprendre que le passé des anciens guerriers est fait de fragments lourds, parfois transmis sans explication complète.",
+    "en": "Darian helps Kaelen understand that the past of old warriors is made of heavy fragments, sometimes transmitted without full explanation.",
+    "relationship_type": [
+      "informal_mentor",
+      "ironic_guide",
+      "war_memory_interpreter"
+    ]
+  },
+  "associated_events": [
+    {
+      "id": "city_of_flames",
+      "name_fr": "Cité des Flammes",
+      "name_en": "City of Flames",
+      "description_fr": "Événement traumatique de la génération d’Eryon, dont Darian conserve une mémoire qu’il préfère ne pas regarder directement.",
+      "description_en": "Traumatic event of Eryon's generation, whose memory Darian prefers not to look at directly."
+    },
+    {
+      "id": "faut_pas_trop_regarder_dans_le_sac",
+      "name_fr": "Faut pas trop regarder dans le sac",
+      "name_en": "Don’t Look Too Long in the Bag",
+      "description_fr": "Scène où Darian explique à Kaelen, par l’ironie, que chacun porte ses pierres funéraires intérieures.",
+      "description_en": "Scene where Darian explains to Kaelen, through irony, that everyone carries inner pocket-gravestones."
+    }
+  ],
+  "associated_characters": [
+    {
+      "id": "eryon_meryhall",
+      "name_fr": "Eryon Meryhall",
+      "name_en": "Eryon Meryhall",
+      "relationship_fr": "Ancien frère d’armes et figure plus rigide du passé commun.",
+      "relationship_en": "Former brother-in-arms and more rigid figure of their shared past."
+    },
+    {
+      "id": "thalos_grimheart",
+      "name_fr": "Thalos Grimheart",
+      "name_en": "Thalos Grimheart",
+      "relationship_fr": "Ancien compagnon, plus grave et plus stable.",
+      "relationship_en": "Former companion, graver and more stable."
+    },
+    {
+      "id": "kaelen",
+      "name_fr": "Kaelen",
+      "name_en": "Kaelen",
+      "relationship_fr": "Jeune auquel Darian transmet une forme oblique de sagesse.",
+      "relationship_en": "Young man to whom Darian transmits an oblique form of wisdom."
+    }
+  ],
+  "associated_factions": [
+    "garde_adhemar",
+    "venisi"
+  ],
+  "associated_locations": [
+    "radiance",
+    "city_of_flames"
+  ],
+  "narrative_functions": [
+    "comic_relief_with_weight",
+    "war_survivor",
+    "ironic_truth_speaker",
+    "contrast_to_eryon",
+    "informal_mentor",
+    "memory_fragment_carrier"
+  ],
+  "visual_identity": {
+    "fr": "Ancien combattant au sourire insolent, posture plus relâchée que ses compagnons, regard vif et fatigue dissimulée.",
+    "en": "Former fighter with an insolent smile, looser posture than his companions, sharp gaze and hidden fatigue.",
+    "visual_keywords": [
+      "ironic_veteran",
+      "insolent_smile",
+      "old_soldier",
+      "hidden_wounds",
+      "grimdark_companion"
+    ]
+  },
+  "geo_keywords": {
+    "fr": [
+      "compagnon d’armes fantasy",
+      "personnage ironique dark fantasy",
+      "Darian Morven",
+      "Garde Adhémar",
+      "vétéran fantasy",
+      "dark fantasy française"
+    ],
+    "en": [
+      "ironic fantasy veteran",
+      "grimdark companion",
+      "Darian Morven",
+      "Adhémar Guard",
+      "brother in arms fantasy",
+      "dark fantasy supporting character"
+    ]
+  },
+  "canonical_translation": {
+    "Darian Morven": "Darian Morven",
+    "Garde Adhémar": "Adhémar Guard",
+    "Cité des Flammes": "City of Flames",
+    "Eryon Meryhall": "Eryon Meryhall",
+    "Thalos Grimheart": "Thalos Grimheart"
+  },
+  "related_entities": [
+    "eryon_meryhall",
+    "thalos_grimheart",
+    "kaelen",
+    "garde_adhemar",
+    "venisi",
+    "city_of_flames"
+  ]
+}
