@@ -1,0 +1,183 @@
+{
+  "id": "thalos_grimheart",
+  "universe": "Les Terres Brisées",
+  "file_type": "character_dataset",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "Thalos Grimheart",
+  "name_en": "Thalos Grimheart",
+  "category": "supporting_character",
+  "summary_fr": "Thalos Grimheart est un ancien compagnon d’armes d’Eryon Meryhall, lié à la Garde Adhémar. Il agit comme gardien des mémoires qu’Eryon ne peut ou ne veut plus porter seul.",
+  "summary_en": "Thalos Grimheart is a former brother-in-arms of Eryon Meryhall, tied to the Adhémar Guard. He acts as a keeper of memories that Eryon can no longer or will no longer carry alone.",
+  "core_identity": {
+    "fr": "Celui qui sait ce que les héros taisent.",
+    "en": "The one who knows what heroes leave unsaid."
+  },
+  "roles": [
+    {
+      "id": "former_adhémar_guard",
+      "name_fr": "Ancien de la Garde Adhémar",
+      "name_en": "Former Adhémar Guard"
+    },
+    {
+      "id": "memory_keeper",
+      "name_fr": "Gardien des mémoires",
+      "name_en": "Keeper of Memories"
+    },
+    {
+      "id": "eryon_friend",
+      "name_fr": "Ami d’Eryon",
+      "name_en": "Friend of Eryon"
+    }
+  ],
+  "affiliations": [
+    "garde_adhemar",
+    "venisi",
+    "eryon_meryhall"
+  ],
+  "personality": {
+    "fr": "Solide, calme, loyal, lucide et capable de dire les vérités qu’Eryon garde enfouies.",
+    "en": "Solid, calm, loyal, lucid and capable of speaking the truths Eryon keeps buried.",
+    "traits": [
+      "loyal",
+      "calm",
+      "steady",
+      "lucid",
+      "protective",
+      "melancholic",
+      "direct"
+    ]
+  },
+  "relationship_with_eryon": {
+    "fr": "Thalos est probablement l’un des rares véritables amis d’Eryon. Il comprend ses silences, ses blessures et la manière dont il transforme ses regrets en pierres à porter.",
+    "en": "Thalos is probably one of Eryon's few true friends. He understands his silences, wounds and the way he turns regrets into stones to carry.",
+    "relationship_type": [
+      "brother_in_arms",
+      "old_friend",
+      "truth_speaker",
+      "memory_witness"
+    ]
+  },
+  "relationship_with_kaelen": {
+    "fr": "Thalos aide Kaelen à comprendre ce qu’Eryon ne formule pas, notamment le poids de Féran, de la Cité des Flammes et du commandement.",
+    "en": "Thalos helps Kaelen understand what Eryon does not formulate, especially the weight of Féran, the City of Flames and command.",
+    "relationship_type": [
+      "secondary_mentor",
+      "interpreter_of_eryon",
+      "war_memory_transmitter"
+    ]
+  },
+  "symbolic_function": {
+    "fr": "Thalos sert de passeur entre l’ancienne génération guerrière et ceux qui doivent hériter de ses fragments.",
+    "en": "Thalos serves as a bridge between the old warrior generation and those who must inherit its fragments."
+  },
+  "associated_events": [
+    {
+      "id": "city_of_flames",
+      "name_fr": "Cité des Flammes",
+      "name_en": "City of Flames",
+      "description_fr": "Événement traumatique auquel Thalos est lié par son passé avec Eryon et Féran.",
+      "description_en": "Traumatic event to which Thalos is tied through his past with Eryon and Féran."
+    },
+    {
+      "id": "old_sword_scene",
+      "name_fr": "Ce qu’il n’a pas dit",
+      "name_en": "What He Did Not Say",
+      "description_fr": "Scène où Thalos explique à Kaelen que le refus apparent d’Eryon de regretter est une manière de ne pas s’effondrer.",
+      "description_en": "Scene where Thalos explains to Kaelen that Eryon's apparent refusal to regret is a way not to collapse."
+    }
+  ],
+  "associated_characters": [
+    {
+      "id": "eryon_meryhall",
+      "name_fr": "Eryon Meryhall",
+      "name_en": "Eryon Meryhall",
+      "relationship_fr": "Ami proche et ancien frère d’armes.",
+      "relationship_en": "Close friend and former brother-in-arms."
+    },
+    {
+      "id": "kaelen",
+      "name_fr": "Kaelen",
+      "name_en": "Kaelen",
+      "relationship_fr": "Jeune auquel Thalos transmet une lecture plus juste du passé d’Eryon.",
+      "relationship_en": "Young man to whom Thalos transmits a more accurate reading of Eryon's past."
+    },
+    {
+      "id": "darian_morven",
+      "name_fr": "Darian Morven",
+      "name_en": "Darian Morven",
+      "relationship_fr": "Ancien compagnon de la Garde Adhémar.",
+      "relationship_en": "Former companion of the Adhémar Guard."
+    },
+    {
+      "id": "feran",
+      "name_fr": "Féran",
+      "name_en": "Féran",
+      "relationship_fr": "Ancien compagnon dont la mort pèse encore sur Eryon et les survivants.",
+      "relationship_en": "Former companion whose death still weighs on Eryon and the survivors."
+    }
+  ],
+  "associated_factions": [
+    "garde_adhemar",
+    "venisi"
+  ],
+  "associated_locations": [
+    "radiance",
+    "city_of_flames",
+    "combe_elevir"
+  ],
+  "narrative_functions": [
+    "memory_keeper",
+    "secondary_mentor",
+    "eryon_confidant",
+    "war_witness",
+    "truth_speaker",
+    "generation_bridge"
+  ],
+  "visual_identity": {
+    "fr": "Ancien guerrier massif, calme, lié à l’image d’une montagne qui marche, bouclier entretenu, présence stable et gravité silencieuse.",
+    "en": "Massive old warrior, calm, associated with the image of a walking mountain, maintained shield, stable presence and silent gravity.",
+    "visual_keywords": [
+      "old_warrior",
+      "shield",
+      "walking_mountain",
+      "silent_strength",
+      "brother_in_arms",
+      "grimdark_veteran"
+    ]
+  },
+  "geo_keywords": {
+    "fr": [
+      "ancien guerrier fantasy",
+      "compagnon d’armes dark fantasy",
+      "Thalos Grimheart",
+      "Garde Adhémar",
+      "mentor secondaire fantasy",
+      "dark fantasy française"
+    ],
+    "en": [
+      "old fantasy warrior",
+      "grimdark brother in arms",
+      "Thalos Grimheart",
+      "Adhémar Guard",
+      "secondary mentor fantasy",
+      "dark fantasy veteran"
+    ]
+  },
+  "canonical_translation": {
+    "Thalos Grimheart": "Thalos Grimheart",
+    "Garde Adhémar": "Adhémar Guard",
+    "Cité des Flammes": "City of Flames",
+    "Féran": "Féran",
+    "Eryon Meryhall": "Eryon Meryhall"
+  },
+  "related_entities": [
+    "eryon_meryhall",
+    "kaelen",
+    "darian_morven",
+    "garde_adhemar",
+    "venisi",
+    "city_of_flames",
+    "feran"
+  ]
+}
