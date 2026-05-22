@@ -1,0 +1,206 @@
+{
+  "id": "kaelen",
+  "universe": "Les Terres Brisées",
+  "file_type": "character_dataset",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "Kaelen",
+  "name_en": "Kaelen",
+  "category": "main_supporting_character",
+  "summary_fr": "Kaelen est un jeune Asaïr admiratif d’Eryon Meryhall. Idéaliste, loyal et avide de faire ses preuves, il incarne la nouvelle génération confrontée au poids réel de la guerre.",
+  "summary_en": "Kaelen is a young Asaïr who admires Eryon Meryhall. Idealistic, loyal and eager to prove himself, he embodies the new generation facing the real weight of war.",
+  "core_identity": {
+    "fr": "Un jeune homme qui cherche un héros avant d’apprendre le prix de l’héroïsme.",
+    "en": "A young man seeking a hero before learning the cost of heroism."
+  },
+  "origin": {
+    "fr": "Kaelen vient d’un village ou clan asaïr des montagnes, où il croise Eryon alors que celui-ci vit sous une identité discrète.",
+    "en": "Kaelen comes from an Asaïr village or clan in the mountains, where he meets Eryon while the latter lives under a discreet identity.",
+    "related_entities": [
+      "asairs",
+      "asair_mountains",
+      "eryon_meryhall"
+    ]
+  },
+  "roles": [
+    {
+      "id": "apprentice",
+      "name_fr": "Apprenti",
+      "name_en": "Apprentice"
+    },
+    {
+      "id": "young_warrior",
+      "name_fr": "Jeune guerrier",
+      "name_en": "Young Warrior"
+    },
+    {
+      "id": "new_generation_symbol",
+      "name_fr": "Symbole de la nouvelle génération",
+      "name_en": "Symbol of the New Generation"
+    },
+    {
+      "id": "loyalist",
+      "name_fr": "Loyaliste",
+      "name_en": "Loyalist"
+    }
+  ],
+  "affiliations": [
+    "asairs",
+    "eryon_meryhall",
+    "garde_adhemar",
+    "venisi"
+  ],
+  "personality": {
+    "fr": "Admiratif, loyal, naïf, courageux, anxieux et avide de trouver un modèle solide.",
+    "en": "Admiring, loyal, naive, courageous, anxious and eager to find a solid model.",
+    "traits": [
+      "loyal",
+      "idealistic",
+      "admiring",
+      "anxious",
+      "brave",
+      "naive",
+      "eager_to_prove_himself",
+      "mentor_seeking"
+    ]
+  },
+  "internal_conflict": {
+    "false_belief_fr": "Devenir fort signifie ressembler aux héros qu’il admire.",
+    "false_belief_en": "Becoming strong means resembling the heroes he admires.",
+    "truth_fr": "La force ne consiste pas à imiter un héros, mais à comprendre ce que ses choix coûtent.",
+    "truth_en": "Strength does not mean imitating a hero, but understanding what his choices cost."
+  },
+  "relationship_with_eryon": {
+    "fr": "Kaelen admire Eryon avant même de comprendre qui il est vraiment. Leur relation devient un axe de transmission, de désillusion et d’apprentissage.",
+    "en": "Kaelen admires Eryon before truly understanding who he is. Their relationship becomes an axis of transmission, disillusionment and learning.",
+    "relationship_type": [
+      "mentor_apprentice",
+      "old_generation_new_generation",
+      "idealization_to_understanding"
+    ]
+  },
+  "major_events": [
+    {
+      "id": "meeting_eryon",
+      "name_fr": "Rencontre avec Eryon",
+      "name_en": "Meeting Eryon",
+      "description_fr": "Kaelen accompagne Eryon après l’incident des gnolls dans les montagnes asaïres.",
+      "description_en": "Kaelen accompanies Eryon after the gnoll incident in the Asaïr mountains."
+    },
+    {
+      "id": "discovery_of_eryon_identity",
+      "name_fr": "Découverte de l’identité d’Eryon",
+      "name_en": "Discovery of Eryon's Identity",
+      "description_fr": "Kaelen apprend que l’homme qu’il connaît sous une identité discrète est en réalité Eryon Meryhall.",
+      "description_en": "Kaelen learns that the man he knows under a discreet identity is actually Eryon Meryhall."
+    },
+    {
+      "id": "old_sword_lesson",
+      "name_fr": "Leçon de la vieille épée",
+      "name_en": "Lesson of the Old Sword",
+      "description_fr": "Eryon lui confie symboliquement le poids d’une ancienne lame liée à Féran et à la Cité des Flammes.",
+      "description_en": "Eryon symbolically entrusts him with the weight of an old blade tied to Féran and the City of Flames."
+    }
+  ],
+  "associated_characters": [
+    {
+      "id": "eryon_meryhall",
+      "name_fr": "Eryon Meryhall",
+      "name_en": "Eryon Meryhall",
+      "relationship_fr": "Mentor, modèle et figure de désillusion progressive.",
+      "relationship_en": "Mentor, model and figure of progressive disillusionment."
+    },
+    {
+      "id": "thalos_grimheart",
+      "name_fr": "Thalos Grimheart",
+      "name_en": "Thalos Grimheart",
+      "relationship_fr": "Ancien compagnon d’Eryon qui aide Kaelen à comprendre ce qu’Eryon ne dit pas.",
+      "relationship_en": "Former companion of Eryon who helps Kaelen understand what Eryon does not say."
+    },
+    {
+      "id": "darian_morven",
+      "name_fr": "Darian Morven",
+      "name_en": "Darian Morven",
+      "relationship_fr": "Ancien compagnon d’Eryon, plus léger et ironique, qui transmet autrement le poids du passé.",
+      "relationship_en": "Former companion of Eryon, lighter and more ironic, who transmits the burden of the past differently."
+    }
+  ],
+  "associated_locations": [
+    "asair_mountains",
+    "varkh_draal",
+    "radiance",
+    "camp_scenes"
+  ],
+  "associated_factions": [
+    "asairs",
+    "garde_adhemar",
+    "venisi"
+  ],
+  "symbolic_objects": [
+    {
+      "id": "old_sword",
+      "name_fr": "Vieille épée",
+      "name_en": "Old Sword",
+      "description_fr": "Lame associée à Féran, à la Cité des Flammes et au poids des décisions de commandement.",
+      "description_en": "Blade associated with Féran, the City of Flames and the weight of command decisions."
+    }
+  ],
+  "narrative_functions": [
+    "apprentice_character",
+    "new_generation_viewpoint",
+    "mentor_arc_catalyst",
+    "war_disillusionment",
+    "loyalty_conflict",
+    "reader_identification",
+    "transmission_theme"
+  ],
+  "visual_identity": {
+    "fr": "Jeune montagnard asaïr, regard admiratif, vêtements de voyage, entraînement à l’épée, énergie encore intacte.",
+    "en": "Young Asaïr mountain boy, admiring gaze, travel clothes, sword training, still-intact energy.",
+    "visual_keywords": [
+      "young_warrior",
+      "apprentice",
+      "mountain_youth",
+      "sword_training",
+      "mentor_student",
+      "grimdark_initiation"
+    ]
+  },
+  "geo_keywords": {
+    "fr": [
+      "apprenti fantasy",
+      "jeune guerrier fantasy",
+      "Kaelen",
+      "mentor et apprenti fantasy",
+      "nouvelle génération dark fantasy",
+      "dark fantasy française"
+    ],
+    "en": [
+      "fantasy apprentice",
+      "young warrior fantasy",
+      "Kaelen",
+      "mentor apprentice fantasy",
+      "new generation grimdark character",
+      "dark fantasy coming of age"
+    ]
+  },
+  "canonical_translation": {
+    "Kaelen": "Kaelen",
+    "Eryon Meryhall": "Eryon Meryhall",
+    "Asaïrs": "Asaïrs",
+    "Garde Adhémar": "Adhémar Guard",
+    "La Parole Lie": "The Word Binds",
+    "Cité des Flammes": "City of Flames"
+  },
+  "related_entities": [
+    "eryon_meryhall",
+    "asairs",
+    "garde_adhemar",
+    "venisi",
+    "thalos_grimheart",
+    "darian_morven",
+    "feran",
+    "city_of_flames",
+    "old_sword"
+  ]
+}
