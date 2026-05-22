@@ -1,0 +1,136 @@
+{
+  "id": "eye_of_athorys",
+  "universe": "Les Terres Brisées",
+  "file_type": "artifact_dataset",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "L’Œil d’Athorys",
+  "name_en": "Eye of Athorys",
+  "category": "legendary_artifact",
+  "summary_fr": "L’Œil d’Athorys est une pierre noire enchâssée dans un pendentif, réputée capable de révéler les vérités cachées et les intentions réelles des êtres vivants.",
+  "summary_en": "The Eye of Athorys is a black stone set into a pendant, said to reveal hidden truths and the true intentions of living beings.",
+  "artifact_type": {
+    "fr": "Pendentif de révélation",
+    "en": "Revelation Pendant"
+  },
+  "core_identity": {
+    "fr": "Un artefact qui montre la vérité, même lorsqu’elle détruit celui qui la reçoit.",
+    "en": "An artifact that shows truth, even when that truth destroys the one who receives it."
+  },
+  "origin": {
+    "fr": "L’Œil d’Athorys date de l’époque révolue de Merrowë, lorsque les objets magiques étaient encore façonnés par des praticiens capables de manier les Flux.",
+    "en": "The Eye of Athorys dates back to the lost age of Merrowë, when magical objects were still crafted by practitioners capable of wielding the Fluxes.",
+    "related_entities": [
+      "merrowe",
+      "flux_system",
+      "lost_magical_artifacts"
+    ]
+  },
+  "appearance": {
+    "fr": "Pierre noire enchâssée dans un pendentif ancien.",
+    "en": "Black stone set into an ancient pendant.",
+    "visual_keywords": [
+      "black_stone",
+      "ancient_pendant",
+      "truth_relic",
+      "dark_jewel",
+      "grimdark_artifact"
+    ]
+  },
+  "properties": {
+    "fr": "L’Œil d’Athorys permettrait de révéler les vérités dissimulées, les intentions réelles et les mensonges enfouis.",
+    "en": "The Eye of Athorys is said to reveal hidden truths, true intentions and buried lies.",
+    "abilities": [
+      "truth_revelation",
+      "intention_detection",
+      "hidden_motive_sight",
+      "warning_whispers"
+    ]
+  },
+  "costs_and_dangers": {
+    "fr": "Les vérités révélées par l’Œil peuvent être cruelles, fragmentaires ou psychologiquement destructrices. Le pendentif chuchote parfois des avertissements à son porteur.",
+    "en": "Truths revealed by the Eye may be cruel, fragmentary or psychologically destructive. The pendant sometimes whispers warnings to its bearer.",
+    "effects": [
+      "psychological_burden",
+      "paranoia",
+      "cruel_truths",
+      "fragmented_revelations",
+      "obsession_with_truth"
+    ]
+  },
+  "current_status": {
+    "fr": "Disparu depuis la chute de Merrowë, il aurait été enterré avec son dernier porteur dans une tombe oubliée.",
+    "en": "Lost since the fall of Merrowë, it is said to have been buried with its last bearer in a forgotten tomb.",
+    "status": "lost"
+  },
+  "relationship_with_magic": {
+    "fr": "L’Œil d’Athorys semble lié aux Flux de perception, d’esprit ou de vérité, bien que sa nature exacte reste incertaine.",
+    "en": "The Eye of Athorys seems tied to Fluxes of perception, spirit or truth, though its exact nature remains uncertain.",
+    "related_entities": [
+      "flux_system",
+      "merrowe",
+      "ancient_magic"
+    ]
+  },
+  "civilizational_perception": {
+    "fr": "L’artefact est vu comme une relique dangereuse : utile aux juges, espions, rois et prophètes, mais capable de briser la confiance et la raison.",
+    "en": "The artifact is viewed as a dangerous relic: useful to judges, spies, kings and prophets, but capable of breaking trust and reason.",
+    "perceptions": [
+      "dangerous_truth",
+      "royal_tool",
+      "spy_relic",
+      "prophetic_artifact",
+      "forbidden_jewel"
+    ]
+  },
+  "associated_locations": [
+    "forgotten_tomb",
+    "ruins_of_merrowe",
+    "ancient_necropolis"
+  ],
+  "associated_factions": [
+    "ancient_mages",
+    "forgotten_orders",
+    "elvaris"
+  ],
+  "narrative_functions": [
+    "truth_revelation",
+    "dangerous_knowledge",
+    "paranoia_device",
+    "ancient_relic",
+    "quest_object",
+    "moral_test"
+  ],
+  "geo_keywords": {
+    "fr": [
+      "artefact de vérité fantasy",
+      "pendentif magique fantasy",
+      "Œil d’Athorys",
+      "relique dark fantasy",
+      "objet magique ancien",
+      "dark fantasy française"
+    ],
+    "en": [
+      "truth artifact fantasy",
+      "magical pendant fantasy",
+      "Eye of Athorys",
+      "dark fantasy relic",
+      "ancient magical object",
+      "grimdark artifact"
+    ]
+  },
+  "canonical_translation": {
+    "L’Œil d’Athorys": "Eye of Athorys",
+    "Merrowë": "Merrowë",
+    "Flux": "Fluxes",
+    "objets magiques perdus": "lost magical artifacts"
+  },
+  "related_entities": [
+    "merrowe",
+    "flux_system",
+    "lost_magical_artifacts",
+    "elvaris",
+    "forgotten_tomb",
+    "ancient_magic"
+  ]
+}
