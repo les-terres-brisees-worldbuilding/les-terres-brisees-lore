@@ -1,0 +1,239 @@
+{
+  "id": "nightmare_realm",
+  "universe": "Les Terres Brisées",
+  "file_type": "cosmology_entry",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "L'Entaille",
+  "alternate_name_fr": "Monde du Cauchemar",
+  "name_en": "The Nightmare Realm",
+  "category": "cosmic_dimension",
+  "summary_fr": "L’Entaille, aussi appelée Monde du Cauchemar, est une dimension née des résidus instables du Songe de Drygthyn. Elle recycle les peurs, les souvenirs, les désirs et les fragments de réalité avortée pour produire des formes nouvelles, monstrueuses ou altérées.",
+  "summary_en": "The Nightmare Realm is a cosmic dimension born from unstable remnants of Drygthyn's Dream. It recycles fears, memories, desires and aborted fragments of reality into monstrous or altered forms.",
+  "core_concept": {
+    "fr": "Le Cauchemar ne détruit pas seulement : il transforme, déforme et réinterprète.",
+    "en": "Nightmare does not merely destroy: it transforms, distorts and reinterprets."
+  },
+  "origin": {
+    "fr": "L’Entaille apparaît lorsque le Songe du Dieu qui Rêve est blessé durant la guerre des Dieux. Les pensées inachevées, les terreurs et les fragments d’existence rejetés se condensent alors dans une dimension instable.",
+    "en": "The Nightmare Realm appears when the Dream of the Dreaming God is wounded during the War of the Gods. Unfinished thoughts, terrors and rejected fragments of existence condense into an unstable dimension.",
+    "related_entities": [
+      "drygthyn",
+      "war_of_the_gods",
+      "fissures",
+      "shalire"
+    ]
+  },
+  "nature": {
+    "description_fr": "L’Entaille ne suit pas les lois naturelles de Merrowë. Le temps, l’espace, les formes vivantes et les souvenirs y deviennent instables.",
+    "description_en": "The Nightmare Realm does not follow the natural laws of Merrowë. Time, space, living forms and memories become unstable there.",
+    "properties": [
+      "reality_distortion",
+      "memory_corruption",
+      "identity_instability",
+      "non_linear_time",
+      "living_landscapes",
+      "psychic_pressure",
+      "nightmare_ecosystems"
+    ]
+  },
+  "cosmological_status": {
+    "type": "adjacent_dimension",
+    "relationship_to_world": "bleeding_into_merrowe",
+    "access_methods": [
+      "major_fissures",
+      "nightmare_rituals",
+      "deep_corruption_zones",
+      "failed_magical_experiments"
+    ]
+  },
+  "major_entities": [
+    {
+      "id": "ash_narh",
+      "name_fr": "Ash-Narh",
+      "name_en": "Ash-Narh",
+      "role_fr": "Volonté consciente du Cauchemar",
+      "role_en": "Conscious will of Nightmare",
+      "description_fr": "Ash-Narh est né lorsque le Cauchemar est devenu capable de se penser lui-même.",
+      "description_en": "Ash-Narh was born when Nightmare became capable of thinking itself."
+    },
+    {
+      "id": "shalire",
+      "name_fr": "Shalire",
+      "name_en": "Shalire",
+      "role_fr": "Entité corruptrice liée aux royaumes humains",
+      "role_en": "Corrupting entity tied to human kingdoms",
+      "description_fr": "Shalire agit comme un pont entre le Cauchemar et les civilisations humaines.",
+      "description_en": "Shalire acts as a bridge between Nightmare and human civilizations."
+    }
+  ],
+  "layers": [
+    {
+      "id": "echo_fields",
+      "name_fr": "Champs d'Échos",
+      "name_en": "Echo Fields",
+      "description_fr": "Étendues composées de souvenirs incomplets et de silhouettes sans identité.",
+      "description_en": "Expanses made of incomplete memories and faceless silhouettes."
+    },
+    {
+      "id": "bone_forests",
+      "name_fr": "Forêts d'Os",
+      "name_en": "Bone Forests",
+      "description_fr": "Forêts vivantes composées d'os, de chair pétrifiée et de racines organiques.",
+      "description_en": "Living forests made of bones, petrified flesh and organic roots."
+    },
+    {
+      "id": "the_black_sea",
+      "name_fr": "Mer Noire",
+      "name_en": "Black Sea",
+      "description_fr": "Océan silencieux où dérivent des villes mortes et des souvenirs engloutis.",
+      "description_en": "Silent ocean where dead cities and drowned memories drift."
+    },
+    {
+      "id": "the_hollow_throne",
+      "name_fr": "Trône Creux",
+      "name_en": "The Hollow Throne",
+      "description_fr": "Centre symbolique du pouvoir d'Ash-Narh.",
+      "description_en": "Symbolic center of Ash-Narh's power."
+    }
+  ],
+  "nightmare_creatures": [
+    {
+      "id": "echoes",
+      "name_fr": "Échos-Hurlants",
+      "name_en": "Howling Echoes",
+      "type": "psychic_entity"
+    },
+    {
+      "id": "ombreliathes",
+      "name_fr": "Ombreliathes",
+      "name_en": "Ombreliathes",
+      "type": "shadow_predator"
+    },
+    {
+      "id": "abyss_born",
+      "name_fr": "Nés-des-Abîmes",
+      "name_en": "Abyss-Born",
+      "type": "nightmare_spawn"
+    },
+    {
+      "id": "mist_flayers",
+      "name_fr": "Écorche-Brume",
+      "name_en": "Mist-Flayers",
+      "type": "corrupted_beast"
+    }
+  ],
+  "psychological_effects": {
+    "fr": [
+      "hallucinations",
+      "perte d'identité",
+      "obsessions",
+      "déformation des souvenirs",
+      "paranoïa",
+      "appel du vide"
+    ],
+    "en": [
+      "hallucinations",
+      "identity loss",
+      "obsessions",
+      "memory distortion",
+      "paranoia",
+      "call of the void"
+    ]
+  },
+  "known_cults": [
+    {
+      "id": "sleepwalkers",
+      "name_fr": "Somnambules",
+      "name_en": "Sleepwalkers",
+      "description_fr": "Culte persuadé que le Cauchemar représente la véritable réalité.",
+      "description_en": "Cult convinced that Nightmare is the true reality."
+    },
+    {
+      "id": "void_listeners",
+      "name_fr": "Écouteurs du Vide",
+      "name_en": "Void Listeners",
+      "description_fr": "Mystiques cherchant à entendre les voix des profondeurs.",
+      "description_en": "Mystics attempting to hear the voices from the depths."
+    }
+  ],
+  "interaction_with_flux": {
+    "summary_fr": "Le Cauchemar perturbe profondément les Flux magiques et peut générer des formes instables comme le Flux Noir.",
+    "summary_en": "Nightmare deeply disrupts magical Fluxes and may generate unstable forms such as the Black Flux.",
+    "related_entities": [
+      "flux",
+      "black_flux",
+      "earthbreakers"
+    ]
+  },
+  "impact_on_civilizations": {
+    "religion": "Generates cults, taboos and anti-nightmare religious orders.",
+    "politics": "Creates paranoia, purges and political instability.",
+    "warfare": "Produces corrupted battlefields and nightmare incursions.",
+    "culture": "Influences myths, funeral rites and forbidden arts.",
+    "magic": "Destabilizes magical systems and corrupts practitioners."
+  },
+  "taboos": [
+    {
+      "fr": "Dormir près d'une Faille est considéré comme dangereux.",
+      "en": "Sleeping near a Fissure is considered dangerous."
+    },
+    {
+      "fr": "Certaines cultures interdisent de décrire précisément les rêves.",
+      "en": "Some cultures forbid describing dreams in detail."
+    },
+    {
+      "fr": "Regarder trop longtemps dans une Faille est censé attirer le regard du Cauchemar.",
+      "en": "Looking too long into a Fissure is believed to attract Nightmare's gaze."
+    }
+  ],
+  "associated_locations": [
+    "tomb_of_the_hundred_eyes",
+    "zereth_khar",
+    "great_tunnel_of_dorvanna",
+    "sombregueule_forest"
+  ],
+  "narrative_functions": [
+    "cosmic_horror_source",
+    "reality_distortion",
+    "monster_origin",
+    "psychological_horror",
+    "world_instability",
+    "corruption_mechanism",
+    "grimdark_foundation"
+  ],
+  "geo_keywords": {
+    "fr": [
+      "monde du cauchemar fantasy",
+      "horreur cosmique fantasy",
+      "dimension cauchemardesque",
+      "dark fantasy française",
+      "corruption cosmique",
+      "univers grimdark"
+    ],
+    "en": [
+      "nightmare realm fantasy",
+      "cosmic horror fantasy",
+      "grimdark universe",
+      "dark fantasy worldbuilding",
+      "reality corruption",
+      "abyssal dimension"
+    ]
+  },
+  "canonical_translation": {
+    "Entaille": "Nightmare Realm",
+    "Monde du Cauchemar": "Nightmare Realm",
+    "Échos-Hurlants": "Howling Echoes",
+    "Flux Noir": "Black Flux",
+    "Brise-Terres": "Earthbreakers"
+  },
+  "related_entities": [
+    "fissures",
+    "ash_narh",
+    "shalire",
+    "black_flux",
+    "drygthyn",
+    "howling_echoes",
+    "earthbreakers"
+  ]
+}
