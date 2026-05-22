@@ -1,0 +1,189 @@
+{
+  "id": "ilthar",
+  "universe": "Les Terres Brisées",
+  "file_type": "civilization_dataset",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "Ilthar",
+  "name_en": "Ilthar",
+  "category": "desert_people",
+  "summary_fr": "L’Ilthar est un peuple humain des dunes, des oasis et des terres arides. Sa culture est marquée par la survie, les tribus, les guerres du désert, les routes commerciales et une histoire de tensions avec la Vénisi.",
+  "summary_en": "Ilthar is a human people of dunes, oases and arid lands. Its culture is shaped by survival, tribes, desert wars, trade routes and a history of tensions with Vénisi.",
+  "core_identity": {
+    "fr": "Survivre là où la terre refuse les faibles.",
+    "en": "To survive where the land refuses the weak."
+  },
+  "civilization_type": {
+    "fr": "Peuple désertique tribal et marchand",
+    "en": "Tribal and mercantile desert people"
+  },
+  "major_values": [
+    "survival",
+    "tribal_loyalty",
+    "honor",
+    "trade_routes",
+    "desert_warfare",
+    "endurance"
+  ],
+  "society": {
+    "fr": "La société iltharie repose sur les tribus, les familles nobles, les chefs de guerre, les routes caravanières et le contrôle des oasis.",
+    "en": "Ilthar society relies on tribes, noble families, war leaders, caravan routes and control of oases."
+  },
+  "territory": {
+    "fr": "L’Ilthar occupe des terres désertiques, des dunes, des oasis fortifiées et des axes commerciaux dangereux.",
+    "en": "Ilthar occupies desert lands, dunes, fortified oases and dangerous trade routes.",
+    "visual_keywords": [
+      "desert kingdoms",
+      "oases",
+      "sandstorms",
+      "caravan roads",
+      "fortified desert cities"
+    ]
+  },
+  "economy": {
+    "description_fr": "L’économie iltharie dépend des routes du désert, des caravanes, des oasis, du commerce avec les peuples voisins et du contrôle des passages stratégiques.",
+    "description_en": "Ilthar's economy depends on desert routes, caravans, oases, trade with neighboring peoples and control of strategic passages.",
+    "main_activities": [
+      "caravan_trade",
+      "oasis_control",
+      "desert_routes",
+      "mercenary_warfare",
+      "resource_exchange"
+    ]
+  },
+  "military_profile": {
+    "fr": "Les Ilthars sont adaptés à la guerre du désert : mobilité, embuscades, raids, connaissance du terrain et endurance dans les conditions extrêmes.",
+    "en": "The Ilthars are adapted to desert warfare: mobility, ambushes, raids, terrain knowledge and endurance in extreme conditions.",
+    "specialties": [
+      "desert_warfare",
+      "raids",
+      "ambushes",
+      "caravan_control",
+      "oasis_defense"
+    ]
+  },
+  "historical_conflicts": [
+    {
+      "id": "wars_with_venisi",
+      "name_fr": "Guerres contre la Vénisi",
+      "name_en": "Wars against Vénisi",
+      "description_fr": "L’Ilthar a connu de longues tensions militaires avec la Vénisi, notamment autour des frontières, des ressources et des routes commerciales.",
+      "description_en": "Ilthar has experienced long military tensions with Vénisi, especially around borders, resources and trade routes."
+    },
+    {
+      "id": "sand_wars",
+      "name_fr": "Guerres des sables",
+      "name_en": "Sand Wars",
+      "description_fr": "Conflits liés au contrôle des routes commerciales et des territoires désertiques.",
+      "description_en": "Conflicts tied to control of trade routes and desert territories."
+    }
+  ],
+  "relationship_with_venisi": {
+    "fr": "Les relations avec la Vénisi sont marquées par la guerre, la méfiance, les rivalités commerciales et les blessures politiques encore ouvertes.",
+    "en": "Relations with Vénisi are marked by war, distrust, commercial rivalries and still-open political wounds.",
+    "related_entities": [
+      "venisi",
+      "eryon_meryhall",
+      "garde_adhemar"
+    ]
+  },
+  "relationship_with_fissures": {
+    "fr": "Les territoires ilthars utilisent certains franchissements de Failles, notamment les Ponts-Échardes, pour maintenir le commerce malgré le danger.",
+    "en": "Ilthar territories use certain Fissure crossings, especially Shard Bridges, to maintain trade despite the danger.",
+    "related_entities": [
+      "fissures",
+      "shard_bridges",
+      "ashandara"
+    ]
+  },
+  "relationship_with_magic": {
+    "fr": "L’Ilthar entretient un rapport pragmatique et méfiant à la magie. Les phénomènes liés aux Flux, aux Failles ou au Cauchemar sont perçus à travers le prisme du danger, du pouvoir et de la survie.",
+    "en": "Ilthar has a pragmatic and distrustful relationship with magic. Phenomena linked to Fluxes, Fissures or Nightmare are viewed through danger, power and survival.",
+    "related_entities": [
+      "flux_system",
+      "fissures",
+      "nightmare_realm"
+    ]
+  },
+  "social_tensions": [
+    {
+      "id": "noble_ambition",
+      "name_fr": "Ambition des familles nobles",
+      "name_en": "Noble Ambition",
+      "description_fr": "Certaines familles nobles cherchent à accroître leur pouvoir dans un environnement où les ressources sont rares.",
+      "description_en": "Some noble families seek to increase their power in an environment where resources are scarce."
+    },
+    {
+      "id": "fertile_land_desire",
+      "name_fr": "Désir de terres fertiles",
+      "name_en": "Desire for Fertile Lands",
+      "description_fr": "Le manque de terres fertiles nourrit les rivalités, les convoitises et les pactes dangereux.",
+      "description_en": "The lack of fertile land fuels rivalries, covetousness and dangerous pacts."
+    }
+  ],
+  "aesthetic_identity": {
+    "fr": "Dunes, voiles, cuir usé, acier courbe, oasis fortifiées, tentes nobles, marchés d’épices, poussière dorée et tempêtes de sable.",
+    "en": "Dunes, veils, worn leather, curved steel, fortified oases, noble tents, spice markets, golden dust and sandstorms.",
+    "visual_keywords": [
+      "desert fantasy",
+      "fortified oasis",
+      "sand warriors",
+      "caravan routes",
+      "curved blades",
+      "grim desert culture"
+    ]
+  },
+  "cultural_themes": [
+    "survival",
+    "desert_honor",
+    "tribal_identity",
+    "scarcity",
+    "trade_conflict",
+    "war_memory",
+    "ambition"
+  ],
+  "narrative_functions": [
+    "desert_civilization",
+    "venisi_rival",
+    "trade_route_power",
+    "historical_enemy",
+    "resource_pressure",
+    "shandara_connection"
+  ],
+  "geo_keywords": {
+    "fr": [
+      "peuple du désert fantasy",
+      "royaume désertique fantasy",
+      "tribus du désert",
+      "guerre du désert fantasy",
+      "dark fantasy française",
+      "routes caravanières fantasy"
+    ],
+    "en": [
+      "desert fantasy civilization",
+      "tribal desert people",
+      "desert warfare fantasy",
+      "grimdark desert culture",
+      "caravan trade fantasy",
+      "dark fantasy worldbuilding"
+    ]
+  },
+  "canonical_translation": {
+    "Ilthar": "Ilthar",
+    "Ilthars": "Ilthars",
+    "Guerres des sables": "Sand Wars",
+    "Ponts-Échardes": "Shard Bridges",
+    "Failles": "Fissures",
+    "Flux": "Fluxes"
+  },
+  "related_entities": [
+    "venisi",
+    "ashandara",
+    "fissures",
+    "shard_bridges",
+    "flux_system",
+    "nightmare_realm",
+    "eryon_meryhall",
+    "garde_adhemar"
+  ]
+}
