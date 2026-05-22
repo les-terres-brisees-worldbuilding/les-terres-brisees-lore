@@ -1,0 +1,216 @@
+{
+  "id": "eryon_meryhall",
+  "universe": "Les Terres Brisées",
+  "file_type": "character_dataset",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "Eryon Meryhall",
+  "name_en": "Eryon Meryhall",
+  "category": "main_character",
+  "summary_fr": "Eryon Meryhall est un guerrier vétéran de la Vénisi, ancien chef de la Garde Adhémar, figure de dureté, d’honneur et de transmission. Il incarne l’ancienne génération guerrière confrontée à un monde qui change.",
+  "summary_en": "Eryon Meryhall is a veteran warrior of Vénisi, former leader of the Adhémar Guard, and a figure of harshness, honor and transmission. He embodies the old warrior generation facing a changing world.",
+  "core_identity": {
+    "fr": "Un homme qui a tenu trop longtemps la ligne et doit apprendre à transmettre.",
+    "en": "A man who held the line for too long and must learn to pass it on."
+  },
+  "origin": {
+    "fr": "Fils aîné de la maison Meryhall, Eryon est lié à la Vénisi par sa mère et aux Asaïrs par son père.",
+    "en": "Eldest son of House Meryhall, Eryon is tied to Vénisi through his mother and to the Asaïrs through his father.",
+    "related_entities": [
+      "house_meryhall",
+      "venisi",
+      "asairs",
+      "clan_krovik"
+    ]
+  },
+  "age": {
+    "fr": "Environ cinquante ans au début de l’histoire.",
+    "en": "Around fifty years old at the beginning of the story."
+  },
+  "roles": [
+    {
+      "id": "veteran_warrior",
+      "name_fr": "Guerrier vétéran",
+      "name_en": "Veteran Warrior"
+    },
+    {
+      "id": "former_guard_leader",
+      "name_fr": "Ancien chef de la Garde Adhémar",
+      "name_en": "Former Leader of the Adhémar Guard"
+    },
+    {
+      "id": "mentor",
+      "name_fr": "Mentor",
+      "name_en": "Mentor"
+    },
+    {
+      "id": "reluctant_political_symbol",
+      "name_fr": "Symbole politique malgré lui",
+      "name_en": "Reluctant Political Symbol"
+    }
+  ],
+  "affiliations": [
+    "venisi",
+    "house_meryhall",
+    "garde_adhemar",
+    "asairs",
+    "clan_krovik"
+  ],
+  "personality": {
+    "fr": "Dur, loyal, stoïque, méfiant envers la politique et profondément marqué par la guerre.",
+    "en": "Harsh, loyal, stoic, distrustful of politics and deeply marked by war.",
+    "traits": [
+      "harsh",
+      "honorable",
+      "stoic",
+      "loyal",
+      "warlike",
+      "protective",
+      "distrustful",
+      "disciplined"
+    ]
+  },
+  "internal_conflict": {
+    "false_belief_fr": "Se montrer faible ou souple mène à la mort.",
+    "false_belief_en": "Showing weakness or flexibility leads to death.",
+    "truth_fr": "La valeur d’un chef ne se mesure pas à sa force, mais à sa capacité à transmettre.",
+    "truth_en": "The worth of a leader is not measured by strength, but by the ability to transmit."
+  },
+  "character_arc": {
+    "fr": "Eryon commence comme un guerrier persuadé que tout repose sur sa capacité à tenir seul. Son arc le conduit vers la transmission, la confiance envers la nouvelle génération et l’acceptation de ses propres limites.",
+    "en": "Eryon begins as a warrior convinced that everything depends on his ability to stand alone. His arc leads him toward transmission, trust in the new generation and acceptance of his own limits.",
+    "arc_keywords": [
+      "mentor_arc",
+      "old_warrior",
+      "transmission",
+      "letting_go",
+      "legacy",
+      "sacrifice"
+    ]
+  },
+  "major_wound": {
+    "id": "feran",
+    "name_fr": "Féran",
+    "name_en": "Féran",
+    "description_fr": "Féran fut un ancien protégé d’Eryon qu’il tua durant la Cité des Flammes parce qu’il voulait fuir son poste. Cette blessure nourrit sa dureté et son rapport à la loyauté.",
+    "description_en": "Féran was a former protégé of Eryon whom he killed during the City of Flames because he wanted to flee his post. This wound feeds Eryon's harshness and relationship to loyalty."
+  },
+  "combat_style": {
+    "fr": "Eryon combat avec deux épées et possède une expérience militaire considérable.",
+    "en": "Eryon fights with two swords and possesses considerable military experience.",
+    "weapons": [
+      "two_swords"
+    ],
+    "abilities": [
+      {
+        "id": "killer_instinct",
+        "name_fr": "Instinct du tueur",
+        "name_en": "Killer Instinct",
+        "description_fr": "Capacité rare lui permettant de sentir les mauvaises intentions d’un assaillant.",
+        "description_en": "Rare ability allowing him to sense hostile intent from an attacker."
+      }
+    ]
+  },
+  "appearance": {
+    "fr": "Homme musculeux mais sec, cheveux gris-blancs longs attachés, barbe courte, yeux noirs et visage marqué d’anciennes cicatrices.",
+    "en": "Lean muscular man with long grey-white tied hair, short beard, black eyes and a face marked by old scars.",
+    "visual_keywords": [
+      "old_warrior",
+      "grey_white_hair",
+      "scarred_face",
+      "two_swords",
+      "grim_veteran"
+    ]
+  },
+  "major_relationships": [
+    {
+      "id": "kaelen",
+      "name_fr": "Kaelen",
+      "name_en": "Kaelen",
+      "relationship_fr": "Jeune apprenti et figure de la nouvelle génération.",
+      "relationship_en": "Young apprentice and figure of the new generation."
+    },
+    {
+      "id": "thalos_grimheart",
+      "name_fr": "Thalos Grimheart",
+      "name_en": "Thalos Grimheart",
+      "relationship_fr": "Ami proche et ancien frère d’armes.",
+      "relationship_en": "Close friend and former brother-in-arms."
+    },
+    {
+      "id": "darian_morven",
+      "name_fr": "Darian Morven",
+      "name_en": "Darian Morven",
+      "relationship_fr": "Ancien compagnon de la Garde Adhémar.",
+      "relationship_en": "Former companion of the Adhémar Guard."
+    },
+    {
+      "id": "lyara_meryhall",
+      "name_fr": "Lyara Meryhall",
+      "name_en": "Lyara Meryhall",
+      "relationship_fr": "Mère d’Eryon et figure de pouvoir de la maison Meryhall.",
+      "relationship_en": "Eryon's mother and power figure of House Meryhall."
+    }
+  ],
+  "associated_locations": [
+    "radiance",
+    "meryhall",
+    "varkh_draal",
+    "city_of_flames",
+    "asair_mountains"
+  ],
+  "associated_factions": [
+    "venisi",
+    "house_meryhall",
+    "garde_adhemar",
+    "asairs"
+  ],
+  "narrative_functions": [
+    "main_protagonist",
+    "old_generation_symbol",
+    "mentor_figure",
+    "war_memory_carrier",
+    "political_reluctant_symbol",
+    "grimdark_warrior",
+    "transmission_arc"
+  ],
+  "geo_keywords": {
+    "fr": [
+      "guerrier vétéran fantasy",
+      "mentor dark fantasy",
+      "héros grimdark",
+      "Eryon Meryhall",
+      "Garde Adhémar",
+      "fantasy française",
+      "personnage de fantasy politique"
+    ],
+    "en": [
+      "grimdark warrior",
+      "veteran fantasy character",
+      "dark fantasy mentor",
+      "Eryon Meryhall",
+      "Adhémar Guard",
+      "French fantasy character",
+      "old warrior archetype"
+    ]
+  },
+  "canonical_translation": {
+    "Eryon Meryhall": "Eryon Meryhall",
+    "Garde Adhémar": "Adhémar Guard",
+    "Instinct du tueur": "Killer Instinct",
+    "Maison Meryhall": "House Meryhall",
+    "Vénisi": "Vénisi",
+    "Asaïrs": "Asaïrs"
+  },
+  "related_entities": [
+    "venisi",
+    "radiance",
+    "garde_adhemar",
+    "house_meryhall",
+    "kaelen",
+    "thalos_grimheart",
+    "darian_morven",
+    "asairs",
+    "city_of_flames"
+  ]
+}
