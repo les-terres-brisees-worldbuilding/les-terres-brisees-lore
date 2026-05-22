@@ -1,0 +1,225 @@
+{
+  "id": "liorel_varian",
+  "universe": "Les Terres Brisées",
+  "file_type": "character_dataset",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "Liorel Varian",
+  "name_en": "Liorel Varian",
+  "category": "main_character",
+  "summary_fr": "Liorel Varian est un jeune garçon d’Ashandara, voleur par nécessité, lié au Flux du Rêve sans encore comprendre la nature de son pouvoir. Sa fuite le place au cœur des conflits entre magie, religion, corruption et survie.",
+  "summary_en": "Liorel Varian is a young boy from Ashandara, a thief by necessity, linked to the Dream Flux without yet understanding the nature of his power. His escape places him at the heart of conflicts involving magic, religion, corruption and survival.",
+  "core_identity": {
+    "fr": "Un enfant qui survit dans l’ombre avant de découvrir qu’il porte une lumière dangereuse.",
+    "en": "A child surviving in the shadows before discovering he carries a dangerous light."
+  },
+  "origin": {
+    "fr": "Liorel vient d’Ashandara, une région rude marquée par la pauvreté, les marchés noirs, la milice religieuse et la peur des manifestations magiques.",
+    "en": "Liorel comes from Ashandara, a harsh region marked by poverty, black markets, religious militia and fear of magical manifestations.",
+    "related_entities": [
+      "ashandara",
+      "religious_militia",
+      "black_market",
+      "dream_flux"
+    ]
+  },
+  "roles": [
+    {
+      "id": "fugitive_child",
+      "name_fr": "Enfant fugitif",
+      "name_en": "Fugitive Child"
+    },
+    {
+      "id": "dream_flux_user",
+      "name_fr": "Porteur du Flux du Rêve",
+      "name_en": "Dream Flux Bearer"
+    },
+    {
+      "id": "street_survivor",
+      "name_fr": "Survivant des rues",
+      "name_en": "Street Survivor"
+    },
+    {
+      "id": "reluctant_magic_user",
+      "name_fr": "Utilisateur magique involontaire",
+      "name_en": "Reluctant Magic User"
+    }
+  ],
+  "affiliations": [
+    "ashandara",
+    "dream_flux",
+    "earthbreakers",
+    "black_market_networks"
+  ],
+  "personality": {
+    "fr": "Rusé, méfiant, anxieux, ironique et protecteur envers sa mère. Il cache souvent la peur derrière l’arrogance ou l’humour.",
+    "en": "Cunning, distrustful, anxious, ironic and protective toward his mother. He often hides fear behind arrogance or humor.",
+    "traits": [
+      "cunning",
+      "anxious",
+      "protective",
+      "streetwise",
+      "ironic",
+      "fearful",
+      "resourceful",
+      "impulsive"
+    ]
+  },
+  "internal_conflict": {
+    "false_belief_fr": "S’il ne se rend pas utile, il sera un poids pour ceux qu’il aime.",
+    "false_belief_en": "If he does not make himself useful, he will become a burden to those he loves.",
+    "truth_fr": "Sa valeur ne dépend pas seulement de ce qu’il vole, prouve ou sacrifie.",
+    "truth_en": "His worth does not depend only on what he steals, proves or sacrifices."
+  },
+  "magic_connection": {
+    "id": "dream_flux",
+    "name_fr": "Flux du Rêve",
+    "name_en": "Dream Flux",
+    "description_fr": "Liorel manifeste inconsciemment le Flux du Rêve, notamment sous l'effet de la peur et de la comptine transmise par sa mère.",
+    "description_en": "Liorel unconsciously manifests the Dream Flux, especially under fear and through a lullaby passed down by his mother.",
+    "manifestations": [
+      "unconscious_teleportation_or_shift",
+      "indigo_opaline_light",
+      "flux_sight",
+      "dreamlike_perception",
+      "emotional_resonance"
+    ],
+    "danger_level": "high"
+  },
+  "major_events": [
+    {
+      "id": "ashandara_escape",
+      "name_fr": "Fuite d’Ashandara",
+      "name_en": "Escape from Ashandara",
+      "description_fr": "Après un vol et une confrontation avec les autorités religieuses, Liorel manifeste son pouvoir et doit fuir pour protéger sa mère.",
+      "description_en": "After a theft and confrontation with religious authorities, Liorel manifests his power and must flee to protect his mother."
+    },
+    {
+      "id": "dream_flux_awakening",
+      "name_fr": "Éveil du Flux du Rêve",
+      "name_en": "Dream Flux Awakening",
+      "description_fr": "Liorel utilise inconsciemment la magie du Rêve en récitant une comptine maternelle sous la peur.",
+      "description_en": "Liorel unconsciously uses Dream magic while reciting a maternal lullaby under fear."
+    },
+    {
+      "id": "radiance_arrival",
+      "name_fr": "Arrivée à Radiance",
+      "name_en": "Arrival in Radiance",
+      "description_fr": "Liorel arrive à Radiance avec des informations liées aux Flux, à la drogue, au sérum et au Flux Noir.",
+      "description_en": "Liorel arrives in Radiance with information tied to the Fluxes, the drug, the serum and the Black Flux."
+    }
+  ],
+  "associated_characters": [
+    {
+      "id": "liorel_mother",
+      "name_fr": "Mère de Liorel",
+      "name_en": "Liorel's Mother",
+      "relationship_fr": "Figure centrale de protection et de culpabilité pour Liorel.",
+      "relationship_en": "Central figure of protection and guilt for Liorel."
+    },
+    {
+      "id": "lira",
+      "name_fr": "Lira",
+      "name_en": "Lira",
+      "relationship_fr": "Personne liée à Liorel lors de son arrivée à Radiance et à l’intrigue du sérum.",
+      "relationship_en": "Person linked to Liorel during his arrival in Radiance and the serum plot."
+    }
+  ],
+  "associated_locations": [
+    "ashandara",
+    "ashandara_port",
+    "elmarond",
+    "anastria",
+    "radiance"
+  ],
+  "associated_factions": [
+    "ashandara",
+    "religious_militia",
+    "black_market_networks",
+    "earthbreakers",
+    "venisi"
+  ],
+  "threats": [
+    {
+      "id": "religious_militia",
+      "name_fr": "Milice religieuse",
+      "name_en": "Religious Militia",
+      "description_fr": "Autorité qui traque Liorel après la manifestation de son pouvoir.",
+      "description_en": "Authority hunting Liorel after the manifestation of his power."
+    },
+    {
+      "id": "flux_hunters",
+      "name_fr": "Chasseurs de Flux",
+      "name_en": "Flux Hunters",
+      "description_fr": "Menace institutionnelle contre les Brise-Terres et porteurs de magie.",
+      "description_en": "Institutional threat against Earthbreakers and magic bearers."
+    },
+    {
+      "id": "black_flux",
+      "name_fr": "Flux Noir",
+      "name_en": "Black Flux",
+      "description_fr": "Corruption magique liée à des événements que Liorel cherche à comprendre.",
+      "description_en": "Magical corruption tied to events Liorel seeks to understand."
+    }
+  ],
+  "narrative_functions": [
+    "young_fugitive",
+    "dream_flux_revelation",
+    "street_level_viewpoint",
+    "magic_discovery_arc",
+    "ashandara_origin_story",
+    "radiance_information_carrier",
+    "innocence_under_pressure"
+  ],
+  "visual_identity": {
+    "fr": "Jeune garçon des rues, vêtements usés, regard méfiant, gestes rapides, lumière indigo brumeuse associée au Flux du Rêve.",
+    "en": "Young street boy, worn clothes, distrustful gaze, quick gestures, misty indigo light associated with the Dream Flux.",
+    "visual_keywords": [
+      "street_child",
+      "worn_clothes",
+      "indigo_magic",
+      "dream_flux",
+      "grimdark_fugitive",
+      "ashandara"
+    ]
+  },
+  "geo_keywords": {
+    "fr": [
+      "enfant fugitif fantasy",
+      "jeune mage dark fantasy",
+      "Flux du Rêve",
+      "Liorel Varian",
+      "Ashandara",
+      "dark fantasy française",
+      "magie du rêve fantasy"
+    ],
+    "en": [
+      "fugitive child fantasy",
+      "young magic user",
+      "Dream Flux",
+      "Liorel Varian",
+      "Ashandara",
+      "grimdark child character",
+      "dream magic fantasy"
+    ]
+  },
+  "canonical_translation": {
+    "Liorel Varian": "Liorel Varian",
+    "Flux du Rêve": "Dream Flux",
+    "Brise-Terres": "Earthbreakers",
+    "Flux Noir": "Black Flux",
+    "Milice religieuse": "Religious Militia",
+    "Ashandara": "Ashandara"
+  },
+  "related_entities": [
+    "ashandara",
+    "dream_flux",
+    "flux_system",
+    "earthbreakers",
+    "black_flux",
+    "radiance",
+    "religious_militia",
+    "flux_hunters",
+    "lira"
+  ]
+}
