@@ -1,1 +1,338 @@
-{}
+{
+  "id": "fissures",
+  "universe": "Les Terres Brisées",
+  "file_type": "cosmology_entry",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "Les Failles",
+  "name_en": "The Fissures",
+  "category": "cosmological_phenomenon",
+  "summary_fr": "Les Failles sont les grandes fractures abyssales des Terres Brisées. Apparues lors de la guerre des Dieux et de l'ouverture de l'Entaille, elles ouvrent sur un vide insondable d'où peuvent surgir des créatures du Cauchemar. Elles modifient la faune, la flore, les routes, l'économie, les croyances et l'organisation des peuples.",
+  "summary_en": "The Fissures are the great abyssal fractures of Les Terres Brisées. Born during the War of the Gods and the opening of the Nightmare Realm, they open onto an unfathomable void from which nightmare creatures may emerge. They alter wildlife, flora, routes, economies, beliefs and the organization of civilizations.",
+  "origin": {
+    "fr": "Les Failles apparaissent lors de la guerre des Dieux et de l'ouverture de l'Entaille. Elles sont liées à la rupture de l'ancien équilibre du monde et à l'intrusion des forces cauchemardesques dans Merrowë.",
+    "en": "The Fissures appear during the War of the Gods and the opening of the Nightmare Realm. They are tied to the rupture of the world's ancient balance and the intrusion of nightmare forces into Merrowë.",
+    "related_events": [
+      "guerre_des_dieux",
+      "ouverture_de_l_entaille",
+      "chute_de_l_ancien_monde"
+    ]
+  },
+  "classification": [
+    {
+      "id": "minor_fissures",
+      "name_fr": "Failles mineures",
+      "name_en": "Minor Fissures",
+      "description_fr": "Les failles mineures sont des ramifications issues des failles majeures. Elles peuvent souvent être contournées, mais elles restent dangereuses par leur instabilité, leurs émanations et les créatures qu'elles attirent.",
+      "description_en": "Minor Fissures are branches extending from major fissures. They can often be bypassed, but remain dangerous because of their instability, emissions and the creatures they attract.",
+      "strategic_effect": "local_threat"
+    },
+    {
+      "id": "major_fissures",
+      "name_fr": "Failles majeures",
+      "name_en": "Major Fissures",
+      "description_fr": "Les failles majeures sont des fractures colossales qui créent des enclaves, coupent les routes et obligent les peuples à bâtir des moyens de franchissement dangereux.",
+      "description_en": "Major Fissures are colossal fractures that create enclaves, cut roads and force civilizations to build dangerous crossing systems.",
+      "strategic_effect": "continental_barrier"
+    }
+  ],
+  "physical_properties": {
+    "appearance_fr": "Ouvertes sur un vide insondable, les Failles émettent souvent une lueur verdâtre depuis leurs profondeurs.",
+    "appearance_en": "Opened onto an unfathomable void, the Fissures often emit a greenish glow from their depths.",
+    "known_effects": [
+      "greenish_glow",
+      "unstable_terrain",
+      "corrupted_ecosystems",
+      "nightmare_creature_emergence",
+      "psychological_pressure",
+      "magical_anomalies"
+    ]
+  },
+  "environmental_effects": {
+    "fr": "La faune et la flore proches des Failles sont fréquemment modifiées. Certaines zones deviennent inhabitables, d'autres produisent des minerais rares ou dangereux.",
+    "en": "Wildlife and flora near the Fissures are frequently altered. Some areas become uninhabitable, while others produce rare or dangerous minerals.",
+    "effects": [
+      {
+        "id": "wildlife_mutation",
+        "name_fr": "Altération de la faune",
+        "name_en": "Wildlife Mutation"
+      },
+      {
+        "id": "flora_corruption",
+        "name_fr": "Corruption de la flore",
+        "name_en": "Flora Corruption"
+      },
+      {
+        "id": "nightmare_ecology",
+        "name_fr": "Écosystème cauchemardesque",
+        "name_en": "Nightmare Ecology"
+      },
+      {
+        "id": "rare_mineral_generation",
+        "name_fr": "Géologie altérée",
+        "name_en": "Altered Geology"
+      }
+    ]
+  },
+  "crossing_methods": [
+    {
+      "id": "ponts_echardes",
+      "name_fr": "Ponts-Échardes",
+      "name_en": "Shard Bridges",
+      "type_fr": "Longs ponts de métal et de bois noirci",
+      "type_en": "Long bridges made of metal and blackened wood",
+      "description_fr": "Très utilisés autour d'Ashandara et dans les territoires de l'Ilthar, ils sont renforcés avec des os fossilisés de créatures des failles.",
+      "description_en": "Common around Ashandara and Ilthar territories, they are reinforced with fossilized bones from fissure creatures.",
+      "risk_level": "extreme",
+      "associated_regions": [
+        "ashandara",
+        "ilthar"
+      ]
+    },
+    {
+      "id": "arches_des_lamentations",
+      "name_fr": "Arches des Lamentations",
+      "name_en": "Arches of Lamentation",
+      "type_fr": "Ponts arqués en pierre et métal",
+      "type_en": "Arched bridges of stone and metal",
+      "description_fr": "Utilisées sur certaines routes militaires ou religieuses protégées par la Cité Sainte. Des statues sans visage y veillent pour éloigner les murmures du Cauchemar.",
+      "description_en": "Used on certain military or religious roads protected by the Holy City. Faceless statues watch over them to ward off nightmare whispers.",
+      "risk_level": "high",
+      "associated_factions": [
+        "cite_sainte",
+        "caelys"
+      ]
+    },
+    {
+      "id": "cols_crampons",
+      "name_fr": "Cols-Crampons",
+      "name_en": "Claw-Passes",
+      "type_fr": "Escaliers et passerelles de fer plantés dans les parois",
+      "type_en": "Iron stairs and walkways anchored into cliff walls",
+      "description_fr": "Utilisés dans les terrains montagneux des Peuples du Dragon, là où les ponts sont impossibles.",
+      "description_en": "Used in the mountainous lands of the Dragon Peoples, where bridges are impossible.",
+      "risk_level": "extreme",
+      "associated_regions": [
+        "peuples_du_dragon"
+      ]
+    },
+    {
+      "id": "dos_des_titans",
+      "name_fr": "Dos des Titans",
+      "name_en": "Titan Backs",
+      "type_fr": "Passages naturels formés par des créatures colossales mortes ou pétrifiées",
+      "type_en": "Natural crossings formed by dead or petrified colossal beings",
+      "description_fr": "Passages rares et instables formés par les corps de titans, Krythors, Hralkars ou bêtes cauchemardesques tombées à travers les failles.",
+      "description_en": "Rare and unstable passages formed by the bodies of titans, Krythors, Hralkars or nightmare beasts collapsed across fissures.",
+      "risk_level": "legendary",
+      "notable_examples": [
+        "echine_de_mogrom",
+        "crane_du_titan_reve",
+        "dos_du_brule"
+      ]
+    }
+  ],
+  "evolution": {
+    "fr": "La plupart des Failles étaient longtemps figées. Depuis quelques années, certaines s'étendent de nouveau, inquiétant les peuples voisins.",
+    "en": "Most Fissures remained fixed for a long time. In recent years, some have begun expanding again, alarming nearby civilizations.",
+    "status": "reactivating",
+    "narrative_function": "sign_of_world_instability"
+  },
+  "resources": {
+    "fr": "Les écosystèmes perturbés des Failles produisent ou favorisent l'apparition de minerais dangereux et convoités, comme les cristaux de l'Entaille.",
+    "en": "The disrupted ecosystems of the Fissures produce or favor the appearance of dangerous and coveted minerals, such as Nightmare Realm crystals.",
+    "known_resources": [
+      "cristaux_de_l_entaille",
+      "minerais_rares",
+      "materiaux_corrompus"
+    ],
+    "economic_effects": [
+      "mining_risk",
+      "black_market_trade",
+      "military_interest",
+      "religious_taboo"
+    ]
+  },
+  "beliefs_and_taboos": {
+    "summary_fr": "Les peuples des Terres Brisées voient les Failles comme des plaies, des punitions divines, des pièges à âmes ou des portes vers des vérités interdites.",
+    "summary_en": "The peoples of Les Terres Brisées see the Fissures as wounds, divine punishments, soul traps or gateways to forbidden truths.",
+    "beliefs": [
+      {
+        "id": "divine_punishment",
+        "fr": "Certaines traditions considèrent les Failles comme les cicatrices d'une punition divine.",
+        "en": "Some traditions consider the Fissures to be scars of divine punishment."
+      },
+      {
+        "id": "voices_below",
+        "fr": "Beaucoup affirment que l'on peut entendre des voix en écoutant une Faille de trop près.",
+        "en": "Many claim that voices can be heard when listening too closely to a Fissure."
+      },
+      {
+        "id": "soul_trap",
+        "fr": "Certains pensent que ceux qui meurent près des Failles risquent de ne jamais rejoindre les dieux.",
+        "en": "Some believe that those who die near the Fissures may never reach the gods."
+      },
+      {
+        "id": "no_naming",
+        "fr": "Certaines cultures refusent de nommer les Failles, car donner un nom à une Faille reviendrait à lui donner du pouvoir.",
+        "en": "Some cultures refuse to name the Fissures, believing that naming them gives them power."
+      }
+    ],
+    "taboos": [
+      "never_walk_alone_near_a_fissure_at_night",
+      "never_bury_the_dead_near_a_fissure",
+      "never_listen_too_long_to_the_void",
+      "never_name_a_fissure_in_some_cultures"
+    ]
+  },
+  "associated_creatures": [
+    {
+      "id": "devoreur_des_galeries",
+      "name_fr": "Dévoreur des galeries",
+      "name_en": "Gallery Devourer",
+      "type": "nightmare_aberration",
+      "threat": "tunnel_predator"
+    },
+    {
+      "id": "ecorche_brume",
+      "name_fr": "Écorche-Brume",
+      "name_en": "Mist-Flayers",
+      "type": "corrupted_pack_beast",
+      "threat": "pack_hunter"
+    },
+    {
+      "id": "echos_hurlants",
+      "name_fr": "Échos-Hurlants",
+      "name_en": "Howling Echoes",
+      "type": "psychic_echo",
+      "threat": "psychological_attack"
+    },
+    {
+      "id": "crocs_de_faille",
+      "name_fr": "Crocs-de-Faille",
+      "name_en": "Fissure-Fangs",
+      "type": "insectoid_parasite",
+      "threat": "swarm_and_structural_damage"
+    },
+    {
+      "id": "entonnoir",
+      "name_fr": "L'Entonnoir",
+      "name_en": "The Funnel",
+      "type": "living_fissure",
+      "threat": "spatial_absorption"
+    },
+    {
+      "id": "ombreliathes",
+      "name_fr": "Ombreliathes",
+      "name_en": "Ombreliathes",
+      "type": "shadow_aberration",
+      "threat": "stealth_predator"
+    },
+    {
+      "id": "varkens",
+      "name_fr": "Varkens",
+      "name_en": "Varkens",
+      "type": "spectral_hound",
+      "threat": "pack_hunter"
+    },
+    {
+      "id": "nes_des_abimes",
+      "name_fr": "Nés-des-Abîmes",
+      "name_en": "Abyss-Born",
+      "type": "nightmare_spawn",
+      "threat": "unknown"
+    }
+  ],
+  "major_regions_affected": [
+    "ashandara",
+    "ilthar",
+    "caladrim_territories",
+    "zereth_khar",
+    "peuples_du_dragon",
+    "iles_noires",
+    "eridan"
+  ],
+  "notable_fissure_sites": [
+    {
+      "id": "zereth_khar",
+      "name_fr": "Faille majeure de Zereth-Khar",
+      "name_en": "Major Fissure of Zereth-Khar",
+      "description_fr": "Faille majeure qui encercle et menace les territoires caladrims avec l'un de ses bras mineurs.",
+      "description_en": "Major fissure threatening Caladrim territories together with one of its minor branches.",
+      "associated_civilization": "caladrims"
+    },
+    {
+      "id": "faille_du_coeur_battu",
+      "name_fr": "Faille du Cœur-Battu",
+      "name_en": "Fissure of the Beating Heart",
+      "description_fr": "Faille située dans les profondeurs du Grand Tunnel de Dorvanna, où la pierre semble respirer et vibrer comme un pouls.",
+      "description_en": "Fissure located in the depths of the Great Tunnel of Dorvanna, where stone seems to breathe and pulse.",
+      "associated_location": "grand_tunnel_de_dorvanna"
+    },
+    {
+      "id": "faille_cite_des_flammes",
+      "name_fr": "Faille de la Cité des Flammes",
+      "name_en": "Fissure of the City of Flames",
+      "description_fr": "Faille connue pour avoir englouti la Cité des Flammes.",
+      "description_en": "Fissure known for having swallowed the City of Flames.",
+      "associated_event": "fall_of_the_city_of_flames"
+    }
+  ],
+  "civilizational_impact": {
+    "travel": "Fissures reshape roads, isolate territories and force civilizations to develop dangerous crossing methods.",
+    "warfare": "Fissures create strategic choke points, defensive lines and nightmare emergence zones.",
+    "religion": "Fissures generate taboos, pilgrimage routes, sacrificial cults and anti-nightmare orders.",
+    "economy": "Fissures create rare mineral economies, black markets and hazardous mining operations.",
+    "politics": "Fissures strengthen fortified cities, guild powers, religious authorities and military border orders."
+  },
+  "narrative_functions": [
+    "cosmic_threat",
+    "geographical_barrier",
+    "source_of_monsters",
+    "religious_symbol",
+    "economic_resource",
+    "political_pressure",
+    "horror_device",
+    "worldbuilding_signature"
+  ],
+  "geo_keywords": {
+    "fr": [
+      "failles abyssales fantasy",
+      "dark fantasy française",
+      "univers de fantasy avec failles",
+      "monde cauchemardesque",
+      "corruption cosmique",
+      "Terres Brisées",
+      "worldbuilding fantasy français"
+    ],
+    "en": [
+      "abyssal fissures fantasy",
+      "French grimdark fantasy",
+      "dark fantasy worldbuilding",
+      "nightmare realm",
+      "cosmic corruption",
+      "fractured kingdoms",
+      "fissure-based fantasy setting"
+    ]
+  },
+  "related_entities": [
+    "entaille",
+    "nightmare_realm",
+    "ash_narh",
+    "shalire",
+    "black_flux",
+    "caladrims",
+    "zereth_khar",
+    "grand_tunnel_de_dorvanna",
+    "world_of_nightmare"
+  ],
+  "canonical_translation": {
+    "Failles": "Fissures",
+    "Failles mineures": "Minor Fissures",
+    "Failles majeures": "Major Fissures",
+    "Entaille": "Nightmare Realm",
+    "Monde du Cauchemar": "Nightmare Realm",
+    "Flux Noir": "Black Flux",
+    "Créatures du Cauchemar": "Nightmare Creatures"
+  }
+}
