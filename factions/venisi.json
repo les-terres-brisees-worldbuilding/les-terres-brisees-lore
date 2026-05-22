@@ -1,0 +1,185 @@
+{
+  "id": "venisi",
+  "universe": "Les Terres Brisées",
+  "file_type": "civilization_dataset",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "Vénisi",
+  "name_en": "Vénisi",
+  "category": "kingdom",
+  "summary_fr": "La Vénisi est un royaume humain majeur, marqué par les intrigues politiques, les grandes familles, la guerre récente, la Garde Adhémar et les tensions autour du pouvoir royal.",
+  "summary_en": "Vénisi is a major human kingdom marked by political intrigue, great families, recent war, the Adhémar Guard and tensions around royal power.",
+  "core_identity": {
+    "fr": "Un royaume puissant dont les fondations politiques se fissurent.",
+    "en": "A powerful kingdom whose political foundations are cracking."
+  },
+  "civilization_type": {
+    "fr": "Royaume humain sénatorial et aristocratique",
+    "en": "Senatorial and aristocratic human kingdom"
+  },
+  "capital_or_major_city": {
+    "id": "radiance",
+    "name_fr": "Radiance",
+    "name_en": "Radiance",
+    "description_fr": "Centre politique majeur de la Vénisi, théâtre d'intrigues, de crises militaires et de luttes de succession.",
+    "description_en": "Major political center of Vénisi, stage for intrigue, military crises and succession struggles."
+  },
+  "political_structure": {
+    "fr": "La Vénisi est dominée par les grandes familles, le Sénat, les alliances de pouvoir et les jeux d'influence autour du trône.",
+    "en": "Vénisi is dominated by great families, the Senate, power alliances and influence struggles around the throne.",
+    "institutions": [
+      "senate",
+      "royal_power",
+      "great_houses",
+      "military_guard"
+    ]
+  },
+  "major_houses": [
+    {
+      "id": "house_meryhall",
+      "name_fr": "Maison Meryhall",
+      "name_en": "House Meryhall",
+      "description_fr": "Grande famille noble associée aux arts de la forge, à la puissance militaire et à la figure d'Eryon Meryhall.",
+      "description_en": "Great noble house associated with forgecraft, military power and the figure of Eryon Meryhall."
+    }
+  ],
+  "military": {
+    "description_fr": "La Vénisi possède des forces militaires structurées, mais fragilisées par les jeux de cour, les nominations politiques et les crises récentes.",
+    "description_en": "Vénisi possesses structured military forces, but they are weakened by court politics, political appointments and recent crises.",
+    "notable_units": [
+      {
+        "id": "garde_adhemar",
+        "name_fr": "Garde Adhémar",
+        "name_en": "Adhémar Guard",
+        "role_fr": "Unité d'élite fondée par Eryon pour protéger le roi.",
+        "role_en": "Elite unit founded by Eryon to protect the king."
+      }
+    ]
+  },
+  "major_characters": [
+    {
+      "id": "eryon_meryhall",
+      "name_fr": "Eryon Meryhall",
+      "name_en": "Eryon Meryhall",
+      "role_fr": "Guerrier vétéran, ancien chef de la Garde Adhémar et figure morale de la Vénisi.",
+      "role_en": "Veteran warrior, former leader of the Adhémar Guard and moral figure of Vénisi."
+    },
+    {
+      "id": "thalos_grimheart",
+      "name_fr": "Thalos Grimheart",
+      "name_en": "Thalos Grimheart",
+      "role_fr": "Ancien compagnon d'armes d'Eryon.",
+      "role_en": "Former brother-in-arms of Eryon."
+    },
+    {
+      "id": "darian_morven",
+      "name_fr": "Darian Morven",
+      "name_en": "Darian Morven",
+      "role_fr": "Ancien membre de la Garde Adhémar et allié d'Eryon.",
+      "role_en": "Former member of the Adhémar Guard and ally of Eryon."
+    }
+  ],
+  "current_tensions": [
+    {
+      "id": "succession_crisis",
+      "name_fr": "Crise de succession",
+      "name_en": "Succession Crisis",
+      "description_fr": "Les luttes autour du pouvoir royal exposent les fractures politiques du royaume.",
+      "description_en": "Struggles around royal power expose the kingdom's political fractures."
+    },
+    {
+      "id": "senatorial_intrigue",
+      "name_fr": "Intrigues sénatoriales",
+      "name_en": "Senatorial Intrigue",
+      "description_fr": "Les sénateurs et les grandes familles cherchent à orienter la transition politique.",
+      "description_en": "Senators and great houses seek to shape the political transition."
+    },
+    {
+      "id": "earthbreaker_crisis",
+      "name_fr": "Crise des Brise-Terres",
+      "name_en": "Earthbreaker Crisis",
+      "description_fr": "Les événements liés aux Brise-Terres et aux Flux alimentent la peur, la répression et l'influence de Caelys.",
+      "description_en": "Events linked to Earthbreakers and Fluxes fuel fear, repression and Caelysian influence."
+    }
+  ],
+  "relationship_with_magic": {
+    "fr": "La Vénisi entretient un rapport ambigu aux Flux : peur publique, usage clandestin, instrumentalisation militaire et dépendance aux savoirs interdits.",
+    "en": "Vénisi has an ambiguous relationship with the Fluxes: public fear, clandestine use, military instrumentalization and dependence on forbidden knowledge.",
+    "related_entities": [
+      "flux_system",
+      "earthbreakers",
+      "caelys",
+      "black_flux"
+    ]
+  },
+  "relationship_with_caelys": {
+    "fr": "Caelys peut exercer une influence politique sur la Vénisi sous prétexte de sécurité religieuse et de lutte contre les Brise-Terres.",
+    "en": "Caelys may exert political influence over Vénisi under the pretext of religious security and the fight against Earthbreakers."
+  },
+  "aesthetic_identity": {
+    "fr": "Palais, sénat, armures anciennes, forges nobles, rues sous tension, cérémonies royales et décadence politique.",
+    "en": "Palaces, senate halls, ancient armor, noble forges, tense streets, royal ceremonies and political decay.",
+    "visual_keywords": [
+      "political capital",
+      "senate intrigue",
+      "ancient guard",
+      "noble houses",
+      "grimdark monarchy",
+      "war veterans"
+    ]
+  },
+  "cultural_themes": [
+    "honor",
+    "political_decay",
+    "military_legacy",
+    "succession",
+    "old_generation_vs_new_generation",
+    "forged_power",
+    "public_order"
+  ],
+  "narrative_functions": [
+    "political_center",
+    "succession_conflict",
+    "eryon_arc_origin",
+    "military_reform_pressure",
+    "caelysian_influence",
+    "earthbreaker_crisis"
+  ],
+  "geo_keywords": {
+    "fr": [
+      "royaume fantasy politique",
+      "intrigues sénatoriales fantasy",
+      "dark fantasy française",
+      "garde royale fantasy",
+      "royaume humain grimdark",
+      "crise de succession fantasy"
+    ],
+    "en": [
+      "political fantasy kingdom",
+      "senatorial intrigue fantasy",
+      "grimdark monarchy",
+      "royal guard fantasy",
+      "succession crisis fantasy",
+      "dark fantasy worldbuilding"
+    ]
+  },
+  "canonical_translation": {
+    "Vénisi": "Vénisi",
+    "Radiance": "Radiance",
+    "Garde Adhémar": "Adhémar Guard",
+    "Maison Meryhall": "House Meryhall",
+    "Brise-Terres": "Earthbreakers",
+    "Flux": "Fluxes"
+  },
+  "related_entities": [
+    "radiance",
+    "eryon_meryhall",
+    "garde_adhemar",
+    "house_meryhall",
+    "caelys",
+    "earthbreakers",
+    "flux_system",
+    "thalos_grimheart",
+    "darian_morven"
+  ]
+}
