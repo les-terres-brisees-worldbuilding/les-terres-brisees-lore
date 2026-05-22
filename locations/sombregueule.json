@@ -1,0 +1,187 @@
+{
+  "id": "sombregueule",
+  "universe": "Les Terres Brisées",
+  "file_type": "location_dataset",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "Forêt de Sombregueule",
+  "name_en": "Sombregueule Forest",
+  "category": "dangerous_location",
+  "summary_fr": "La forêt de Sombregueule est un bois ancien, embrumé et maudit, où les arbres semblent chuchoter et où les créatures altérées par la magie ancienne rôdent entre les troncs.",
+  "summary_en": "Sombregueule Forest is an ancient, mist-filled and cursed woodland where trees seem to whisper and creatures altered by ancient magic prowl between the trunks.",
+  "location_type": {
+    "fr": "Forêt maudite et zone de magie ancienne",
+    "en": "Cursed forest and ancient magic zone"
+  },
+  "core_identity": {
+    "fr": "Une forêt qui écoute, se souvient et ne rend pas toujours ceux qui entrent.",
+    "en": "A forest that listens, remembers and does not always return those who enter."
+  },
+  "atmosphere": {
+    "fr": "Brume permanente, racines sombres, arbres chuchotants, ombres mouvantes, silence pesant et sensation d'être observé.",
+    "en": "Permanent mist, dark roots, whispering trees, shifting shadows, heavy silence and the feeling of being watched.",
+    "keywords": [
+      "mist",
+      "whispering_trees",
+      "ancient_roots",
+      "living_forest",
+      "dark_forest",
+      "supernatural_silence"
+    ]
+  },
+  "origin_and_legend": {
+    "fr": "Les légendes affirment que Sombregueule est maudite depuis l'époque de Merrowë. Des forces anciennes y auraient altéré la nature, piégeant des esprits, des souvenirs et des créatures dans la forêt.",
+    "en": "Legends claim that Sombregueule has been cursed since the time of Merrowë. Ancient forces are said to have altered nature there, trapping spirits, memories and creatures inside the forest.",
+    "related_entities": [
+      "merrowe",
+      "ancient_magic",
+      "whisper_magic"
+    ]
+  },
+  "magical_properties": {
+    "fr": "Sombregueule semble conserver les traces d'une magie ancienne. Les racines, les arbres et la brume réagissent parfois aux présences humaines, aux émotions et aux créatures corrompues.",
+    "en": "Sombregueule seems to preserve traces of ancient magic. Roots, trees and mist sometimes react to human presence, emotions and corrupted creatures.",
+    "properties": [
+      "memory_echoes",
+      "whispering_roots",
+      "mist_distortion",
+      "ancient_magic_residue",
+      "animal_sensitivity",
+      "corruption_detection"
+    ]
+  },
+  "associated_entities": [
+    {
+      "id": "vigiarbre",
+      "name_fr": "Vigiarbre",
+      "name_en": "Watcher Tree",
+      "type": "ancient_sylvan_entity",
+      "description_fr": "Entité sylvestre consciente, gardienne ancienne des forêts primordiales, capable de transmettre impressions, images ou émotions.",
+      "description_en": "Conscious sylvan entity, ancient guardian of primordial forests, capable of transmitting impressions, images or emotions."
+    },
+    {
+      "id": "drelkh",
+      "name_fr": "Drelkh",
+      "name_en": "Drelkh",
+      "type": "unknown_corruption_or_entity",
+      "description_fr": "Présence ou souillure inquiétante ressentie par Elyen, liée à Sombregueule et aux forces corrompues.",
+      "description_en": "Disturbing presence or stain sensed by Elyen, linked to Sombregueule and corrupted forces."
+    }
+  ],
+  "associated_characters": [
+    {
+      "id": "elyen",
+      "name_fr": "Elyen",
+      "name_en": "Elyen",
+      "role_fr": "Homme vivant près de la forêt, sensible aux animaux et aux présences étranges.",
+      "role_en": "Man living near the forest, sensitive to animals and strange presences."
+    },
+    {
+      "id": "fizz",
+      "name_fr": "Fizz",
+      "name_en": "Fizz",
+      "role_fr": "Personnage lié aux bois, à la survie et aux événements autour d'Elyen.",
+      "role_en": "Character linked to woods, survival and the events around Elyen."
+    }
+  ],
+  "creatures_and_threats": [
+    {
+      "id": "altered_beasts",
+      "name_fr": "Bêtes altérées",
+      "name_en": "Altered Beasts",
+      "description_fr": "Créatures modifiées par la magie ancienne ou la corruption locale.",
+      "description_en": "Creatures altered by ancient magic or local corruption."
+    },
+    {
+      "id": "moving_shadows",
+      "name_fr": "Ombres mouvantes",
+      "name_en": "Shifting Shadows",
+      "description_fr": "Présences indistinctes aperçues entre les arbres ou dans la brume.",
+      "description_en": "Indistinct presences glimpsed between trees or in the mist."
+    },
+    {
+      "id": "root_traps",
+      "name_fr": "Racines animées",
+      "name_en": "Animated Roots",
+      "description_fr": "Racines pouvant entraver, guider ou menacer les voyageurs.",
+      "description_en": "Roots that may hinder, guide or threaten travelers."
+    }
+  ],
+  "relationship_with_whisper_magic": {
+    "fr": "Sombregueule entretient une affinité forte avec les Murmures, les esprits naturels et la mémoire végétale. Elle peut servir de lieu d'éveil, d'épreuve ou d'avertissement.",
+    "en": "Sombregueule has a strong affinity with Whispers, natural spirits and vegetal memory. It may serve as a place of awakening, ordeal or warning.",
+    "related_entities": [
+      "whisper_magic",
+      "whisperers",
+      "primordial_giants",
+      "vigiarbre"
+    ]
+  },
+  "relationship_with_corruption": {
+    "fr": "La forêt peut révéler ou amplifier certaines corruptions. Les présences issues des Failles ou du Cauchemar y deviennent plus perceptibles.",
+    "en": "The forest may reveal or amplify certain corruptions. Presences born from Fissures or Nightmare become more perceptible there.",
+    "related_entities": [
+      "nightmare_realm",
+      "fissures",
+      "black_flux",
+      "drelkh"
+    ]
+  },
+  "narrative_functions": [
+    "cursed_forest",
+    "ancient_memory_site",
+    "elyen_arc_location",
+    "whisper_magic_revelation",
+    "corruption_detection",
+    "liminal_space",
+    "dark_fantasy_forest"
+  ],
+  "visual_identity": {
+    "fr": "Arbres noirs, brume basse, racines torsadées, lumière verte ou bleue très faible, écorces veinées et silhouettes noyées dans le brouillard.",
+    "en": "Black trees, low mist, twisted roots, faint green or blue light, veined bark and silhouettes drowned in fog.",
+    "visual_keywords": [
+      "dark forest",
+      "ancient roots",
+      "misty woodland",
+      "whispering trees",
+      "green glow",
+      "grimdark nature"
+    ]
+  },
+  "geo_keywords": {
+    "fr": [
+      "forêt maudite fantasy",
+      "forêt dark fantasy",
+      "bois ancien magique",
+      "Sombregueule",
+      "dark fantasy française",
+      "forêt vivante fantasy"
+    ],
+    "en": [
+      "cursed fantasy forest",
+      "dark fantasy forest",
+      "ancient magical woodland",
+      "Sombregueule Forest",
+      "living forest fantasy",
+      "grimdark nature"
+    ]
+  },
+  "canonical_translation": {
+    "Forêt de Sombregueule": "Sombregueule Forest",
+    "Vigiarbre": "Watcher Tree",
+    "Magie des Murmures": "Whisper Magic",
+    "Murmureurs": "Whisperers",
+    "Flux Noir": "Black Flux"
+  },
+  "related_entities": [
+    "elyen",
+    "fizz",
+    "vigiarbre",
+    "drelkh",
+    "whisper_magic",
+    "nightmare_realm",
+    "fissures",
+    "black_flux",
+    "merrowe"
+  ]
+}
