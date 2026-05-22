@@ -1,0 +1,209 @@
+{
+  "id": "ashandara",
+  "universe": "Les Terres Brisées",
+  "file_type": "civilization_dataset",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "Ashandara",
+  "name_en": "Ashandara",
+  "category": "region_and_power",
+  "summary_fr": "Ashandara est une région rude, religieuse et dangereuse, marquée par la misère, les marchés noirs, la surveillance, les failles et la proximité de forces corrompues.",
+  "summary_en": "Ashandara is a harsh, religious and dangerous region marked by poverty, black markets, surveillance, fissures and proximity to corrupted forces.",
+  "core_identity": {
+    "fr": "Une terre de cendres, de foi dure et de survie.",
+    "en": "A land of ash, harsh faith and survival."
+  },
+  "civilization_type": {
+    "fr": "Région théocratique, urbaine et frontalière des Failles",
+    "en": "Theocratic, urban and fissure-bordering region"
+  },
+  "major_values": [
+    "survival",
+    "religious_control",
+    "fear",
+    "black_market",
+    "social_denunciation",
+    "ash_and_stone"
+  ],
+  "society": {
+    "fr": "La société d'Ashandara est traversée par la pauvreté, la surveillance religieuse, la délation, la violence de rue et l'existence de réseaux clandestins.",
+    "en": "Ashandaran society is shaped by poverty, religious surveillance, denunciation, street violence and clandestine networks."
+  },
+  "political_and_religious_control": {
+    "fr": "L'autorité locale repose sur des structures religieuses, des milices, des inquisiteurs et des réseaux de contrôle social.",
+    "en": "Local authority relies on religious structures, militias, inquisitors and social control networks.",
+    "methods": [
+      "public_executions",
+      "religious_militia",
+      "denunciation",
+      "market_surveillance",
+      "inquisitorial_judgment"
+    ]
+  },
+  "economy": {
+    "description_fr": "Ashandara possède une économie fracturée où coexistent commerce officiel, marché noir, contrebande, vol, survie quotidienne et exploitation des ressources dangereuses.",
+    "description_en": "Ashandara has a fractured economy where official trade, black markets, smuggling, theft, daily survival and exploitation of dangerous resources coexist.",
+    "main_activities": [
+      "black_market",
+      "smuggling",
+      "port_trade",
+      "religious_taxation",
+      "fissure_resource_trade"
+    ]
+  },
+  "major_locations": [
+    {
+      "id": "ashandara_city",
+      "name_fr": "Ville d'Ashandara",
+      "name_en": "Ashandara City",
+      "role_fr": "Centre urbain dangereux, religieux et marchand.",
+      "role_en": "Dangerous, religious and mercantile urban center."
+    },
+    {
+      "id": "ashandara_port",
+      "name_fr": "Port d'Ashandara",
+      "name_en": "Port of Ashandara",
+      "role_fr": "Lieu de commerce, de vol, de contrebande et de fuite.",
+      "role_en": "Place of trade, theft, smuggling and escape."
+    }
+  ],
+  "relationship_with_fissures": {
+    "fr": "Ashandara est fortement marquée par la proximité des Failles. Les créatures, minerais, routes dangereuses et croyances locales sont influencés par cette présence.",
+    "en": "Ashandara is strongly marked by proximity to the Fissures. Creatures, minerals, dangerous roads and local beliefs are influenced by this presence.",
+    "related_entities": [
+      "fissures",
+      "minor_fissures",
+      "nightmare_creatures",
+      "fissure_minerals"
+    ]
+  },
+  "associated_creatures": [
+    {
+      "id": "aigles_de_cendre",
+      "name_fr": "Aigles de Cendre",
+      "name_en": "Ash Eagles",
+      "description_fr": "Rapaces gigantesques vivant dans les falaises et montagnes d'Ashandara, parfois dressés pour la surveillance.",
+      "description_en": "Giant raptors living in Ashandara's cliffs and mountains, sometimes trained for surveillance."
+    },
+    {
+      "id": "ombreliathes",
+      "name_fr": "Ombreliathes",
+      "name_en": "Ombreliathes",
+      "description_fr": "Créatures nocturnes spectrales rôdant près des failles corrompues.",
+      "description_en": "Spectral nocturnal creatures prowling near corrupted fissures."
+    },
+    {
+      "id": "gorgelyns",
+      "name_fr": "Gorgelyns",
+      "name_en": "Gorgelyns",
+      "description_fr": "Reptiles massifs capables de se cacher dans les sables chauds avant d'attaquer.",
+      "description_en": "Massive reptiles capable of hiding in hot sands before striking."
+    }
+  ],
+  "major_character": {
+    "id": "liorel_varian",
+    "name_fr": "Liorel Varian",
+    "name_en": "Liorel Varian",
+    "role_fr": "Jeune fugitif d'Ashandara lié au Flux du Rêve.",
+    "role_en": "Young fugitive from Ashandara linked to the Dream Flux."
+  },
+  "criminal_networks": {
+    "fr": "Ashandara abrite des réseaux de voleurs, contrebandiers et intermédiaires capables de déplacer personnes, vivres et informations hors du regard religieux.",
+    "en": "Ashandara shelters networks of thieves, smugglers and intermediaries capable of moving people, food and information beyond religious scrutiny.",
+    "functions": [
+      "smuggling",
+      "escape_routes",
+      "stolen_food_distribution",
+      "black_market_protection"
+    ]
+  },
+  "social_atmosphere": {
+    "fr": "La peur de la milice, la pauvreté, les dénonciations et les exécutions publiques créent une atmosphère de tension permanente.",
+    "en": "Fear of the militia, poverty, denunciations and public executions create an atmosphere of constant tension.",
+    "keywords": [
+      "poverty",
+      "fear",
+      "religious_pressure",
+      "street_survival",
+      "public_punishment"
+    ]
+  },
+  "relationship_with_magic": {
+    "fr": "Les manifestations magiques sont dangereuses à Ashandara. Un usage incontrôlé des Flux peut attirer l'attention des autorités religieuses et conduire à la fuite, au jugement ou à la mort.",
+    "en": "Magical manifestations are dangerous in Ashandara. Uncontrolled use of the Fluxes may attract religious authorities and lead to flight, judgment or death.",
+    "related_entities": [
+      "flux_system",
+      "dream_flux",
+      "liorel_varian",
+      "religious_militia"
+    ]
+  },
+  "aesthetic_identity": {
+    "fr": "Cendres, falaises, marchés sombres, ruelles étroites, port dangereux, tissus usés, symboles religieux, poussière et lumière sale.",
+    "en": "Ash, cliffs, dark markets, narrow alleys, dangerous port, worn fabrics, religious symbols, dust and dirty light.",
+    "visual_keywords": [
+      "ash city",
+      "grimdark market",
+      "religious militia",
+      "black market",
+      "dusty alleys",
+      "fissure frontier"
+    ]
+  },
+  "cultural_themes": [
+    "survival",
+    "poverty",
+    "religious_fear",
+    "black_market",
+    "child_fugitive",
+    "social_denunciation",
+    "magic_repression"
+  ],
+  "narrative_functions": [
+    "origin_region_for_liorel",
+    "religious_oppression",
+    "urban_survival",
+    "black_market_setting",
+    "first_contact_with_dream_flux",
+    "fissure_border_society"
+  ],
+  "geo_keywords": {
+    "fr": [
+      "ville dark fantasy",
+      "Ashandara",
+      "marché noir fantasy",
+      "région de cendres",
+      "fantasy française sombre",
+      "milice religieuse fantasy",
+      "enfant fugitif fantasy"
+    ],
+    "en": [
+      "grimdark city",
+      "Ashandara",
+      "black market fantasy",
+      "ashland fantasy region",
+      "religious militia fantasy",
+      "dark fantasy worldbuilding",
+      "fugitive child fantasy"
+    ]
+  },
+  "canonical_translation": {
+    "Ashandara": "Ashandara",
+    "Aigles de Cendre": "Ash Eagles",
+    "Ombreliathes": "Ombreliathes",
+    "Gorgelyns": "Gorgelyns",
+    "Flux du Rêve": "Dream Flux",
+    "Milice religieuse": "Religious Militia"
+  },
+  "related_entities": [
+    "liorel_varian",
+    "dream_flux",
+    "fissures",
+    "nightmare_realm",
+    "religious_militia",
+    "black_market",
+    "ash_eagles",
+    "ombreliathes",
+    "gorgelyns"
+  ]
+}
