@@ -1,0 +1,233 @@
+{
+  "id": "caelys",
+  "universe": "Les Terres Brisées",
+  "file_type": "civilization_dataset",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "Caelys",
+  "name_en": "Caelys",
+  "category": "religious_power",
+  "summary_fr": "Caelys est une puissance religieuse et politique structurée autour de l’ordre, de la surveillance et de la lutte contre les Brise-Terres. Ses institutions traquent les usages interdits des Flux et imposent une autorité morale rigide.",
+  "summary_en": "Caelys is a religious and political power built around order, surveillance and the fight against Earthbreakers. Its institutions hunt forbidden uses of the Fluxes and impose rigid moral authority.",
+  "core_identity": {
+    "fr": "Protéger le monde de la magie en le plaçant sous contrôle.",
+    "en": "To protect the world from magic by placing it under control."
+  },
+  "civilization_type": {
+    "fr": "Puissance religieuse centralisée",
+    "en": "Centralized religious power"
+  },
+  "major_values": [
+    "order",
+    "purity",
+    "surveillance",
+    "obedience",
+    "anti_magic_control",
+    "religious_legitimacy"
+  ],
+  "political_structure": {
+    "fr": "Caelys repose sur une autorité religieuse hiérarchisée, capable d'influencer les villes, les tribunaux, les milices et les décisions politiques des régions sous son contrôle.",
+    "en": "Caelys relies on a hierarchical religious authority capable of influencing cities, courts, militias and political decisions in regions under its control."
+  },
+  "religious_doctrine": {
+    "fr": "La doctrine de Caelys considère les usages incontrôlés des Flux comme une menace pour l'ordre du monde. Les Brise-Terres sont perçus comme des dangers potentiels, même lorsqu'ils n'ont commis aucun crime.",
+    "en": "Caelysian doctrine considers uncontrolled uses of the Fluxes a threat to the order of the world. Earthbreakers are seen as potential dangers, even when they have committed no crime."
+  },
+  "institutions": [
+    {
+      "id": "flux_hunters",
+      "name_fr": "Chasseurs de Flux",
+      "name_en": "Flux Hunters",
+      "role_fr": "Traquer, identifier et neutraliser les Brise-Terres.",
+      "role_en": "Track, identify and neutralize Earthbreakers."
+    },
+    {
+      "id": "vrezak_handlers",
+      "name_fr": "Dresseurs de Vrézaks",
+      "name_en": "Vrezak Handlers",
+      "role_fr": "Utiliser les Vrézaks pour détecter les traces de Flux chez les individus suspects.",
+      "role_en": "Use Vrezaks to detect traces of Flux within suspected individuals."
+    },
+    {
+      "id": "religious_militia",
+      "name_fr": "Milice religieuse",
+      "name_en": "Religious Militia",
+      "role_fr": "Maintenir l'ordre, contrôler les populations et appuyer les autorités religieuses.",
+      "role_en": "Maintain order, control populations and support religious authorities."
+    },
+    {
+      "id": "archives_of_the_guardian",
+      "name_fr": "Archives du Gardien",
+      "name_en": "Archives of the Guardian",
+      "role_fr": "Collecter les signes, témoignages, anomalies et récits liés aux Flux, aux Failles et aux phénomènes interdits.",
+      "role_en": "Collect signs, testimonies, anomalies and accounts linked to Fluxes, Fissures and forbidden phenomena."
+    }
+  ],
+  "relationship_with_magic": {
+    "fr": "Caelys ne nie pas l'existence des Flux : elle cherche à les surveiller, les classifier, les interdire ou les instrumentaliser selon les besoins de son ordre religieux.",
+    "en": "Caelys does not deny the existence of the Fluxes: it seeks to monitor, classify, forbid or instrumentalize them according to the needs of its religious order.",
+    "related_entities": [
+      "flux_system",
+      "earthbreakers",
+      "vrezaks",
+      "black_flux"
+    ]
+  },
+  "relationship_with_earthbreakers": {
+    "fr": "Les Brise-Terres sont la grande obsession sécuritaire de Caelys. Ils sont recherchés, testés, dénoncés et souvent traités comme des menaces avant même d'être jugés.",
+    "en": "Earthbreakers are Caelys' central security obsession. They are searched for, tested, denounced and often treated as threats before being judged."
+  },
+  "creatures_used": [
+    {
+      "id": "vrezaks",
+      "name_fr": "Vrézaks",
+      "name_en": "Vrezaks",
+      "role_fr": "Créatures utilisées pour détecter les Brise-Terres.",
+      "role_en": "Creatures used to detect Earthbreakers."
+    }
+  ],
+  "methods_of_control": [
+    {
+      "id": "denunciation",
+      "name_fr": "Délation",
+      "name_en": "Denunciation",
+      "description_fr": "Les populations sont encouragées ou poussées à signaler les comportements suspects.",
+      "description_en": "Populations are encouraged or pressured to report suspicious behavior."
+    },
+    {
+      "id": "public_testing",
+      "name_fr": "Tests publics",
+      "name_en": "Public Testing",
+      "description_fr": "Des tests peuvent être imposés à des individus suspectés d'être liés aux Flux.",
+      "description_en": "Tests may be imposed on individuals suspected of being linked to the Fluxes."
+    },
+    {
+      "id": "religious_legitimacy",
+      "name_fr": "Légitimité religieuse",
+      "name_en": "Religious Legitimacy",
+      "description_fr": "Caelys justifie ses actions par la protection morale et spirituelle du monde.",
+      "description_en": "Caelys justifies its actions through the moral and spiritual protection of the world."
+    }
+  ],
+  "military_profile": {
+    "fr": "Les forces de Caelys combinent milice religieuse, chasseurs spécialisés, agents de contrôle et créatures de détection.",
+    "en": "Caelysian forces combine religious militia, specialized hunters, control agents and detection creatures.",
+    "specialties": [
+      "anti_magic_operations",
+      "urban_control",
+      "religious_policing",
+      "flux_detection",
+      "public_intimidation"
+    ]
+  },
+  "relationship_with_other_factions": [
+    {
+      "faction": "kherans",
+      "relationship": "military_and_religious_conflict",
+      "description_fr": "Caelys entretient des tensions militaires et spirituelles avec les Kherâns.",
+      "description_en": "Caelys maintains military and spiritual tensions with the Kherâns."
+    },
+    {
+      "faction": "venisi",
+      "relationship": "political_influence",
+      "description_fr": "Caelys peut chercher à peser sur les décisions politiques de la Vénisi, notamment lors des crises liées aux Brise-Terres.",
+      "description_en": "Caelys may seek influence over Vénisi political decisions, especially during crises involving Earthbreakers."
+    },
+    {
+      "faction": "earthbreakers",
+      "relationship": "persecution",
+      "description_fr": "Les Brise-Terres sont considérés comme des cibles prioritaires de surveillance et de répression.",
+      "description_en": "Earthbreakers are considered priority targets for surveillance and repression."
+    }
+  ],
+  "current_tensions": [
+    {
+      "id": "fear_of_flux",
+      "name_fr": "Peur des Flux",
+      "name_en": "Fear of the Fluxes",
+      "description_fr": "La peur des usages incontrôlés de la magie renforce l'autorité de Caelys.",
+      "description_en": "Fear of uncontrolled magic strengthens Caelysian authority."
+    },
+    {
+      "id": "vrezak_tests",
+      "name_fr": "Tests des Vrézaks",
+      "name_en": "Vrezak Tests",
+      "description_fr": "Les tests imposés par les Vrézaks créent terreur, soupçon et tensions sociales.",
+      "description_en": "Tests imposed through Vrezaks create terror, suspicion and social tension."
+    },
+    {
+      "id": "political_opportunism",
+      "name_fr": "Opportunisme politique",
+      "name_en": "Political Opportunism",
+      "description_fr": "Les crises permettent à Caelys d'étendre son influence sous prétexte de sécurité.",
+      "description_en": "Crises allow Caelys to expand its influence under the pretext of security."
+    }
+  ],
+  "aesthetic_identity": {
+    "fr": "Austérité religieuse, robes claires ou sombres, symboles sacrés, cages de Vrézaks, processions, tribunaux, visages fermés et présence inquisitoriale.",
+    "en": "Religious austerity, pale or dark robes, sacred symbols, Vrezak cages, processions, courts, closed faces and inquisitorial presence.",
+    "visual_keywords": [
+      "religious militia",
+      "inquisition",
+      "vrezak cages",
+      "sacred courts",
+      "anti_magic order",
+      "grim religious authority"
+    ]
+  },
+  "cultural_themes": [
+    "control",
+    "religious_fear",
+    "anti_magic_order",
+    "denunciation",
+    "purity",
+    "surveillance_state",
+    "moral_authority"
+  ],
+  "narrative_functions": [
+    "anti_magic_power",
+    "religious_pressure",
+    "social_paranoia",
+    "institutional_antagonist",
+    "political_influence",
+    "moral_ambiguity"
+  ],
+  "geo_keywords": {
+    "fr": [
+      "ordre religieux fantasy",
+      "inquisition fantasy",
+      "chasseurs de magie",
+      "dark fantasy française",
+      "persécution des mages",
+      "théocratie fantasy",
+      "worldbuilding religieux"
+    ],
+    "en": [
+      "fantasy religious order",
+      "fantasy inquisition",
+      "magic hunters",
+      "anti-magic theocracy",
+      "grimdark religious authority",
+      "mage persecution",
+      "dark fantasy worldbuilding"
+    ]
+  },
+  "canonical_translation": {
+    "Caelys": "Caelys",
+    "Brise-Terres": "Earthbreakers",
+    "Chasseurs de Flux": "Flux Hunters",
+    "Vrézaks": "Vrezaks",
+    "Milice religieuse": "Religious Militia",
+    "Archives du Gardien": "Archives of the Guardian"
+  },
+  "related_entities": [
+    "flux_system",
+    "earthbreakers",
+    "vrezaks",
+    "flux_hunters",
+    "black_flux",
+    "kherans",
+    "venisi",
+    "radiance"
+  ]
+}
