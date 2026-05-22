@@ -1,5 +1,77 @@
 {
   "universe": "Les Terres Brisées",
   "language_primary": "fr",
-  "entries": []
+  "entries": [
+    {
+      "id": "failles",
+      "category": "cosmology",
+      "name_fr": "Les Failles",
+      "name_en": "The Fissures",
+      "summary_fr": "Les Failles sont des fractures abyssales apparues après la guerre des Dieux. Elles déforment les terres, corrompent les créatures et menacent les civilisations voisines.",
+      "summary_en": "The Fissures are abyssal scars born after the War of the Gods. They corrupt landscapes, alter creatures and threaten nearby civilizations.",
+      "related_entities": [
+        "entaille",
+        "ash_narh",
+        "flux_noir"
+      ],
+      "keywords_fr": [
+        "dark fantasy",
+        "failles",
+        "corruption",
+        "cauchemar"
+      ],
+      "keywords_en": [
+        "grimdark fantasy",
+        "abyssal fissures",
+        "nightmare corruption",
+        "cosmic horror"
+      ]
+    },
+    {
+      "id": "entaille",
+      "category": "cosmology",
+      "name_fr": "L'Entaille",
+      "name_en": "The Nightmare Realm",
+      "summary_fr": "L’Entaille est le Monde du Cauchemar, une dimension née des résidus instables du Songe du Dieu qui Rêve.",
+      "summary_en": "The Nightmare Realm is a dimension born from unstable remnants of the Dreaming God's dream.",
+      "related_entities": [
+        "ash_narh",
+        "failles",
+        "shalire"
+      ],
+      "keywords_fr": [
+        "monde du cauchemar",
+        "entaille",
+        "horreur cosmique"
+      ],
+      "keywords_en": [
+        "nightmare realm",
+        "cosmic horror",
+        "abyssal dimension"
+      ]
+    },
+    {
+      "id": "ash_narh",
+      "category": "entity",
+      "name_fr": "Ash-Narh",
+      "name_en": "Ash-Narh",
+      "summary_fr": "Ash-Narh est la volonté consciente du cauchemar devenue souveraine du Monde du Cauchemar.",
+      "summary_en": "Ash-Narh is the conscious will of the nightmare and sovereign ruler of the Nightmare Realm.",
+      "related_entities": [
+        "entaille",
+        "shalire",
+        "princes_du_cauchemar"
+      ],
+      "keywords_fr": [
+        "cauchemar",
+        "entité cosmique",
+        "horreur"
+      ],
+      "keywords_en": [
+        "cosmic entity",
+        "nightmare sovereign",
+        "grimdark antagonist"
+      ]
+    }
+  ]
 }
