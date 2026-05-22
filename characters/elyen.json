@@ -1,0 +1,219 @@
+{
+  "id": "elyen",
+  "universe": "Les Terres Brisées",
+  "file_type": "character_dataset",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "Elyen",
+  "name_en": "Elyen",
+  "category": "main_character",
+  "summary_fr": "Elyen vit en lisière de la Lioranne, près de Bois Noir. Reclus, méfiant et lié aux animaux d’une manière qu’il ne comprend pas, il craint d’être découvert dans un monde où les anomalies attirent la suspicion.",
+  "summary_en": "Elyen lives on the edge of Lioranne, near Bois Noir. Reclusive, wary and connected to animals in a way he does not understand, he fears being discovered in a world where anomalies attract suspicion.",
+  "core_identity": {
+    "fr": "Un homme qui fuit les hommes parce qu’il comprend trop bien les bêtes.",
+    "en": "A man who avoids people because he understands beasts too well."
+  },
+  "origin": {
+    "fr": "Elyen vit comme bûcheron en lisière de la forêt de la Lioranne, non loin de Bois Noir.",
+    "en": "Elyen lives as a woodcutter on the edge of Lioranne Forest, near Bois Noir.",
+    "related_entities": [
+      "lioranne",
+      "bois_noir",
+      "sombregueule"
+    ]
+  },
+  "roles": [
+    {
+      "id": "reclusive_woodcutter",
+      "name_fr": "Bûcheron reclus",
+      "name_en": "Reclusive Woodcutter"
+    },
+    {
+      "id": "animal_bonded",
+      "name_fr": "Lié aux animaux",
+      "name_en": "Animal-Bonded"
+    },
+    {
+      "id": "reluctant_witness",
+      "name_fr": "Témoin malgré lui",
+      "name_en": "Reluctant Witness"
+    }
+  ],
+  "personality": {
+    "fr": "Méfiant, solitaire, anxieux, prudent et moralement incapable de rester passif face à certaines injustices.",
+    "en": "Wary, solitary, anxious, cautious and morally unable to remain passive before certain injustices.",
+    "traits": [
+      "reclusive",
+      "wary",
+      "anxious",
+      "compassionate",
+      "animal_sensitive",
+      "reluctant",
+      "morally_conflicted"
+    ]
+  },
+  "special_connection": {
+    "id": "animal_sensitivity",
+    "name_fr": "Sensibilité animale",
+    "name_en": "Animal Sensitivity",
+    "description_fr": "Elyen ressent ou comprend parfois les émotions animales. Cette faculté l’effraie, car elle pourrait le faire passer pour une anomalie aux yeux des autorités.",
+    "description_en": "Elyen sometimes senses or understands animal emotions. This ability frightens him, as it could make him appear anomalous to authorities.",
+    "manifestations": [
+      "animal_empathy",
+      "emotional_perception",
+      "vrezak_sensitivity",
+      "forest_resonance"
+    ]
+  },
+  "relationship_with_vrezaks": {
+    "fr": "Lorsqu’il est confronté à un Vrézak, Elyen perçoit quelque chose de froid et mort dans la créature, ce qui suggère une sensibilité inhabituelle aux êtres issus des Failles.",
+    "en": "When confronted with a Vrezak, Elyen perceives something cold and dead within the creature, suggesting unusual sensitivity to beings born from the Fissures.",
+    "related_entities": [
+      "vrezaks",
+      "fissures",
+      "caelys"
+    ]
+  },
+  "relationship_with_sombregueule": {
+    "fr": "Sombregueule et la Lioranne forment l’horizon sauvage d’Elyen. La forêt représente à la fois la liberté, la menace et l’appel d’un monde non humain.",
+    "en": "Sombregueule and Lioranne form Elyen's wild horizon. The forest represents freedom, threat and the call of a non-human world.",
+    "related_entities": [
+      "sombregueule",
+      "lioranne",
+      "whisper_magic",
+      "drelkh"
+    ]
+  },
+  "major_events": [
+    {
+      "id": "vrezak_test",
+      "name_fr": "Test du Vrézak",
+      "name_en": "Vrezak Test",
+      "description_fr": "Elyen est soumis au test d’un Vrézak après avoir été signalé comme suspect.",
+      "description_en": "Elyen is subjected to a Vrezak test after being reported as suspicious."
+    },
+    {
+      "id": "hidden_youth",
+      "name_fr": "L’adolescent caché",
+      "name_en": "The Hidden Youth",
+      "description_fr": "Elyen tente d’aider un jeune homme poursuivi, mais les chasseurs de flux et les Vrézaks interviennent.",
+      "description_en": "Elyen tries to help a pursued young man, but Flux Hunters and Vrezaks intervene."
+    },
+    {
+      "id": "departure_with_fizz",
+      "name_fr": "Départ avec Fizz",
+      "name_en": "Departure with Fizz",
+      "description_fr": "Après les événements de Bois Noir, Elyen se retrouve lié à Fizz et à la nécessité de prévenir les autorités de phénomènes inquiétants.",
+      "description_en": "After the events of Bois Noir, Elyen becomes tied to Fizz and the need to warn authorities about disturbing phenomena."
+    }
+  ],
+  "associated_characters": [
+    {
+      "id": "fizz",
+      "name_fr": "Fizz",
+      "name_en": "Fizz",
+      "relationship_fr": "Homme des bois, protecteur ambigu et compagnon de route.",
+      "relationship_en": "Woodsman, ambiguous protector and traveling companion."
+    }
+  ],
+  "associated_locations": [
+    "lioranne",
+    "bois_noir",
+    "sombregueule",
+    "caelys"
+  ],
+  "associated_factions": [
+    "caelys",
+    "flux_hunters",
+    "vrezak_handlers"
+  ],
+  "threats": [
+    {
+      "id": "flux_hunters",
+      "name_fr": "Chasseurs de Flux",
+      "name_en": "Flux Hunters",
+      "description_fr": "Autorités capables de suspecter Elyen malgré l’absence de preuve évidente.",
+      "description_en": "Authorities capable of suspecting Elyen despite lack of clear evidence."
+    },
+    {
+      "id": "vrezaks",
+      "name_fr": "Vrézaks",
+      "name_en": "Vrezaks",
+      "description_fr": "Créatures de détection dont la réaction à Elyen reste anormale.",
+      "description_en": "Detection creatures whose reaction to Elyen remains abnormal."
+    },
+    {
+      "id": "drelkh",
+      "name_fr": "Drelkh",
+      "name_en": "Drelkh",
+      "description_fr": "Présence ou souillure ressentie par Elyen, liée aux forces obscures de Sombregueule.",
+      "description_en": "Presence or stain sensed by Elyen, tied to the dark forces of Sombregueule."
+    }
+  ],
+  "internal_conflict": {
+    "false_belief_fr": "Pour survivre, il doit rester invisible et ne pas s’attacher.",
+    "false_belief_en": "To survive, he must remain invisible and avoid attachment.",
+    "truth_fr": "Son lien avec le vivant n’est pas seulement une menace : c’est aussi ce qui peut le rendre nécessaire.",
+    "truth_en": "His bond with living beings is not only a threat: it may also make him necessary."
+  },
+  "narrative_functions": [
+    "main_protagonist",
+    "forest_viewpoint",
+    "animal_empathy_arc",
+    "caelys_pressure_viewpoint",
+    "sombregueule_connection",
+    "moral_witness",
+    "liminal_character"
+  ],
+  "visual_identity": {
+    "fr": "Bûcheron solitaire, vêtements simples, traces de forêt, regard inquiet, présence animale discrète, lisière brumeuse.",
+    "en": "Solitary woodcutter, simple clothes, traces of forest, worried gaze, discreet animal presence, misty forest edge.",
+    "visual_keywords": [
+      "woodcutter",
+      "forest_outcast",
+      "animal_bond",
+      "misty_forest",
+      "dark_fantasy_recluse",
+      "grim_nature"
+    ]
+  },
+  "geo_keywords": {
+    "fr": [
+      "bûcheron fantasy",
+      "personnage lié aux animaux",
+      "Elyen",
+      "forêt dark fantasy",
+      "Sombregueule",
+      "Vrézaks",
+      "dark fantasy française"
+    ],
+    "en": [
+      "fantasy woodcutter",
+      "animal empath fantasy character",
+      "Elyen",
+      "dark fantasy forest",
+      "Sombregueule",
+      "Vrezaks",
+      "grimdark nature character"
+    ]
+  },
+  "canonical_translation": {
+    "Elyen": "Elyen",
+    "Vrézaks": "Vrezaks",
+    "Chasseurs de Flux": "Flux Hunters",
+    "Forêt de Sombregueule": "Sombregueule Forest",
+    "Lioranne": "Lioranne",
+    "Bois Noir": "Bois Noir"
+  },
+  "related_entities": [
+    "sombregueule",
+    "lioranne",
+    "bois_noir",
+    "fizz",
+    "vrezaks",
+    "caelys",
+    "flux_hunters",
+    "drelkh",
+    "whisper_magic"
+  ]
+}
