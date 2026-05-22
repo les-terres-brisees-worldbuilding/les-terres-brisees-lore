@@ -1,1 +1,239 @@
-
+{
+  "id": "radiance",
+  "universe": "Les Terres Brisées",
+  "file_type": "location_dataset",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "Radiance",
+  "name_en": "Radiance",
+  "category": "major_city",
+  "summary_fr": "Radiance est une ville politique majeure de la Vénisi, centre du pouvoir royal, du Sénat, des grandes familles et des crises liées aux Brise-Terres.",
+  "summary_en": "Radiance is a major political city of Vénisi, center of royal power, the Senate, great houses and crises linked to Earthbreakers.",
+  "location_type": {
+    "fr": "Capitale politique et cité de pouvoir",
+    "en": "Political capital and city of power"
+  },
+  "associated_faction": {
+    "id": "venisi",
+    "name_fr": "Vénisi",
+    "name_en": "Vénisi"
+  },
+  "core_identity": {
+    "fr": "Une capitale brillante en façade, mais fracturée par les intrigues, la peur et la décadence politique.",
+    "en": "A capital brilliant on the surface, yet fractured by intrigue, fear and political decay."
+  },
+  "political_role": {
+    "fr": "Radiance concentre le trône, les sénateurs, les grandes maisons nobles, les décisions militaires et les luttes de succession.",
+    "en": "Radiance concentrates the throne, senators, great noble houses, military decisions and succession struggles.",
+    "institutions": [
+      "royal_power",
+      "senate",
+      "great_houses",
+      "adhémar_guard",
+      "palace_guard"
+    ]
+  },
+  "major_institutions": [
+    {
+      "id": "senate",
+      "name_fr": "Sénat",
+      "name_en": "Senate",
+      "role_fr": "Institution politique où les grandes familles et représentants influents participent aux décisions du royaume.",
+      "role_en": "Political institution where great families and influential representatives take part in the kingdom's decisions."
+    },
+    {
+      "id": "garde_adhemar",
+      "name_fr": "Garde Adhémar",
+      "name_en": "Adhémar Guard",
+      "role_fr": "Unité d'élite fondée par Eryon pour protéger le roi.",
+      "role_en": "Elite unit founded by Eryon to protect the king."
+    },
+    {
+      "id": "palace_guard",
+      "name_fr": "Garde du Palais",
+      "name_en": "Palace Guard",
+      "role_fr": "Force loyale au pouvoir royal et aux équilibres politiques de la capitale.",
+      "role_en": "Force loyal to royal power and the political balance of the capital."
+    }
+  ],
+  "major_characters": [
+    {
+      "id": "eryon_meryhall",
+      "name_fr": "Eryon Meryhall",
+      "name_en": "Eryon Meryhall",
+      "role_fr": "Guerrier vétéran rappelé à Radiance pour faire face à une crise politique et militaire.",
+      "role_en": "Veteran warrior recalled to Radiance to face a political and military crisis."
+    },
+    {
+      "id": "thalos_grimheart",
+      "name_fr": "Thalos Grimheart",
+      "name_en": "Thalos Grimheart",
+      "role_fr": "Ancien compagnon d'Eryon et figure militaire liée à la Garde Adhémar.",
+      "role_en": "Former companion of Eryon and military figure tied to the Adhémar Guard."
+    },
+    {
+      "id": "darian_morven",
+      "name_fr": "Darian Morven",
+      "name_en": "Darian Morven",
+      "role_fr": "Ancien compagnon de la Garde Adhémar, plus souple et plus ironique qu'Eryon.",
+      "role_en": "Former companion of the Adhémar Guard, more flexible and ironic than Eryon."
+    },
+    {
+      "id": "liorel_varian",
+      "name_fr": "Liorel Varian",
+      "name_en": "Liorel Varian",
+      "role_fr": "Jeune fugitif arrivant à Radiance avec des informations liées aux Flux et au Flux Noir.",
+      "role_en": "Young fugitive arriving in Radiance with information linked to the Fluxes and Black Flux."
+    }
+  ],
+  "current_crises": [
+    {
+      "id": "succession_crisis",
+      "name_fr": "Crise de succession",
+      "name_en": "Succession Crisis",
+      "description_fr": "La mort ou l'affaiblissement du pouvoir royal déclenche une lutte entre candidats, familles, sénateurs et factions.",
+      "description_en": "The death or weakening of royal power triggers a struggle between candidates, families, senators and factions."
+    },
+    {
+      "id": "earthbreaker_panic",
+      "name_fr": "Peur des Brise-Terres",
+      "name_en": "Earthbreaker Panic",
+      "description_fr": "Les Brise-Terres deviennent des boucs émissaires lors des crises magiques et politiques.",
+      "description_en": "Earthbreakers become scapegoats during magical and political crises."
+    },
+    {
+      "id": "caelysian_influence",
+      "name_fr": "Influence de Caelys",
+      "name_en": "Caelysian Influence",
+      "description_fr": "Caelys cherche à accroître son autorité dans la capitale sous prétexte de sécurité et de lutte contre les Flux.",
+      "description_en": "Caelys seeks to increase its authority in the capital under the pretext of security and the fight against the Fluxes."
+    },
+    {
+      "id": "senatorial_manipulation",
+      "name_fr": "Manipulations sénatoriales",
+      "name_en": "Senatorial Manipulation",
+      "description_fr": "Les votes, alliances et achats d'influence structurent la crise politique.",
+      "description_en": "Votes, alliances and influence-buying structure the political crisis."
+    }
+  ],
+  "relationship_with_magic": {
+    "fr": "Radiance est traversée par une contradiction : la magie y est officiellement crainte, surveillée ou interdite, mais certains pouvoirs cherchent à l'utiliser en secret.",
+    "en": "Radiance is marked by a contradiction: magic is officially feared, monitored or forbidden, yet some powers seek to use it in secret.",
+    "related_entities": [
+      "flux_system",
+      "earthbreakers",
+      "black_flux",
+      "caelys",
+      "vrezaks"
+    ]
+  },
+  "social_atmosphere": {
+    "fr": "La capitale est marquée par la peur, les débats de rue, les tensions entre factions, les patrouilles, les rumeurs et la pression des grandes familles.",
+    "en": "The capital is marked by fear, street debates, faction tensions, patrols, rumors and pressure from great houses.",
+    "keywords": [
+      "political_tension",
+      "public_fear",
+      "succession_conflict",
+      "military_patrols",
+      "rumors",
+      "noble_pressure"
+    ]
+  },
+  "districts_and_spaces": [
+    {
+      "id": "royal_palace",
+      "name_fr": "Palais royal",
+      "name_en": "Royal Palace",
+      "role_fr": "Centre symbolique et politique du pouvoir.",
+      "role_en": "Symbolic and political center of power."
+    },
+    {
+      "id": "senate_hall",
+      "name_fr": "Salle du Sénat",
+      "name_en": "Senate Hall",
+      "role_fr": "Lieu des votes, débats, alliances et confrontations politiques.",
+      "role_en": "Place of votes, debates, alliances and political confrontations."
+    },
+    {
+      "id": "adhémar_barracks",
+      "name_fr": "Caserne de la Garde Adhémar",
+      "name_en": "Adhémar Guard Barracks",
+      "role_fr": "Base militaire associée à Eryon et à ses anciens frères d'armes.",
+      "role_en": "Military base associated with Eryon and his former brothers-in-arms."
+    },
+    {
+      "id": "lower_districts",
+      "name_fr": "Quartiers populaires",
+      "name_en": "Lower Districts",
+      "role_fr": "Zones urbaines traversées par la peur, les rumeurs, la pauvreté et la répression.",
+      "role_en": "Urban zones marked by fear, rumors, poverty and repression."
+    }
+  ],
+  "aesthetic_identity": {
+    "fr": "Marbre, dorures ternies, palais anciens, rues sous tension, casernes, sénat, armures nobles et signes de décadence.",
+    "en": "Marble, tarnished gold, ancient palaces, tense streets, barracks, senate halls, noble armor and signs of decay.",
+    "visual_keywords": [
+      "political capital",
+      "tarnished marble",
+      "senate intrigue",
+      "royal palace",
+      "grimdark city",
+      "military tension"
+    ]
+  },
+  "cultural_themes": [
+    "political_decay",
+    "succession",
+    "public_order",
+    "fear_of_magic",
+    "old_honor_vs_new_corruption",
+    "senatorial_power",
+    "military_legacy"
+  ],
+  "narrative_functions": [
+    "political_center",
+    "succession_stage",
+    "eryon_return_location",
+    "earthbreaker_crisis_site",
+    "caelysian_pressure_point",
+    "urban_paranoia"
+  ],
+  "geo_keywords": {
+    "fr": [
+      "capitale fantasy politique",
+      "ville grimdark",
+      "intrigue sénatoriale fantasy",
+      "crise de succession fantasy",
+      "dark fantasy française",
+      "ville de fantasy avec sénat"
+    ],
+    "en": [
+      "political fantasy capital",
+      "grimdark city",
+      "senatorial intrigue fantasy",
+      "succession crisis fantasy",
+      "dark fantasy city",
+      "fantasy capital worldbuilding"
+    ]
+  },
+  "canonical_translation": {
+    "Radiance": "Radiance",
+    "Vénisi": "Vénisi",
+    "Sénat": "Senate",
+    "Garde Adhémar": "Adhémar Guard",
+    "Brise-Terres": "Earthbreakers",
+    "Flux Noir": "Black Flux",
+    "Vrézaks": "Vrezaks"
+  },
+  "related_entities": [
+    "venisi",
+    "eryon_meryhall",
+    "garde_adhemar",
+    "caelys",
+    "earthbreakers",
+    "black_flux",
+    "vrezaks",
+    "house_meryhall",
+    "liorel_varian"
+  ]
+}
