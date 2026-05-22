@@ -1,77 +1,415 @@
 {
   "universe": "Les Terres Brisées",
   "language_primary": "fr",
+  "version": "0.2",
+  "description": "Glossaire structuré des concepts centraux de l'univers Les Terres Brisées.",
   "entries": [
     {
       "id": "failles",
       "category": "cosmology",
       "name_fr": "Les Failles",
       "name_en": "The Fissures",
-      "summary_fr": "Les Failles sont des fractures abyssales apparues après la guerre des Dieux. Elles déforment les terres, corrompent les créatures et menacent les civilisations voisines.",
-      "summary_en": "The Fissures are abyssal scars born after the War of the Gods. They corrupt landscapes, alter creatures and threaten nearby civilizations.",
-      "related_entities": [
-        "entaille",
-        "ash_narh",
-        "flux_noir"
-      ],
-      "keywords_fr": [
-        "dark fantasy",
-        "failles",
-        "corruption",
-        "cauchemar"
-      ],
-      "keywords_en": [
-        "grimdark fantasy",
-        "abyssal fissures",
-        "nightmare corruption",
-        "cosmic horror"
-      ]
+      "summary_fr": "Les Failles sont des fractures abyssales apparues lors de la guerre des Dieux et de l'ouverture de l'Entaille. Elles déforment les terres, corrompent la faune et la flore, et menacent les civilisations proches.",
+      "summary_en": "The Fissures are abyssal scars born during the War of the Gods and the opening of the Nightmare Realm. They distort landscapes, corrupt wildlife and flora, and threaten nearby civilizations.",
+      "related_entities": ["entaille", "monde_du_cauchemar", "shalire", "ash_narh", "flux_noir"],
+      "keywords_fr": ["failles", "dark fantasy", "corruption", "cauchemar", "abîme"],
+      "keywords_en": ["fissures", "grimdark fantasy", "abyssal scars", "nightmare corruption", "cosmic horror"]
+    },
+    {
+      "id": "failles_mineures",
+      "category": "cosmology",
+      "name_fr": "Failles mineures",
+      "name_en": "Minor Fissures",
+      "summary_fr": "Les failles mineures sont des ramifications issues des failles majeures. Elles restent souvent contournables, mais peuvent attirer des créatures du Cauchemar et corrompre leur environnement proche.",
+      "summary_en": "Minor Fissures are branches extending from major fissures. They can often be bypassed, but may attract nightmare creatures and corrupt nearby environments.",
+      "related_entities": ["failles", "failles_majeures", "creatures_du_cauchemar"],
+      "keywords_fr": ["faille mineure", "ramification", "corruption locale"],
+      "keywords_en": ["minor fissure", "corrupted terrain", "nightmare breach"]
+    },
+    {
+      "id": "failles_majeures",
+      "category": "cosmology",
+      "name_fr": "Failles majeures",
+      "name_en": "Major Fissures",
+      "summary_fr": "Les failles majeures sont des fractures gigantesques qui découpent les territoires, créent des enclaves et imposent aux peuples des moyens de franchissement dangereux.",
+      "summary_en": "Major Fissures are gigantic fractures that divide territories, create enclaves and force civilizations to build dangerous crossing systems.",
+      "related_entities": ["failles", "ponts_echardes", "arches_des_lamentations", "dos_des_titans"],
+      "keywords_fr": ["faille majeure", "frontière abyssale", "territoire fracturé"],
+      "keywords_en": ["major fissure", "abyssal frontier", "fractured territory"]
     },
     {
       "id": "entaille",
       "category": "cosmology",
       "name_fr": "L'Entaille",
       "name_en": "The Nightmare Realm",
-      "summary_fr": "L’Entaille est le Monde du Cauchemar, une dimension née des résidus instables du Songe du Dieu qui Rêve.",
-      "summary_en": "The Nightmare Realm is a dimension born from unstable remnants of the Dreaming God's dream.",
-      "related_entities": [
-        "ash_narh",
-        "failles",
-        "shalire"
-      ],
-      "keywords_fr": [
-        "monde du cauchemar",
-        "entaille",
-        "horreur cosmique"
-      ],
-      "keywords_en": [
-        "nightmare realm",
-        "cosmic horror",
-        "abyssal dimension"
-      ]
+      "summary_fr": "L’Entaille est le Monde du Cauchemar, une dimension née des résidus instables du Songe du Dieu qui Rêve. Elle ne juge pas : elle déforme, altère et recycle.",
+      "summary_en": "The Nightmare Realm is a dimension born from unstable remnants of the Dreaming God's dream. It does not judge: it distorts, alters and recycles.",
+      "related_entities": ["monde_du_cauchemar", "ash_narh", "shalire", "failles"],
+      "keywords_fr": ["Entaille", "Monde du Cauchemar", "dimension cauchemardesque"],
+      "keywords_en": ["Nightmare Realm", "cosmic horror", "abyssal dimension", "nightmare world"]
+    },
+    {
+      "id": "monde_du_cauchemar",
+      "category": "cosmology",
+      "name_fr": "Monde du Cauchemar",
+      "name_en": "Nightmare Realm",
+      "summary_fr": "Le Monde du Cauchemar est une dimension chaotique faite d'échos, de peurs, de souvenirs incomplets et de fragments de réalité avortée.",
+      "summary_en": "The Nightmare Realm is a chaotic dimension made of echoes, fears, incomplete memories and aborted fragments of reality.",
+      "related_entities": ["entaille", "ash_narh", "princes_du_cauchemar", "legions_cauchemardesques"],
+      "keywords_fr": ["cauchemar", "horreur cosmique", "dimension instable"],
+      "keywords_en": ["nightmare realm", "cosmic horror", "unstable dimension"]
     },
     {
       "id": "ash_narh",
       "category": "entity",
       "name_fr": "Ash-Narh",
       "name_en": "Ash-Narh",
-      "summary_fr": "Ash-Narh est la volonté consciente du cauchemar devenue souveraine du Monde du Cauchemar.",
-      "summary_en": "Ash-Narh is the conscious will of the nightmare and sovereign ruler of the Nightmare Realm.",
-      "related_entities": [
-        "entaille",
-        "shalire",
-        "princes_du_cauchemar"
-      ],
-      "keywords_fr": [
-        "cauchemar",
-        "entité cosmique",
-        "horreur"
-      ],
-      "keywords_en": [
-        "cosmic entity",
-        "nightmare sovereign",
-        "grimdark antagonist"
-      ]
+      "summary_fr": "Ash-Narh est la volonté consciente du cauchemar, née lorsque le chaos devint capable de se penser lui-même. Il devient le souverain du Monde du Cauchemar après la chute de Shalire.",
+      "summary_en": "Ash-Narh is the conscious will of nightmare, born when chaos became capable of thinking itself. He becomes sovereign of the Nightmare Realm after Shalire's fall.",
+      "related_entities": ["entaille", "shalire", "princes_du_cauchemar", "legions_cauchemardesques"],
+      "keywords_fr": ["Ash-Narh", "entité cosmique", "souverain du cauchemar"],
+      "keywords_en": ["Ash-Narh", "cosmic entity", "nightmare sovereign", "grimdark antagonist"]
+    },
+    {
+      "id": "shalire",
+      "category": "entity",
+      "name_fr": "Shalire",
+      "name_en": "Shalire",
+      "summary_fr": "Shalire est une entité issue du Cauchemar, ni pleinement divine ni simplement démoniaque. Elle corrompt les élites humaines et provoque une guerre civile majeure.",
+      "summary_en": "Shalire is an entity born from nightmare, neither fully divine nor merely demonic. She corrupts human elites and triggers a major civil war.",
+      "related_entities": ["entaille", "ash_narh", "guerre_de_l_entaille", "flux_noir"],
+      "keywords_fr": ["Shalire", "corruption", "déchue", "guerre civile"],
+      "keywords_en": ["Shalire", "fallen entity", "corruption", "nightmare influence"]
+    },
+    {
+      "id": "drygthyn",
+      "category": "deity",
+      "name_fr": "Drygthyn",
+      "name_en": "Drygthyn",
+      "summary_fr": "Drygthyn est le Dieu qui Rêve le monde. Son Songe donne naissance à Merrowë, aux flux magiques et aux premières structures cosmiques de l'univers.",
+      "summary_en": "Drygthyn is the Dreaming God who dreams the world into being. His dream gives birth to Merrowë, magical fluxes and the first cosmic structures of the universe.",
+      "related_entities": ["songe_de_drygthyn", "merrowe", "flux", "dieux"],
+      "keywords_fr": ["Dieu qui Rêve", "création", "Songe", "cosmologie"],
+      "keywords_en": ["Dreaming God", "cosmology", "creation myth", "dream world"]
+    },
+    {
+      "id": "flux",
+      "category": "magic",
+      "name_fr": "Les Flux",
+      "name_en": "The Fluxes",
+      "summary_fr": "Les Flux sont des courants magiques fondamentaux issus du Songe de Drygthyn. Ils structurent la magie, les phénomènes surnaturels et une partie de la cosmologie des Terres Brisées.",
+      "summary_en": "The Fluxes are fundamental magical currents born from Drygthyn's dream. They shape magic, supernatural phenomena and part of the cosmology of Les Terres Brisées.",
+      "related_entities": ["drygthyn", "brise_terres", "flux_noir", "magie_des_murmures"],
+      "keywords_fr": ["flux", "magie", "courants magiques", "dark fantasy"],
+      "keywords_en": ["flux magic", "magical currents", "fantasy magic system"]
+    },
+    {
+      "id": "flux_noir",
+      "category": "magic",
+      "name_fr": "Flux Noir",
+      "name_en": "Black Flux",
+      "summary_fr": "Le Flux Noir est une forme de corruption magique liée au Cauchemar et aux déséquilibres profonds des flux. Il menace les sanctuaires, les mages et les structures du monde.",
+      "summary_en": "The Black Flux is a form of magical corruption linked to the Nightmare Realm and deep imbalances within the fluxes. It threatens sanctuaries, mages and the structures of the world.",
+      "related_entities": ["flux", "entaille", "ash_narh", "shalire"],
+      "keywords_fr": ["Flux Noir", "corruption magique", "Cauchemar"],
+      "keywords_en": ["Black Flux", "magical corruption", "nightmare magic"]
+    },
+    {
+      "id": "magie_des_murmures",
+      "category": "magic",
+      "name_fr": "Magie des Murmures",
+      "name_en": "Whisper Magic",
+      "summary_fr": "La magie des Murmures est une magie subtile héritée des Géants Primordiaux. Elle repose sur l'écoute des forces invisibles du monde, des esprits naturels et des échos anciens.",
+      "summary_en": "Whisper Magic is a subtle magic inherited from the Primordial Giants. It relies on listening to the invisible forces of the world, natural spirits and ancient echoes.",
+      "related_entities": ["geants_primordiaux", "murmureurs", "fils_des_brises", "elvaris"],
+      "keywords_fr": ["Murmures", "magie animiste", "géants primordiaux"],
+      "keywords_en": ["Whisper Magic", "animistic magic", "primordial giants", "nature magic"]
+    },
+    {
+      "id": "murmureurs",
+      "category": "magic_users",
+      "name_fr": "Murmureurs",
+      "name_en": "Whisperers",
+      "summary_fr": "Les Murmureurs sont les pratiquants de la magie des Murmures. Ils écoutent les forces naturelles, les ancêtres et les vestiges des Géants Primordiaux.",
+      "summary_en": "Whisperers are practitioners of Whisper Magic. They listen to natural forces, ancestors and remnants of the Primordial Giants.",
+      "related_entities": ["magie_des_murmures", "fils_des_brises", "geants_primordiaux"],
+      "keywords_fr": ["Murmureurs", "sages des murmures", "magie naturelle"],
+      "keywords_en": ["Whisperers", "nature magic users", "animistic mages"]
+    },
+    {
+      "id": "brise_terres",
+      "category": "magic_users",
+      "name_fr": "Brise-Terres",
+      "name_en": "Earthbreakers",
+      "summary_fr": "Les Brise-Terres sont des individus capables de manipuler certains Flux. Leur existence suscite la peur, la surveillance religieuse et la chasse organisée dans plusieurs régions.",
+      "summary_en": "Earthbreakers are individuals capable of manipulating certain Fluxes. Their existence provokes fear, religious surveillance and organized hunts in several regions.",
+      "related_entities": ["flux", "chasseurs_de_flux", "vrezaks", "caelys"],
+      "keywords_fr": ["Brise-Terres", "mages", "Flux", "persécution"],
+      "keywords_en": ["Earthbreakers", "flux mages", "magic persecution", "fantasy magic users"]
+    },
+    {
+      "id": "vrezaks",
+      "category": "creature",
+      "name_fr": "Vrézaks",
+      "name_en": "Vrezaks",
+      "summary_fr": "Les Vrézaks sont des créatures utilisées pour détecter les Brise-Terres. Leur présence inspire la peur et accompagne souvent les chasseurs de flux.",
+      "summary_en": "Vrezaks are creatures used to detect Earthbreakers. Their presence inspires fear and often accompanies flux hunters.",
+      "related_entities": ["brise_terres", "chasseurs_de_flux", "caelys", "flux"],
+      "keywords_fr": ["Vrézaks", "chasseurs de flux", "détection magique"],
+      "keywords_en": ["Vrezaks", "magic detection", "flux hunters", "grimdark creatures"]
+    },
+    {
+      "id": "caladrims",
+      "category": "civilization",
+      "name_fr": "Caladrims",
+      "name_en": "Caladrims",
+      "summary_fr": "Les Caladrims sont un peuple humain isolé au cœur du continent, encerclé par les failles. Leur civilisation repose sur des cités troglodytiques, une oligarchie des guildes et la domestication des vers de cavernes.",
+      "summary_en": "The Caladrims are an isolated human civilization surrounded by fissures. Their society is built on troglodyte cities, guild oligarchy and the domestication of cave worms.",
+      "related_entities": ["cavalerra", "dorvanna", "vers_de_cavernes", "conseil_des_signarques"],
+      "keywords_fr": ["Caladrims", "cités souterraines", "guildes", "vers de cavernes"],
+      "keywords_en": ["Caladrims", "underground civilization", "guild oligarchy", "cave worms"]
+    },
+    {
+      "id": "conseil_des_signarques",
+      "category": "political_system",
+      "name_fr": "Conseil des Signarques",
+      "name_en": "Council of Signarchs",
+      "summary_fr": "Le Conseil des Signarques est l'organe politique des Caladrims. Il réunit les représentants des grandes guildes qui gouvernent les cités caladrimes.",
+      "summary_en": "The Council of Signarchs is the political body of the Caladrims. It gathers representatives of the major guilds governing Caladrim cities.",
+      "related_entities": ["caladrims", "cavalerra", "guildes_caladrimes"],
+      "keywords_fr": ["Signarques", "oligarchie", "guildes", "Caladrims"],
+      "keywords_en": ["Signarchs", "guild oligarchy", "Caladrim politics"]
+    },
+    {
+      "id": "vers_de_cavernes",
+      "category": "creature",
+      "name_fr": "Vers de cavernes",
+      "name_en": "Cave Worms",
+      "summary_fr": "Les vers de cavernes sont des créatures géantes domestiquées par les Caladrims pour creuser, entretenir les galeries et soutenir leur civilisation souterraine.",
+      "summary_en": "Cave Worms are giant creatures domesticated by the Caladrims to dig, maintain tunnels and sustain their underground civilization.",
+      "related_entities": ["caladrims", "dorvanna", "maitres_tunneliers"],
+      "keywords_fr": ["vers de cavernes", "Caladrims", "tunnels", "créatures géantes"],
+      "keywords_en": ["cave worms", "tunnel creatures", "Caladrims", "underground worldbuilding"]
+    },
+    {
+      "id": "kherans",
+      "category": "civilization",
+      "name_fr": "Kherâns",
+      "name_en": "Kherâns",
+      "summary_fr": "Les Kherâns sont un peuple marqué par les serments, la discipline, les ordalies et une culture militaire et spirituelle très structurée.",
+      "summary_en": "The Kherâns are a people shaped by oaths, discipline, ordeals and a highly structured military and spiritual culture.",
+      "related_entities": ["veyla", "ordalie_de_la_pierre_vive", "karrakjins", "voiles_interieurs"],
+      "keywords_fr": ["Kherâns", "serments", "ordalie", "peuple guerrier"],
+      "keywords_en": ["Kherâns", "oathbound culture", "ordeal", "warrior civilization"]
+    },
+    {
+      "id": "karrakjins",
+      "category": "creature",
+      "name_fr": "Karrak’jins",
+      "name_en": "Karrak'jins",
+      "summary_fr": "Les Karrak’jins sont de puissantes créatures liées à la culture militaire des Kherâns. Leur apprivoisement repose sur un lien rare et exigeant.",
+      "summary_en": "Karrak'jins are powerful creatures tied to Kherân military culture. Their taming requires a rare and demanding bond.",
+      "related_entities": ["kherans", "veyla", "lien_aerien"],
+      "keywords_fr": ["Karrak’jins", "Kherâns", "monture", "créature militaire"],
+      "keywords_en": ["Karrak'jins", "Kherân war beasts", "fantasy mounts"]
+    },
+    {
+      "id": "elvaris",
+      "category": "civilization",
+      "name_fr": "Elvaris",
+      "name_en": "Elvaris",
+      "summary_fr": "Les Elvaris sont les Premiers-Nés, la première race humanoïde créée par Drygthyn. Ils furent autrefois maîtres des flux magiques et porteurs d'un savoir ancien.",
+      "summary_en": "The Elvaris are the Firstborn, the first humanoid race created by Drygthyn. They were once masters of magical fluxes and bearers of ancient knowledge.",
+      "related_entities": ["drygthyn", "flux", "premiers_nes", "merrowe"],
+      "keywords_fr": ["Elvaris", "Premiers-Nés", "magie ancienne"],
+      "keywords_en": ["Elvaris", "Firstborn", "ancient magic", "elder race"]
+    },
+    {
+      "id": "caelys",
+      "category": "civilization",
+      "name_fr": "Caelys",
+      "name_en": "Caelys",
+      "summary_fr": "Caelys est une puissance religieuse structurée autour de la surveillance, de l'ordre et de la lutte contre les Brise-Terres et les usages interdits des Flux.",
+      "summary_en": "Caelys is a religious power structured around surveillance, order and the fight against Earthbreakers and forbidden uses of the Fluxes.",
+      "related_entities": ["brise_terres", "vrezaks", "chasseurs_de_flux"],
+      "keywords_fr": ["Caelys", "religion", "chasseurs de flux", "ordre religieux"],
+      "keywords_en": ["Caelys", "religious order", "magic hunters", "theocracy"]
+    },
+    {
+      "id": "ashandara",
+      "category": "civilization",
+      "name_fr": "Ashandara",
+      "name_en": "Ashandara",
+      "summary_fr": "Ashandara est une région rude et dangereuse marquée par la religion, le contrôle social, les marchés noirs, la misère et la proximité de forces corrompues.",
+      "summary_en": "Ashandara is a harsh and dangerous region shaped by religion, social control, black markets, poverty and proximity to corrupted forces.",
+      "related_entities": ["liorel", "failles", "ombreliathes", "aigles_de_cendre"],
+      "keywords_fr": ["Ashandara", "ville sombre", "marché noir", "religion"],
+      "keywords_en": ["Ashandara", "grimdark city", "black market", "religious control"]
+    },
+    {
+      "id": "radiance",
+      "category": "location",
+      "name_fr": "Radiance",
+      "name_en": "Radiance",
+      "summary_fr": "Radiance est une ville politique majeure de la Vénisi, marquée par les tensions de pouvoir, les intrigues sénatoriales, la garde Adhémar et les crises liées aux Brise-Terres.",
+      "summary_en": "Radiance is a major political city of Vénisi, marked by power struggles, senatorial intrigue, the Adhémar Guard and crises linked to Earthbreakers.",
+      "related_entities": ["venisi", "eryon", "garde_adhemar", "brise_terres"],
+      "keywords_fr": ["Radiance", "Vénisi", "politique", "capitale"],
+      "keywords_en": ["Radiance", "political fantasy", "Vénisi", "capital city"]
+    },
+    {
+      "id": "sombregueule",
+      "category": "location",
+      "name_fr": "Forêt de Sombregueule",
+      "name_en": "Sombregueule Forest",
+      "summary_fr": "La forêt de Sombregueule est un lieu dangereux, embrumé et maudit, où les arbres chuchotent et où rôdent des créatures altérées par la magie ancienne.",
+      "summary_en": "Sombregueule Forest is a dangerous, mist-filled and cursed place where trees whisper and creatures altered by ancient magic roam.",
+      "related_entities": ["vigiarbre", "elyen", "drelkh", "magie_des_murmures"],
+      "keywords_fr": ["Sombregueule", "forêt maudite", "brume", "dark fantasy"],
+      "keywords_en": ["Sombregueule Forest", "cursed forest", "dark fantasy forest", "ancient magic"]
+    },
+    {
+      "id": "tombeau_des_cent_yeux",
+      "category": "location",
+      "name_fr": "Tombeau des Cent Yeux",
+      "name_en": "Tomb of the Hundred Eyes",
+      "summary_fr": "Le Tombeau des Cent Yeux est une ancienne nécropole corrompue par Shalire, liée aux morts-vivants, aux sorciers anciens et au retour d'Ash-Narh.",
+      "summary_en": "The Tomb of the Hundred Eyes is an ancient necropolis corrupted by Shalire, linked to undead guardians, ancient sorcerers and the return of Ash-Narh.",
+      "related_entities": ["shalire", "ash_narh", "entaille", "morts_vivants"],
+      "keywords_fr": ["Tombeau des Cent Yeux", "nécropole", "Shalire", "Ash-Narh"],
+      "keywords_en": ["Tomb of the Hundred Eyes", "necropolis", "Shalire", "Ash-Narh"]
+    },
+    {
+      "id": "cavalerra",
+      "category": "location",
+      "name_fr": "Cavalerra",
+      "name_en": "Cavalerra",
+      "summary_fr": "Cavalerra est la capitale des Caladrims, une cité troglodytique et aérienne construite dans une vallée étroite creusée par les vers de cavernes.",
+      "summary_en": "Cavalerra is the capital of the Caladrims, a troglodyte and aerial city built in a narrow valley carved by cave worms.",
+      "related_entities": ["caladrims", "conseil_des_signarques", "vers_de_cavernes"],
+      "keywords_fr": ["Cavalerra", "capitale caladrime", "cité troglodytique"],
+      "keywords_en": ["Cavalerra", "Caladrim capital", "troglodyte city"]
+    },
+    {
+      "id": "dorvanna",
+      "category": "location",
+      "name_fr": "Dorvanna",
+      "name_en": "Dorvanna",
+      "summary_fr": "Dorvanna est une cité caladrime liée à l'élevage, l'entraînement et l'utilisation des vers de cavernes. Elle joue un rôle central dans les tunnels.",
+      "summary_en": "Dorvanna is a Caladrim city tied to the breeding, training and use of cave worms. It plays a central role in the tunnel network.",
+      "related_entities": ["caladrims", "vers_de_cavernes", "grand_tunnel_de_dorvanna"],
+      "keywords_fr": ["Dorvanna", "Caladrims", "vers de cavernes", "tunnels"],
+      "keywords_en": ["Dorvanna", "Caladrims", "cave worms", "tunnel network"]
+    },
+    {
+      "id": "grand_tunnel_de_dorvanna",
+      "category": "location",
+      "name_fr": "Grand Tunnel de Dorvanna",
+      "name_en": "Great Tunnel of Dorvanna",
+      "summary_fr": "Le Grand Tunnel de Dorvanna est un chef-d'œuvre d'ingénierie caladrime reliant Cavalerra à la frontière sud, mais menacé par une faille grandissante.",
+      "summary_en": "The Great Tunnel of Dorvanna is a masterpiece of Caladrim engineering linking Cavalerra to the southern border, but threatened by a growing fissure.",
+      "related_entities": ["dorvanna", "caladrims", "failles", "vers_de_cavernes"],
+      "keywords_fr": ["Grand Tunnel", "Dorvanna", "ingénierie souterraine"],
+      "keywords_en": ["Great Tunnel", "Dorvanna", "underground engineering", "fissure threat"]
+    },
+    {
+      "id": "eryon_meryhall",
+      "category": "character",
+      "name_fr": "Eryon Meryhall",
+      "name_en": "Eryon Meryhall",
+      "summary_fr": "Eryon Meryhall est un guerrier vétéran de la Vénisi, ancien chef de la Garde Adhémar, figure d'honneur, de dureté et de transmission.",
+      "summary_en": "Eryon Meryhall is a veteran warrior of Vénisi, former leader of the Adhémar Guard, and a figure of honor, harshness and transmission.",
+      "related_entities": ["radiance", "garde_adhemar", "kaelen", "venisi"],
+      "keywords_fr": ["Eryon", "guerrier vétéran", "Garde Adhémar", "Vénisi"],
+      "keywords_en": ["Eryon Meryhall", "veteran warrior", "Adhémar Guard", "grimdark hero"]
+    },
+    {
+      "id": "liorel_varian",
+      "category": "character",
+      "name_fr": "Liorel Varian",
+      "name_en": "Liorel Varian",
+      "summary_fr": "Liorel est un jeune garçon d'Ashandara lié au Flux du Rêve. Sa fuite et ses pouvoirs inconscients l'entraînent au cœur des conflits magiques et politiques.",
+      "summary_en": "Liorel is a young boy from Ashandara linked to the Dream Flux. His escape and unconscious powers draw him into magical and political conflicts.",
+      "related_entities": ["ashandara", "flux_du_reve", "brise_terres"],
+      "keywords_fr": ["Liorel", "Flux du Rêve", "Ashandara", "fugitif"],
+      "keywords_en": ["Liorel", "Dream Flux", "Ashandara", "fugitive magic user"]
+    },
+    {
+      "id": "veyla_an_duross",
+      "category": "character",
+      "name_fr": "Veyla An’Duross",
+      "name_en": "Veyla An'Duross",
+      "summary_fr": "Veyla An’Duross est une prêtresse et commandante kherâne, liée à l'Ordalie de la Pierre Vive, aux serments de son peuple et à une destinée prophétique ambiguë.",
+      "summary_en": "Veyla An'Duross is a Kherân priestess and commander, tied to the Ordeal of the Living Stone, her people's oaths and an ambiguous prophetic destiny.",
+      "related_entities": ["kherans", "ordalie_de_la_pierre_vive", "karrakjins"],
+      "keywords_fr": ["Veyla", "Kherâns", "prêtresse guerrière", "ordalie"],
+      "keywords_en": ["Veyla", "Kherân priestess", "warrior priestess", "ordeal"]
+    },
+    {
+      "id": "elyen",
+      "category": "character",
+      "name_fr": "Elyen",
+      "name_en": "Elyen",
+      "summary_fr": "Elyen est un homme vivant en lisière de la Lioranne, marqué par un lien particulier aux animaux et par une sensibilité inquiétante aux créatures issues des failles.",
+      "summary_en": "Elyen is a man living near the edge of Lioranne, marked by a strange bond with animals and a disturbing sensitivity to fissure-born creatures.",
+      "related_entities": ["sombregueule", "drelkh", "vrezaks", "lioranne"],
+      "keywords_fr": ["Elyen", "animaux", "Sombregueule", "Vrézaks"],
+      "keywords_en": ["Elyen", "animal bond", "Sombregueule", "Vrezaks"]
+    },
+    {
+      "id": "kaelen",
+      "category": "character",
+      "name_fr": "Kaelen",
+      "name_en": "Kaelen",
+      "summary_fr": "Kaelen est un jeune Asaïr admiratif d'Eryon, en quête de modèle, de courage et d'appartenance.",
+      "summary_en": "Kaelen is a young Asaïr who admires Eryon and seeks a model, courage and belonging.",
+      "related_entities": ["eryon_meryhall", "asairs", "garde_adhemar"],
+      "keywords_fr": ["Kaelen", "apprenti", "Asaïr", "Eryon"],
+      "keywords_en": ["Kaelen", "apprentice", "Asaïr", "mentor relationship"]
+    },
+    {
+      "id": "garde_adhemar",
+      "category": "military_order",
+      "name_fr": "Garde Adhémar",
+      "name_en": "Adhémar Guard",
+      "summary_fr": "La Garde Adhémar est une unité militaire d'élite fondée par Eryon pour protéger le roi et mener des opérations décisives.",
+      "summary_en": "The Adhémar Guard is an elite military unit founded by Eryon to protect the king and carry out decisive operations.",
+      "related_entities": ["eryon_meryhall", "radiance", "venisi"],
+      "keywords_fr": ["Garde Adhémar", "élite militaire", "Eryon", "Vénisi"],
+      "keywords_en": ["Adhémar Guard", "elite military unit", "Eryon", "Vénisi"]
+    },
+    {
+      "id": "armure_d_ydrasil",
+      "category": "artifact",
+      "name_fr": "Armure d’Ydrasil",
+      "name_en": "Armor of Ydrasil",
+      "summary_fr": "L’armure d’Ydrasil est une armure légendaire forgée avant la chute de Merrowë. Elle protège son porteur, mais agit aussi comme une prison spirituelle.",
+      "summary_en": "The Armor of Ydrasil is a legendary armor forged before the fall of Merrowë. It protects its wearer, but also acts as a spiritual prison.",
+      "related_entities": ["ydrasil", "merrowe", "objets_magiques_perdus"],
+      "keywords_fr": ["Armure d’Ydrasil", "artefact maudit", "armure légendaire"],
+      "keywords_en": ["Armor of Ydrasil", "cursed artifact", "legendary armor"]
+    },
+    {
+      "id": "geants_primordiaux",
+      "category": "mythology",
+      "name_fr": "Géants Primordiaux",
+      "name_en": "Primordial Giants",
+      "summary_fr": "Les Géants Primordiaux furent façonnés par Drygthyn pour modeler Merrowë. Leur héritage survit dans la terre, les montagnes, les vents et la magie des Murmures.",
+      "summary_en": "The Primordial Giants were shaped by Drygthyn to form Merrowë. Their legacy survives in the earth, mountains, winds and Whisper Magic.",
+      "related_entities": ["drygthyn", "merrowe", "magie_des_murmures"],
+      "keywords_fr": ["Géants Primordiaux", "mythologie", "création", "Murmures"],
+      "keywords_en": ["Primordial Giants", "creation myth", "Whisper Magic", "ancient worldbuilding"]
+    },
+    {
+      "id": "merrowe",
+      "category": "world",
+      "name_fr": "Merrowë",
+      "name_en": "Merrowë",
+      "summary_fr": "Merrowë est le continent façonné dans le Songe de Drygthyn, théâtre des guerres anciennes, des failles, des royaumes humains et des civilisations disparues.",
+      "summary_en": "Merrowë is the continent shaped within Drygthyn's dream, home to ancient wars, fissures, human kingdoms and vanished civilizations.",
+      "related_entities": ["drygthyn", "elvaris", "failles", "merrowe_ancienne"],
+      "keywords_fr": ["Merrowë", "continent fantasy", "Terres Brisées"],
+      "keywords_en": ["Merrowë", "fantasy continent", "Les Terres Brisées"]
     }
   ]
 }
