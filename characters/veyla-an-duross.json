@@ -1,0 +1,220 @@
+{
+  "id": "veyla_an_duross",
+  "universe": "Les Terres Brisées",
+  "file_type": "character_dataset",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "Veyla An’Duross",
+  "name_en": "Veyla An'Duross",
+  "category": "main_character",
+  "summary_fr": "Veyla An’Duross est une prêtresse et commandante kherâne, formée dans une culture de serments, de silence et de discipline. Son passage par l’Ordalie de la Pierre Vive bouleverse l’ordre spirituel et militaire de son peuple.",
+  "summary_en": "Veyla An'Duross is a Kherân priestess and commander, shaped by a culture of oaths, silence and discipline. Her passage through the Ordeal of the Living Stone disrupts the spiritual and military order of her people.",
+  "core_identity": {
+    "fr": "Une femme de serment que les signes transforment malgré elle en figure prophétique.",
+    "en": "A woman of oath whom signs unwillingly transform into a prophetic figure."
+  },
+  "origin": {
+    "fr": "Veyla appartient au peuple kherân et reçoit une formation à la fois religieuse et militaire.",
+    "en": "Veyla belongs to the Kherân people and receives both religious and military training.",
+    "related_entities": [
+      "kherans",
+      "cult_of_the_unseeing",
+      "inner_veiled"
+    ]
+  },
+  "roles": [
+    {
+      "id": "priestess",
+      "name_fr": "Prêtresse",
+      "name_en": "Priestess"
+    },
+    {
+      "id": "military_commander",
+      "name_fr": "Commandante militaire",
+      "name_en": "Military Commander"
+    },
+    {
+      "id": "bound_hand",
+      "name_fr": "Main Nouée",
+      "name_en": "Bound Hand"
+    },
+    {
+      "id": "prophetic_figure",
+      "name_fr": "Figure prophétique ambiguë",
+      "name_en": "Ambiguous Prophetic Figure"
+    }
+  ],
+  "affiliations": [
+    "kherans",
+    "inner_veiled",
+    "blood_veiled",
+    "watchers",
+    "karrakjins"
+  ],
+  "personality": {
+    "fr": "Dure, cassante, disciplinée, silencieuse et hantée par la peur de perdre foi dans les lois de son peuple.",
+    "en": "Harsh, sharp, disciplined, silent and haunted by the fear of losing faith in her people's laws.",
+    "traits": [
+      "disciplined",
+      "austere",
+      "commanding",
+      "faithful",
+      "conflicted",
+      "severe",
+      "silent",
+      "strategic"
+    ]
+  },
+  "internal_conflict": {
+    "false_belief_fr": "Rompre la forme du serment revient à trahir le peuple.",
+    "false_belief_en": "Breaking the form of the oath means betraying the people.",
+    "truth_fr": "Un serment peut survivre à la forme qui l’a porté.",
+    "truth_en": "An oath can survive the form that carried it."
+  },
+  "major_event": {
+    "id": "ordalie_de_la_pierre_vive",
+    "name_fr": "Ordalie de la Pierre Vive",
+    "name_en": "Ordeal of the Living Stone",
+    "description_fr": "Veyla réussit l’Ordalie, mais la Pierre Vive s’éteint, provoquant une crise d’interprétation religieuse et politique.",
+    "description_en": "Veyla survives the Ordeal, but the Living Stone goes out, triggering a religious and political crisis of interpretation.",
+    "narrative_function": "spiritual_disruption"
+  },
+  "spiritual_connection": {
+    "fr": "Veyla entend ou perçoit des voix, des signes et des présences qu’elle peine à intégrer à la doctrine de son peuple.",
+    "en": "Veyla hears or perceives voices, signs and presences she struggles to reconcile with her people's doctrine.",
+    "related_entities": [
+      "watchers",
+      "living_stone",
+      "flux_system"
+    ]
+  },
+  "relationship_with_karrakjins": {
+    "fr": "Veyla développe un lien particulier avec un Karrak’jin réputé farouche, qu’elle calme par une perception intérieure liée à son passé et à sa mémoire émotionnelle.",
+    "en": "Veyla develops a special bond with a Karrak'jin known as untamable, calming it through an inner perception tied to its past and emotional memory.",
+    "related_entities": [
+      "karrakjins",
+      "aerial_bond"
+    ]
+  },
+  "command_status": {
+    "fr": "Après l’Ordalie, Veyla devient la Main Nouée, commandante des forces terrestres kherânes, et accède à un statut politique et religieux supérieur.",
+    "en": "After the Ordeal, Veyla becomes the Bound Hand, commander of the Kherân ground forces, and reaches a higher political and religious status.",
+    "known_titles": [
+      "Bound Hand",
+      "Blood Veiled",
+      "Primordial Link"
+    ]
+  },
+  "associated_characters": [
+    {
+      "id": "aelyan",
+      "name_fr": "Aelyan",
+      "name_en": "Aelyan",
+      "relationship_fr": "Compagnon ou soutien important dans son itinéraire après Caelys.",
+      "relationship_en": "Companion or important support in her path after Caelys."
+    },
+    {
+      "id": "inehl_tharak",
+      "name_fr": "Inehl Tharak",
+      "name_en": "Inehl Tharak",
+      "relationship_fr": "Dompteuse en chef liée aux Karrak’jins.",
+      "relationship_en": "Chief tamer linked to the Karrak'jins."
+    }
+  ],
+  "associated_locations": [
+    "kheran_territories",
+    "caelys",
+    "living_stone_sanctuary"
+  ],
+  "associated_factions": [
+    "kherans",
+    "caelys",
+    "inner_veiled",
+    "blood_veiled"
+  ],
+  "current_tensions": [
+    {
+      "id": "faith_crisis",
+      "name_fr": "Crise de foi",
+      "name_en": "Faith Crisis",
+      "description_fr": "Veyla doit concilier les signes qu’elle reçoit avec les lois rigides de son peuple.",
+      "description_en": "Veyla must reconcile the signs she receives with her people's rigid laws."
+    },
+    {
+      "id": "prophetic_burden",
+      "name_fr": "Fardeau prophétique",
+      "name_en": "Prophetic Burden",
+      "description_fr": "Des personnes commencent à voir en elle une figure de retour, de rupture ou de salut.",
+      "description_en": "People begin to see her as a figure of return, rupture or salvation."
+    },
+    {
+      "id": "military_legitimacy",
+      "name_fr": "Légitimité militaire",
+      "name_en": "Military Legitimacy",
+      "description_fr": "Son ascension militaire repose sur un événement dont le sens reste disputé.",
+      "description_en": "Her military rise rests on an event whose meaning remains contested."
+    }
+  ],
+  "narrative_functions": [
+    "main_protagonist",
+    "faith_crisis_arc",
+    "kheran_viewpoint",
+    "prophetic_ambiguity",
+    "military_command",
+    "oathbound_character",
+    "spiritual_disruption"
+  ],
+  "visual_identity": {
+    "fr": "Prêtresse guerrière austère, voiles, armure rituelle, gestes retenus, regard dur, symboles kherâns et présence silencieuse.",
+    "en": "Austere warrior priestess, veils, ritual armor, restrained gestures, hard gaze, Kherân symbols and silent presence.",
+    "visual_keywords": [
+      "warrior_priestess",
+      "ritual_armor",
+      "veils",
+      "oathbound_commander",
+      "silent_authority",
+      "grimdark_priestess"
+    ]
+  },
+  "geo_keywords": {
+    "fr": [
+      "prêtresse guerrière fantasy",
+      "Veyla An’Duross",
+      "personnage féminin dark fantasy",
+      "civilisation des serments",
+      "ordalie fantasy",
+      "commandante fantasy",
+      "dark fantasy française"
+    ],
+    "en": [
+      "warrior priestess fantasy",
+      "Veyla An'Duross",
+      "female grimdark character",
+      "oathbound civilization",
+      "fantasy ordeal",
+      "military priestess",
+      "dark fantasy character"
+    ]
+  },
+  "canonical_translation": {
+    "Veyla An’Duross": "Veyla An'Duross",
+    "Kherâns": "Kherâns",
+    "Ordalie de la Pierre Vive": "Ordeal of the Living Stone",
+    "Main Nouée": "Bound Hand",
+    "Voilés Intérieurs": "Inner Veiled",
+    "Voilés de Sang": "Blood Veiled",
+    "Veilleurs": "Watchers",
+    "Karrak’jins": "Karrak'jins"
+  },
+  "related_entities": [
+    "kherans",
+    "ordalie_de_la_pierre_vive",
+    "living_stone",
+    "watchers",
+    "karrakjins",
+    "caelys",
+    "aelyan",
+    "inehl_tharak",
+    "flux_system"
+  ]
+}
