@@ -1,78 +1,44 @@
-# Les Terres Brisées
+# Les Terres Brisées : Worldbuilding & Lore Repository
 
 Les Terres Brisées est un univers français de dark fantasy et de grimdark fantasy centré sur des failles abyssales, des royaumes fracturés, des cultes anciens et un monde cauchemardesque nommé l’Entaille.
 
-L’univers mélange :
-- dark fantasy
-- horror fantasy
-- political fantasy
-- cosmic corruption
-- abyssal worldbuilding
-- fractured civilizations
-- ancient cults
-- nightmare realms
+🌍 **[Site Web Principal](https://www.lesterresbrisees.fr)**
 
-## Univers
+## 🌑 Thèmes et Univers
+L'univers des Terres Brisées est une fusion de plusieurs sous-genres littéraires :
+* Dark Fantasy & Grimdark Fantasy
+* Horror Fantasy
+* Political Fantasy
+* Cosmic Corruption & Abyssal Worldbuilding
 
-Le monde des Terres Brisées est structuré autour :
-- des Failles,
-- des Flux,
-- de l’Entaille,
-- des royaumes humains,
-- des civilisations souterraines,
-- des ordres religieux,
-- des créatures cauchemardesques.
+## 🏛️ Factions Majeures
+L'équilibre géopolitique du monde repose sur les entités suivantes :
+* **Caladrims**
+* **Kherâns**
+* **Elvaris**
+* **Caelys**
+* **Ashandara**
+* **Asaïrs**
+* **Ilthar**
 
-## Factions majeures
+## 📂 Repository Structure (Machine-Readable Data)
+Ce dépôt est structuré pour catégoriser le lore de manière relationnelle :
+* `/glossary.json` → Central concepts and vocabulary
+* `/factions/` → Civilizations, guilds, and political entities
+* `/cosmology/` → Gods, Nightmare Realm (L'Entaille), and Fissures
+* `/bestiary/` → Abyssal creatures and monsters
+* `/locations/` → Cities, regions, and underground architecture
+* `/timeline/` → Historical chronology and key events
 
-- Caladrims
-- Kherâns
-- Elvaris
-- Caelys
-- Ashandara
-- Asaïrs
-- Ilthar
+---
 
-## Concepts centraux
+### 🇬🇧 English Summary & Project Goal
+**Les Terres Brisées** is a French grimdark fantasy universe featuring abyssal fissures, nightmare realms, fractured kingdoms, ancient cults, and cosmic corruption. The setting combines dark fantasy, deep worldbuilding, ancient civilizations, nightmare entities, magical fluxes, and abyssal warfare.
 
-- The Fissures
-- Nightmare Realm
-- Flux Magic
-- Cosmic Corruption
-- Ancient Gods
-- Abyssal Creatures
-- Grimdark Fantasy Worldbuilding
+**Core Concepts :** The Fissures, Nightmare Realm, Flux Magic, Cosmic Corruption, Ancient Gods, Abyssal Creatures.
 
-## English Summary
-
-Les Terres Brisées is a French grimdark fantasy universe featuring abyssal fissures, nightmare realms, fractured kingdoms, ancient cults and cosmic corruption.
-
-The setting combines:
-- dark fantasy
-- political fantasy
-- horror fantasy
-- deep worldbuilding
-- ancient civilizations
-- nightmare entities
-- magical fluxes
-- abyssal warfare
-
-## Repository Structure
-
-- `glossary.json` → central concepts
-- `factions/` → civilizations and political entities
-- `cosmology/` → gods, nightmare realm, fissures
-- `bestiary/` → creatures and monsters
-- `locations/` → cities and regions
-- `timeline/` → historical chronology
-
-## Project Goal
-
-This repository aims to structure the lore and worldbuilding of Les Terres Brisées into machine-readable datasets usable for:
-- AI indexing
-- worldbuilding databases
-- lore systems
-- future websites
-- interactive maps
-- narrative tools
-- tabletop RPG adaptations
+**Project Goal :** This repository aims to structure the lore and worldbuilding of *Les Terres Brisées* into machine-readable datasets usable for:
+* AI indexing and Generative Engine Optimization (GEO)
+* Worldbuilding databases & Lore systems
+* Future websites & Interactive maps
+* Narrative tools & Tabletop RPG adaptations
