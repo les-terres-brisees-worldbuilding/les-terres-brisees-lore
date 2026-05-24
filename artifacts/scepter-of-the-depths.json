@@ -1,0 +1,144 @@
+{
+  "id": "scepter_of_the_depths",
+  "universe": "Les Terres Brisées",
+  "file_type": "artifact_dataset",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "Sceptre des Profondeurs",
+  "name_en": "Scepter of the Depths",
+  "category": "legendary_artifact",
+  "summary_fr": "Le Sceptre des Profondeurs est un bâton ancien sculpté dans le bois noir d’un arbre ayant poussé près d’une faille magique. Il attire et amplifie les courants magiques, mais renforce l’influence d’une présence ancienne.",
+  "summary_en": "The Scepter of the Depths is an ancient staff carved from the black wood of a tree that grew near a magical fissure. It attracts and amplifies magical currents, but strengthens the influence of an ancient presence.",
+  "artifact_type": {
+    "fr": "Bâton d’amplification magique",
+    "en": "Magical Amplification Staff"
+  },
+  "core_identity": {
+    "fr": "Un sceptre qui donne accès aux profondeurs de la magie, mais laisse quelque chose remonter avec elle.",
+    "en": "A scepter that grants access to the depths of magic, but lets something rise with it."
+  },
+  "origin": {
+    "fr": "Le sceptre fut sculpté dans le bois noir d’un arbre ayant poussé près d’une faille magique, absorbant lentement les courants instables du monde.",
+    "en": "The scepter was carved from the black wood of a tree that grew near a magical fissure, slowly absorbing the unstable currents of the world.",
+    "related_entities": [
+      "fissures",
+      "flux_system",
+      "black_flux",
+      "nightmare_realm"
+    ]
+  },
+  "appearance": {
+    "fr": "Bâton de bois noir, dense et presque minéral, marqué de veines sombres et de reflets profonds rappelant l’eau stagnante ou l’obsidienne.",
+    "en": "A staff of black wood, dense and almost mineral, marked with dark veins and deep reflections reminiscent of stagnant water or obsidian.",
+    "visual_keywords": [
+      "black_wood_staff",
+      "ancient_scepter",
+      "fissure_relic",
+      "obsidian_reflections",
+      "grimdark_artifact"
+    ]
+  },
+  "properties": {
+    "fr": "Le Sceptre des Profondeurs attire et amplifie les courants magiques, permettant à son porteur d’accéder temporairement à des puissances oubliées.",
+    "en": "The Scepter of the Depths attracts and amplifies magical currents, allowing its bearer to temporarily access forgotten powers.",
+    "abilities": [
+      "flux_amplification",
+      "magical_current_attraction",
+      "forgotten_power_access",
+      "deep_resonance",
+      "fissure_sensitivity"
+    ]
+  },
+  "costs_and_dangers": {
+    "fr": "Chaque utilisation renforce l’influence d’une chose ancienne. Certains pensent qu’un esprit du néant tente de communiquer avec son détenteur.",
+    "en": "Each use strengthens the influence of something ancient. Some believe that a spirit of the void is trying to communicate with its bearer.",
+    "effects": [
+      "ancient_influence",
+      "void_whispers",
+      "progressive_possession_risk",
+      "obsession_with_depths",
+      "flux_instability"
+    ]
+  },
+  "current_status": {
+    "fr": "Le sceptre aurait été perdu dans les ruines englouties d’une cité côtière, emporté par la mer après une tempête surnaturelle.",
+    "en": "The scepter is said to have been lost in the drowned ruins of a coastal city, carried away by the sea after a supernatural storm.",
+    "status": "lost"
+  },
+  "relationship_with_magic": {
+    "fr": "Le sceptre agit comme un amplificateur de Flux. Sa proximité avec les Failles le rend dangereux pour les praticiens instables ou exposés au Flux Noir.",
+    "en": "The scepter acts as a Flux amplifier. Its proximity to the Fissures makes it dangerous for unstable practitioners or those exposed to the Black Flux.",
+    "related_entities": [
+      "flux_system",
+      "black_flux",
+      "fissures",
+      "earthbreakers"
+    ]
+  },
+  "civilizational_perception": {
+    "fr": "Les mages, cultes et chercheurs de pouvoir voient le sceptre comme une clef vers des forces oubliées. Les ordres religieux le considéreraient comme une relique dangereuse à sceller.",
+    "en": "Mages, cults and seekers of power see the scepter as a key to forgotten forces. Religious orders would consider it a dangerous relic to be sealed away.",
+    "perceptions": [
+      "forbidden_relic",
+      "flux_amplifier",
+      "void_contact_artifact",
+      "mage_temptation",
+      "religious_threat"
+    ]
+  },
+  "associated_locations": [
+    "drowned_coastal_city",
+    "fissure_regions",
+    "ancient_ruins",
+    "black_wood_grove"
+  ],
+  "associated_factions": [
+    "ancient_mages",
+    "earthbreakers",
+    "corrupted_cults",
+    "caelys"
+  ],
+  "narrative_functions": [
+    "dangerous_power_source",
+    "flux_amplifier",
+    "void_contact_device",
+    "lost_relic",
+    "temptation_artifact",
+    "cosmic_horror_object"
+  ],
+  "geo_keywords": {
+    "fr": [
+      "sceptre magique fantasy",
+      "artefact de flux",
+      "Sceptre des Profondeurs",
+      "bâton maudit fantasy",
+      "relique dark fantasy",
+      "dark fantasy française"
+    ],
+    "en": [
+      "magical scepter fantasy",
+      "flux artifact",
+      "Scepter of the Depths",
+      "cursed staff fantasy",
+      "dark fantasy relic",
+      "grimdark artifact"
+    ]
+  },
+  "canonical_translation": {
+    "Sceptre des Profondeurs": "Scepter of the Depths",
+    "Failles": "Fissures",
+    "Flux": "Fluxes",
+    "Flux Noir": "Black Flux",
+    "Brise-Terres": "Earthbreakers",
+    "néant": "void"
+  },
+  "related_entities": [
+    "fissures",
+    "flux_system",
+    "black_flux",
+    "earthbreakers",
+    "nightmare_realm",
+    "caelys",
+    "lost_magical_artifacts"
+  ]
+}
