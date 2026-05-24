@@ -1,0 +1,142 @@
+{
+  "id": "mask_of_velmoran",
+  "universe": "Les Terres Brisées",
+  "file_type": "artifact_dataset",
+  "version": "0.1",
+  "language_primary": "fr",
+  "name_fr": "Masque de Velmoran",
+  "name_en": "Mask of Velmoran",
+  "category": "legendary_artifact",
+  "summary_fr": "Le Masque de Velmoran est un masque de pierre ancienne capable, selon les légendes, de permettre à son porteur de comprendre et parler n’importe quelle langue, y compris celles des créatures magiques.",
+  "summary_en": "The Mask of Velmoran is an ancient stone mask said to allow its wearer to understand and speak any language, including those of magical creatures.",
+  "artifact_type": {
+    "fr": "Masque linguistique ancien",
+    "en": "Ancient Linguistic Mask"
+  },
+  "core_identity": {
+    "fr": "Un masque qui ouvre toutes les langues, mais laisse entrer des voix qui n’appartiennent à personne.",
+    "en": "A mask that opens every language, but lets in voices that belong to no one."
+  },
+  "origin": {
+    "fr": "Le Masque de Velmoran date de l’époque ancienne de Merrowë, lorsque les artisans et mages savaient encore lier les Flux à des objets de savoir.",
+    "en": "The Mask of Velmoran dates back to ancient Merrowë, when artisans and mages still knew how to bind the Fluxes to objects of knowledge.",
+    "related_entities": [
+      "merrowe",
+      "flux_system",
+      "ancient_magic",
+      "lost_magical_artifacts"
+    ]
+  },
+  "appearance": {
+    "fr": "Masque de pierre ancienne sculpté avec un visage énigmatique, à l’expression difficile à interpréter.",
+    "en": "Ancient stone mask carved with an enigmatic face, bearing an expression difficult to interpret.",
+    "visual_keywords": [
+      "stone_mask",
+      "ancient_face",
+      "enigmatic_relic",
+      "forgotten_language",
+      "grimdark_artifact"
+    ]
+  },
+  "properties": {
+    "fr": "Le masque permettrait de comprendre et parler n’importe quelle langue, y compris les langues anciennes, oubliées ou non humaines.",
+    "en": "The mask is said to allow the understanding and speaking of any language, including ancient, forgotten or non-human tongues.",
+    "abilities": [
+      "universal_translation",
+      "ancient_language_comprehension",
+      "magical_creature_speech",
+      "lost_script_understanding"
+    ]
+  },
+  "costs_and_dangers": {
+    "fr": "Chaque porteur finit par entendre des voix. Certains textes affirment qu’une conscience ancienne pourrait être enfermée dans le masque et chercher à influencer son utilisateur.",
+    "en": "Every wearer eventually begins hearing voices. Some texts claim that an ancient consciousness may be trapped within the mask and seeks to influence its user.",
+    "effects": [
+      "hearing_voices",
+      "identity_erosion",
+      "ancient_consciousness_influence",
+      "linguistic_obsession",
+      "mental_fragmentation"
+    ]
+  },
+  "current_status": {
+    "fr": "Le Masque de Velmoran est perdu depuis la chute de Merrowë. Plusieurs traditions contradictoires affirment qu’il repose dans une tombe, une bibliothèque effondrée ou un sanctuaire oublié.",
+    "en": "The Mask of Velmoran has been lost since the fall of Merrowë. Several contradictory traditions claim it lies in a tomb, a collapsed library or a forgotten sanctuary.",
+    "status": "lost"
+  },
+  "relationship_with_magic": {
+    "fr": "Le masque semble lié aux Flux de l’esprit, de la parole, de la mémoire et de la perception.",
+    "en": "The mask appears tied to Fluxes of mind, speech, memory and perception.",
+    "related_entities": [
+      "flux_system",
+      "memory_magic",
+      "spirit_flux",
+      "ancient_languages"
+    ]
+  },
+  "civilizational_perception": {
+    "fr": "L’objet est recherché par les érudits, diplomates, occultistes, espions et cultes qui cherchent à comprendre les langues perdues ou les voix venues d’ailleurs.",
+    "en": "The object is sought by scholars, diplomats, occultists, spies and cults seeking to understand lost languages or voices from elsewhere.",
+    "perceptions": [
+      "scholarly_relic",
+      "diplomatic_tool",
+      "forbidden_mask",
+      "occult_object",
+      "dangerous_knowledge"
+    ]
+  },
+  "associated_locations": [
+    "ruins_of_merrowe",
+    "forgotten_sanctuary",
+    "collapsed_library",
+    "ancient_tomb"
+  ],
+  "associated_factions": [
+    "elvaris",
+    "ancient_mages",
+    "forgotten_orders",
+    "scholars",
+    "occult_cults"
+  ],
+  "narrative_functions": [
+    "language_key",
+    "forbidden_knowledge",
+    "ancient_consciousness",
+    "translation_artifact",
+    "identity_corruption",
+    "quest_object"
+  ],
+  "geo_keywords": {
+    "fr": [
+      "masque magique fantasy",
+      "artefact de traduction fantasy",
+      "Masque de Velmoran",
+      "langues anciennes fantasy",
+      "objet maudit dark fantasy",
+      "dark fantasy française"
+    ],
+    "en": [
+      "magical mask fantasy",
+      "translation artifact fantasy",
+      "Mask of Velmoran",
+      "ancient languages fantasy",
+      "cursed mask dark fantasy",
+      "grimdark artifact"
+    ]
+  },
+  "canonical_translation": {
+    "Masque de Velmoran": "Mask of Velmoran",
+    "Merrowë": "Merrowë",
+    "Flux": "Fluxes",
+    "objets magiques perdus": "lost magical artifacts"
+  },
+  "related_entities": [
+    "merrowe",
+    "flux_system",
+    "lost_magical_artifacts",
+    "elvaris",
+    "ancient_magic",
+    "forgotten_sanctuary",
+    "ancient_languages"
+  ]
+}
